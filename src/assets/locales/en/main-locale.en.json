@@ -1,0 +1,1701 @@
+{
+  "common": {
+    "datetime": {
+      "from": "From",
+      "to": "To",
+      "clear": "Clear",
+      "close": "Close",
+      "current": "Today",
+      "dateFormat": "YYYY-MM-DD"
+    },
+    "router": {
+      "back": "Back"
+    },
+    "table": {
+      "filter": "Filter",
+      "refresh": "Refresh",
+      "show-details": "Show details",
+      "hide-details": "Hide details"
+    },
+    "searchbox": {
+      "placeholder": "Add filters",
+      "suggest": "Filter:"
+    },
+    "captcha": {
+      "renew": "ReNew"
+    },
+    "form": {
+      "click-to-edit": "Click to edit",
+      "press-enter-to-confirm-a-new-value": "Press enter to confirm a new value"
+    },
+    "message": {
+      "unknown-http-error": "Unknown error for the request {method} {url}",
+      "group-error": "{number, plural, =1{# operation has failed} other{# operations have failed}}",
+      "unknown-error": "Unknown error",
+      "http-warning": {
+        "quota-exceeded": "Limit of allowed search has exceeded, please try again in a few seconds."
+      },
+      "error": "An error occurred, operation failed : <br> {message}"
+    },
+    "action": {
+      "cancel": "Cancel",
+      "copy-to-clipboard": "Copy to clipboard"
+    },
+    "ui-tour": {
+      "navigation": {
+        "stop": "End tour",
+        "prev": "Back",
+        "next": "Next",
+        "restart": "Restart tour",
+        "enter": "Ready to use Live Objects!"
+      }
+    }
+  },
+  "lo": {
+    "about": {
+      "title": "About",
+      "version": "Version number"
+    },
+    "trial": "Discover",
+    "tabname": "Live Objects",
+    "supra-header": {
+      "orange-business-services": {
+        "label": "Orange Business Services",
+        "link": "https://www.orange-business.com/en/products/live-objects"
+      },
+      "orange-partner": {
+        "label": "Orange Partner",
+        "link": "https://partner.orange.com/iot-solutions-for-developers/#orange-iot-partnerships"
+      }
+    },
+    "menu": {
+      "dashboard": "Dashboard"
+    },
+    "toprightmenu": {
+      "documentation": "Documentation",
+      "login": "Login",
+      "signin": "Sign in",
+      "logout": "Logout",
+      "logout-idp": "Exit LiveObjects"
+    },
+    "kibana": {
+      "title": "Kibana"
+    },
+    "sdk": {
+      "title": "Prototype",
+      "tooltip": "SDKs for ARM, Arduino, Raspberry"
+    },
+    "footer": {
+      "legal": "Legal Notice"
+    },
+    "global": {
+      "locale": {
+        "en": "EN",
+        "fr": "FR"
+      },
+      "type": {
+        "uint32": "UINT32",
+        "int32": "INT32",
+        "binary": "BINARY",
+        "timestamp": "TIMESTAMP",
+        "string": "STRING",
+        "float": "FLOAT"
+      },
+      "form": {
+        "required": "required",
+        "fieldrequired": "required field",
+        "error": {
+          "generic": "{message} (code : {code} - id : {id})",
+          "required": "this field must not be empty",
+          "email": "this field must be an email",
+          "password": "adresse mail ou mot de passe invalide",
+          "bad-request": "one or many parameters are invalid",
+          "server": "there was an internal error on the server",
+          "length": "this field must have {length, plural, =1{# character} other{# characters}",
+          "max-length": "this field must have less than {length, plural, =1{# character} other{# characters}",
+          "hexa-pattern": "this field must be hexadecimal (digits and abcdef)",
+          "password-weak": "<div><span>New password is not strong enough. Required:</span><ul><li>8 characters minimum</li><li>1 or more digits</li><li>1 or more lowercase letters</li><li>1 or more uppercase letters</li><li>1 or more special characters (/*+.?,;:§!%ùµ*$@_()\u0027) with no whitespace</ul></div>",
+          "password-mismatch": "The password and the confirmation password don\u0027t match.",
+          "captcha": "You must enter the text you read in the image above to prove you are human.",
+          "alphanumeric": "this field must only have alphanumerical characters",
+          "cmn-json": "This must be a JSON field",
+          "login-minlength": "The login field must have at least 3 characters",
+          "login-pattern": "The login field must be a valid email or only have alphanumerical characters, '-' or '_'",
+          "duplicate-key": "The array can't have two identical entries",
+          "empty-key": "The value of the array can't have an empty index key",
+          "duplicate-value": "The list can't contain a value twice"
+        },
+        "login": {
+          "label": "Login",
+          "placeholder": "enter your login (email by default)"
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": "john.doe@orange.com"
+        },
+        "captcha": {
+          "placeholder": "enter the code above"
+        },
+        "password": {
+          "label": "Password",
+          "placeholder": "enter your password"
+        },
+        "password-confirmation": {
+          "label": "Confirmation",
+          "placeholder": "confirm your password"
+        },
+        "first-name": {
+          "label": "First name",
+          "placeholder": "John"
+        },
+        "last-name": {
+          "label": "Last name",
+          "placeholder": "Doe"
+        },
+        "phone": {
+          "label": "Phone",
+          "placeholder": "03054531600"
+        },
+        "organization": {
+          "label": "Organization",
+          "placeholder": "My company"
+        },
+        "country": {
+          "label": "Country",
+          "placeholder": "-- select your country --"
+        }
+      },
+      "table": {
+        "no-data": "There is no data",
+        "delete": "Delete",
+        "activate": "Activate",
+        "deactivate": "Deactivate",
+        "export-csv": "Generate .csv",
+        "selected": "{selected} selected rows",
+        "filter": "filter"
+      },
+      "action": {
+        "ok": "Ok",
+        "close": "Close",
+        "cancel": "Cancel",
+        "delete": "Delete",
+        "move": "Move",
+        "add": "Add",
+        "create": "Create",
+        "save": "Save",
+        "back": "Back",
+        "activate": "Activate",
+        "deactivate": "Deactivate",
+        "enable": "Enable",
+        "disable": "Disable",
+        "import": "Import",
+        "send": "Send",
+        "sign-out": "Sign out",
+        "download-sample": "Download a sample",
+        "reset": "Reset",
+        "yes": "Yes",
+        "no": "No",
+        "regenerate": "Regenerate",
+        "refresh": "Refresh",
+        "update": "Update",
+        "details": "Details",
+        "validate": "Validate",
+        "connectas": "Connect as",
+        "sendactivationmail": "Send the activation mail",
+        "suspend": "Suspend",
+        "test": "Test"
+      },
+      "state": {
+        "active": "active",
+        "inactive": "inactive",
+        "loading": "Loading..."
+      },
+      "modal": {
+        "confirmation": {
+          "title": "Confirmation",
+          "label": "Are you sure you want to {label}?"
+        },
+        "info": {
+          "title": "Information"
+        },
+        "delete": {
+          "title": "Deletion",
+          "label": "Are you sure you want to delete {label}?"
+        }
+      },
+      "list": {
+        "refresh": "Refresh",
+        "of": "of",
+        "header": {
+          "actions": "Actions",
+          "tenant": "Tenant",
+          "type": "Type",
+          "status": "Status"
+        },
+        "action": {
+          "edit": "Edit",
+          "delete": "Delete",
+          "details": "Details",
+          "activate": "Activate",
+          "reset_pwd": "Reset password"
+        }
+      },
+      "select": {
+        "all": "All"
+      },
+      "success": {
+        "title": "Success"
+      },
+      "error": {
+        "title": "Error"
+      },
+      "panel": {
+        "information": "Information"
+      },
+      "unit": {
+        "per": "{value}/{max}",
+        "per-mb": "{value}Mb/{max}Mb",
+        "per-unlimited": "{value}/Unlimited",
+        "mb": "{value}Mb"
+      },
+      "chart": {
+        "no-data": "No data to display",
+        "period": {
+          "daily": "day by day",
+          "monthly": "cumulated over month"
+        }
+      }
+    },
+    "datastore": {
+      "help": {
+        "stream": "The identifier of the stream in which device data is sent. It is defined in the received payload.",
+        "source": "The identifier of the data source (DevEui for LoRa, namespace: ID couple for MQTT ...)."
+      },
+      "views.list.title": "Data",
+      "table.export-csv": "Export into a csv format file",
+      "date": "Date",
+      "value": "Value",
+      "stream": "Stream",
+      "source": "Source",
+      "connector": "Connector",
+      "actions": "Actions",
+      "answers": "{number, plural, =0{No answer} =1{# answer} other{# answers}}",
+      "total-devices": "{number, plural, =0{} =1{# device.} other{# devices.}}",
+      "selected-devices": "{number, plural, =0{# selected device} =1{# selected device} other{# selected devices}}",
+      "select-all-devices-in-group": "Select the {devices} devices in {group}",
+      "select-all-devices-in-all-devices": "Select the {devices} devices",
+      "tags": "Tags",
+      "total": "{number, plural, =0{No data} =1{# data} other{# data}}",
+      "search": "Search",
+      "details": "Details",
+      "details.tooltip": "View full data value",
+      "device": "Device",
+      "device.tooltip": "Go to device details",
+      "fcnt": "Fcnt",
+      "port": "Port",
+      "network-signal": "Network signal",
+      "rssi-snr-sf": "Rssi, Snr, Sf"
+    },
+    "datasearch": {
+      "views.list.title": "Data Search",
+      "table.export-csv": "Export to csv",
+      "date": "Date",
+      "message": "Message",
+      "stream": "Stream",
+      "source": "Source",
+      "tags": "Tags"
+    },
+    "devices": {
+      "title": "Devices",
+      "properties": {
+        "name": "Name",
+        "status": "Status",
+        "dev-eui": "DevEui",
+        "activation-mode": "Activation mode",
+        "class": "Class",
+        "last-com": "Last comm."
+      },
+      "list": {
+        "title": "Devices"
+      },
+      "statistics": {
+        "count": {
+          "active": "{number, plural, =0{No active device} =1{active device} other{active devices}}",
+          "declared": "{number, plural, =0{No declared device} =1{<strong class=\"text-important\">#</strong> declared device} other{<strong class=\"text-important\">#</strong> declared devices}}",
+          "advanced-declared": "{number, plural, =0{No advanced declared device} =1{<strong class=\"text-important\">#</strong> advanced declared device} other{<strong class=\"text-important\">#</strong> advanced declared devices}}"
+        }
+      }
+    },
+    "password": {
+      "security": "password must have:<br> - min 1 number<br> - min 1 special character \/*-+.?,;:!%*$@_()'<br> - min 1 lowercase<br> - min 1 uppercase<br> - min length of 8",
+      "confirm": "password and confirm password must be similar"
+    },
+    "support": {
+      "label": "Support",
+      "tooltip": "Technical and commercial support"
+    },
+    "help": {
+      "label": "Developer",
+      "tooltip": "Developer documentation & resources",
+      "menu": {
+        "faq": "FAQ",
+        "devguide": "Developer guide",
+        "userguide": "User guide",
+        "swagger": "Swagger",
+        "github": "SDK & code samples",
+        "postman": "Postman",
+        "tutorials": "Tutorials",
+        "about": "About"
+      },
+      "mqtt_spec": "MQTT Codec interface spec",
+      "rest_spec": "REST Codec interface spec",
+      "websocket_spec": "WebSocket Codec interface spec",
+      "tlv_spec": "TLV message encoding spec.",
+      "json_spec": "JSON message encoding spec.",
+      "about": "About",
+      "about_id": "Id",
+      "about_version": "Version",
+      "about_source_update_time": "Source update time",
+      "about_build_time": "Build time",
+      "manual": "Dev guide",
+      "html": "HTML",
+      "pdf": "PDF",
+      "swagger": "Swagger API"
+    },
+    "api-key": {
+      "views": {
+        "welcome": {
+          "title": "Get an API Key to authenticate you using Live Objects APIs",
+          "api-key": "API Keys are mandatory to authenticate your device or your application to Live Objects with MQTT or REST protocols.<br><br>The API keys that authenticate your account have certain rights.<br><br>Your keys must remain secret. We recommend you to use different API keys.",
+          "button": {
+            "doc": "Documentation",
+            "add-api-key": "Add an API key"
+          }
+        },
+        "list": {
+          "title": "Api keys",
+          "show-session-keys": "Show the session keys",
+          "total": "{number, plural, =0{No api key} =1{# api key} other{# api keys}}",
+          "modal": {
+            "enable": {
+              "title": "Enable api keys",
+              "content": "Are you sure you want to enable these api keys?"
+            },
+            "disable": {
+              "title": "Disable api keys",
+              "content": "Are you sure you want to disable these api keys?"
+            },
+            "delete": {
+              "title": "Delete api keys",
+              "content": "Are you sure you want to delete these api keys?"
+            }
+          }
+        },
+        "add": {
+          "title": "Add an api key",
+          "api-key-information": "Information",
+          "child-of": "Child of ",
+          "modal": {
+            "added": {
+              "title": "Api key generated",
+              "description": "Here is the api key value. Keep it in a safe place."
+            }
+          }
+        },
+        "view": {
+          "title": "{label}",
+          "help": {
+            "fifos-scope": {
+              "p1": "You can restrict the rights of this API key by writing here the name of one or more message queues.",
+              "p2": "Thus, the API key can only be used in MQTT access, limited to these selected message queues. This for example, makes it possible, after having oriented the right device to the right queue, to restrict access to the data of specific devices."
+            },
+            "validity-from": "The key can be used from the chosen date",
+            "validity-to": "If a date is filled in, the key cannot be used after this date"
+          },
+          "api-key-information": "Information",
+          "hidden-value": "The api key value is hidden for security reasons",
+          "children-keys": "Children keys",
+          "modal": {
+            "enable": {
+              "title": "Enable api key",
+              "content": "Are you sure you want to enable this api key?"
+            },
+            "disable": {
+              "title": "Disable api key",
+              "content": "Are you sure you want to disable this api key?"
+            },
+            "delete": {
+              "title": "Delete api key",
+              "content": "Are you sure you want to delete this api key?"
+            },
+            "regenerate": {
+              "title": "Regenerate this api key",
+              "content": "Are you sure you want to regenerate this ApiKey? All equipments using this ApiKey won't be able to communicate anymore."
+            }
+          }
+        }
+      },
+      "enums": {
+        "role": {
+          "LPWA_USER": "User",
+          "LPWA_ADMIN": "Administrator"
+        },
+        "active": {
+          "enabled": "Enabled",
+          "disabled": "Disabled"
+        }
+      },
+      "form": {
+        "placeholders": {
+          "label": "enter a name",
+          "description": "enter a description",
+          "from": "enter a start date",
+          "to": "enter an end date",
+          "ttl": "enter a time-to-live in seconds",
+          "roles": "select at least one role",
+          "fifos": "enter queues to be used for restriction",
+          "additional-roles": "select optionally one or more roles"
+        }
+      },
+      "properties": {
+        "label": "Name",
+        "roles": "Roles",
+        "profile": "Profile",
+        "fifos": "Queues restriction",
+        "last-activity": "Last activity",
+        "description": "Description",
+        "session-key": "Session key",
+        "master-key": "Master key",
+        "creation": "Creation",
+        "parent": "Parent",
+        "ttl": "TTL",
+        "from": "Valid from",
+        "to": "Valid until",
+        "active": "Active",
+        "validity": "Validity",
+        "value": "Value",
+        "type": "Type",
+        "status": "Status"
+      }
+    },
+    "assets": {
+      "success": {
+        "asset_deleted": "Device successfuly deleted",
+        "command_deleted": "Command successfully deleted",
+        "command_canceled": "Command successfully canceled",
+        "command_registered": "Command successfully registered",
+        "moved_to_group": "You selection was successfully moved in '{group}'"
+      },
+      "modal": {
+        "delete_confirmation": "Are you sure you want to delete these devices?",
+        "move": {
+          "title": "Move selection to",
+          "destination-label": "Destination",
+          "placeholder": "select a group",
+          "validation": "Move"
+        }
+      },
+      "list": {
+        "title": "Managed/Mqtt",
+        "all": "All Equipements",
+        "total": "{number, plural, =0{No device} =1{# device} other{# devices}}",
+        "filter": {
+          "namespace": "Namespace",
+          "id": "Id",
+          "status": "Status",
+          "tags": "Tags",
+          "search": "search",
+          "property": "Property"
+        },
+        "no_assets": "No devices to display.",
+        "header": {
+          "namespace": "Namespace",
+          "id": "Id",
+          "status": "Status",
+          "name": "Name",
+          "tags": "Tags",
+          "last_contact": "Last contact",
+          "path": "Path",
+          "actions": "Actions",
+          "group": "Group"
+        },
+        "connected": "online",
+        "disconnected": "offline",
+        "direct": "direct",
+        "hops": "hops",
+        "delete": "Delete",
+        "details": "Details"
+      },
+      "import": {
+        "title": "Import new devices"
+      },
+      "new": {
+        "title": "Add new device",
+        "namespace": "Namespace",
+        "namespace_caption": "enter the device namespace",
+        "namespace_description": "You can define your own device identifier namespace. It is used to avoid conflicts between various families of identifier (ex: device model, identifier class IMEI, msisdn, MAC, etc.). It should preferably only contain alphanumeric characters (a-z, A-Z, 0-9).",
+        "id": "Id",
+        "id_caption": "enter the device id",
+        "id_description": "You can define your own device id (ex: IMEI, serial number, MAC address, etc.) which should only contain alphanumeric characters (a-z, A-Z, 0-9) and/or any special characters including  : - _ | + and you must avoid # / !.",
+        "name": "Name",
+        "name_caption": "device name",
+        "description": "Description",
+        "description_caption": "Enter a description of the device",
+        "group": "Group",
+        "tags": "Tags",
+        "tags_caption": "list of tags",
+        "properties": {
+          "title": "Properties",
+          "key": "label",
+          "value": "valeur",
+          "placeholder": {
+            "key": "Enter property label",
+            "value": "Enter property value"
+          }
+        },
+        "properties_caption": "List of properties",
+        "register": "Register",
+        "cancel": "Cancel"
+      },
+      "view": {
+        "title": "{namespace} / {id}",
+        "back": "Back",
+        "tabs": {
+          "identity": "Identity",
+          "status": "Status",
+          "parameters": "Parameters",
+          "commands": "Commands",
+          "resources": "Firmwares"
+        }
+      },
+      "param": {
+        "list": {
+          "nb_params": "Device has  <strong>{ assetParamsCount }</strong> registered parameters",
+          "no_params": "No parameters declared by device.",
+          "header": {
+            "id": "Id",
+            "value": "Value",
+            "value_ts": "Value timestamp",
+            "status": "Status",
+            "last_status": "Last contact",
+            "target_value": "Target value",
+            "actions": "Actions"
+          },
+          "tooltip": {
+            "operation-status": {
+              "new": "new",
+              "pending": "pending",
+              "in_sync": "in sync",
+              "failed": "failed",
+              "cancelled": "cancelled",
+              "sent": "sent"
+            }
+          },
+          "edit": "Edit",
+          "send_changes": "Send changes",
+          "reset_changes": "Reset changes"
+        },
+        "edit": {
+          "title": "Edit device parameter",
+          "value_type": "Value Type",
+          "value_32": "Value (INT32)",
+          "value_32_caption": "enter the value (INT32)",
+          "value_u32": "Value (UINT32)",
+          "value_u32_caption": "enter the value (UINT32)",
+          "value_bin": "Value (BINARY)",
+          "value_bin_caption": "enter the value (binary : base64)",
+          "value_ts": "Value (date/time)",
+          "value_ts_caption": "enter the date/time value",
+          "value_string": "Value (string)",
+          "value_string_caption": "enter the string (UTF-8) value",
+          "value_float": "Value (float)",
+          "value_float_caption": "enter the float value",
+          "update": "Update",
+          "cancel": "Cancel"
+        }
+      },
+      "identity": {
+        "created": "Creation date",
+        "urn": "URN"
+      },
+      "status": {
+        "name": "Name",
+        "name_caption": "device name",
+        "identifier": "Identifier",
+        "id": "id",
+        "namespace": "namespace",
+        "state": "State",
+        "status": "Status",
+        "metadata": "Metadata",
+        "connected": "online",
+        "disconnected": "offline",
+        "last_contact": "Last contact",
+        "paramUpdateTopic": "Topic for parameters updates",
+        "commandUpdateTopic": "Topic for commands",
+        "resourceUpdateTopic": "Topic for firmwares updates",
+        "identity": "Identity",
+        "tags": "Tags",
+        "properties": "Properties",
+        "propertiesErrors": {
+          "duplicate-key": "Property labels must be different",
+          "empty-key": "Please fill the property label"
+        },
+        "info": "Info",
+        "group": "Group"
+      },
+      "commands": {
+        "modal": {
+          "delete_confirmation": "Are you sure you want to delete these commands?",
+          "repeat_confirmation": "Are you sure you want to repeat these commands?",
+          "cancel_confirmation": "Are you sure you want to cancel these commands?"
+        },
+        "list": {
+          "add": "Add command",
+          "paging": "Commands <strong>{from}</strong> to <strong>{to}</strong> of <strong>{of}</strong>",
+          "no_commands": "No commands to display",
+          "header": {
+            "creation": "Creation",
+            "request": "Request",
+            "req_params": "Parameters",
+            "req_payload": "Payload",
+            "status": "Status",
+            "last_update": "Last update",
+            "response": "Response",
+            "res_params": "Parameters",
+            "res_payload": "Payload",
+            "actions": "Actions"
+          },
+          "cancel": "Cancel",
+          "details": "details",
+          "repeat": "Repeat",
+          "delete": "Delete",
+          "req": {
+            "event": "event",
+            "params": "params",
+            "payload": "payload"
+          }
+        },
+        "new": {
+          "title": "Register new command",
+          "namespace": "Namespace",
+          "namespace_caption": "enter the device namespace",
+          "id": "Id",
+          "id_caption": "enter the device id",
+          "event": "Event",
+          "event_caption": "enter the command 'event' (or method)",
+          "payload": "Payload",
+          "payload_caption": "enter the command payload non base64 encoded (ex: RC:98:A:1:AZ:EZEZA) ",
+          "data": "Data",
+          "data_caption": "{jsontpl}",
+          "register": "Register",
+          "cancel": "Cancel"
+        }
+      },
+      "path": {
+        "title": "Device path",
+        "close": "Close"
+      },
+      "resources": {
+        "list": {
+          "title": "Firmwares",
+          "pagination": "Firmwares <strong>{from}</strong> to <strong>{to}</strong> of <strong>{of}</strong>",
+          "no_resources": "No firmwares are declared for this device.",
+          "total": "{number, plural, =0{No firmware} =1{# firmware} other{# firmwares}}",
+          "header": {
+            "resourceId": "Firmware Id",
+            "last_refresh": "Last refresh",
+            "current_version": "Current version",
+            "current_version_ts": "Current version date",
+            "target_version": "Target version",
+            "target_version_ts": "Target version date",
+            "update_status": "Update status",
+            "actions": "Actions"
+          },
+          "set_target_version": "Update"
+        },
+        "history": {
+          "title": "Update history",
+          "pagination": "Updates <strong>{from}</strong> to <strong>{to}</strong> of <strong>{of}</strong>",
+          "no_history": "There is no update history for this device.",
+          "header": {
+            "id": "Id",
+            "resourceId": "Firmware Id",
+            "sourceVersion": "Source",
+            "targetVersion": "Target",
+            "topicResourceUpdate": "Update topic",
+            "creationTs": "Start date",
+            "status": "Status",
+            "updateTs": "Refresh date",
+            "progress": "Progress (%)"
+          }
+        },
+        "target": {
+          "title": "Set firmware's target version",
+          "targetVersion": "Target version",
+          "targetVersion_caption": "enter firmware's target version",
+          "register": "Save",
+          "cancel": "Cancel"
+        }
+      },
+      "cancel_update": {
+        "title": "Cancel update",
+        "label": "Cancel update"
+      }
+    },
+    "message_bus": {
+      "title": "Message bus",
+      "success": {
+        "fifo_created": "FIFO Created",
+        "fifo_deleted": "FIFO successfully deleted",
+        "binding_created": "Binding successfully created"
+      },
+      "error": {
+        "fifo_created_failed": "Failed to create FIFO"
+      },
+      "alert": {
+        "read_forbidden": "You do not have read permissions for this section, please contact the administrator of your account"
+      },
+      "lora": {
+        "add": {
+          "title": "New FIFO LoRa&#174;",
+          "button": "Configure for LoRa&#174; device(s)",
+          "information": "Add a new FIFO queue for LoRa&#174; device(s)",
+          "name": {
+            "label": "Name",
+            "placeholder": "Enter the FIFO name",
+            "pattern_error": "this field must only have alphanumerical characters, \"-\", \"_\" and \"~\""
+          },
+          "deveui": {
+            "label": "DevEUI",
+            "placeholder": "Enter a device EUI or let empty",
+            "tooltip": {
+              "1": "Empty : collects data for all devices",
+              "2": "DevEUI : collects data for a specific device"
+            }
+          }
+        }
+      },
+      "fifo_queues": {
+        "title": "FIFO queues",
+        "welcome": {
+          "title": "Create a FIFO to collect the messages of your devices",
+          "fifo-queue": "Your devices send their message to a FIFO in order to be used by an application.<br><br>Messages remain on your FIFO until an application retrieves them. ",
+          "button": {
+            "doc": "Documentation",
+            "add-fifo-queue": "Add a FIFO queue"
+          }
+        },
+        "modal": {
+          "delete.label": "Are you sure you want to delete these topics?"
+        },
+        "list": {
+          "add": "Add",
+          "no_fifo": "No FIFO queues to display",
+          "header": {
+            "fifo": "FIFO",
+            "key_filter": "Routing key",
+            "ready": "Message ready",
+            "unacked": "Message unacked",
+            "nb_consumers": "# of consumers",
+            "max_size": "Max size",
+            "percent_used": "Used %",
+            "actions": "Actions"
+          },
+          "delete": "Delete",
+          "filled": "Filled"
+        },
+        "new": {
+          "title": "New FIFO messages queue",
+          "name": "Name",
+          "name_caption": "enter the FIFO name",
+          "routing_key_filter": "Routing key",
+          "routing_key_caption": "enter the routing key",
+          "max_size": "Max size (bytes)",
+          "max_size_caption": "Enter the max size of the FIFO (10MB by default)",
+          "register": "Register",
+          "cancel": "Cancel"
+        }
+      },
+      "router": {
+        "title": "Routing keys",
+        "welcome": {
+          "title": "Create a routing key to fill a FIFO",
+          "route": "A routing key defines a rule for redirecting messages to a FIFO. e.g. <br><br>~event.v1.data.new.# : route all messages of all devices towards target FIFO<br><br>~event.v1.data.new.urn.lora.0004A3 : route all messages of device with devEUI 0004A3<br>",
+          "button": {
+            "doc": "Documentation",
+            "add-route": "Add a routing key"
+          }
+        },
+        "modal": {
+          "delete.label": "Are you sure you want to delete these bindings?"
+        },
+        "list": {
+          "add": "Add",
+          "no_bindings": "No bindings to display",
+          "header": {
+            "key_filter": "Routing key filter",
+            "fifo": "FIFO",
+            "actions": "Actions"
+          },
+          "delete": "Delete"
+        },
+        "new": {
+          "title": "Create new binding",
+          "routing_key_filter": "Routing key filter",
+          "routing_key_filter_description": "e.g.<br>~event.v1.data.new.# : sends all messages of all devices towards the target FIFO<br><br>~event.v1.data.new.urn.lora.0004A3 : sends all messages of device with devEUI 0004A3<br>",
+          "routing_key_caption": "enter the routing key filter",
+          "target_fifo": "Target FIFO",
+          "create": "Create Binding",
+          "cancel": "Cancel"
+        }
+      }
+    },
+    "settings": {
+      "title": "Settings",
+      "account": {
+        "title": "Account",
+        "account_name": {
+          "label": "Account name",
+          "help": "The name of your Organization, owner of the account"
+        },
+        "account_basic_roles": {
+          "label": "Basic roles",
+          "help": "Mandatory roles associated to the Master Api Key of the account"
+        },
+        "account_additional_roles": {
+          "label": "Additional roles",
+          "help": "Optional roles associated to the Master Api Key of the account"
+        }
+      },
+      "iss": {
+        "title": "ISS",
+        "api_key": {
+          "label": "ISS API Key",
+          "help": "a valid API Key for your ISS account"
+        }
+      },
+      "update": "Update"
+    },
+    "tenant": {
+      "modal": {
+        "delete_confirmation": "Are you sure you want to delete these tenants?",
+        "delete_settings_confirmation": "Are you sure you want to delete these parameters?"
+      },
+      "success": {
+        "tenant_created": "Tenant successfully added",
+        "tenant_deleted": "Tenant successfully deleted",
+        "settings_updated": "Settings successfully updated",
+        "settings_deleted": "Settings successfully deleted",
+        "settings_added": "Settings successfully added"
+      },
+      "details": {
+        "title": "Details"
+      },
+      "list": {
+        "add": "Add tenant account",
+        "title": "Tenants",
+        "pagination": "<strong>{from}</strong> - <strong>{to}</strong> of <strong>{of}</strong>",
+        "refresh": "Refresh",
+        "no_tenants": "No tenants to display",
+        "total": "{number, plural, =0{No tenant} =1{# tenant} other{# tenants}}",
+        "header": {
+          "id": "Id",
+          "name": "Name",
+          "offer": "Offer and options",
+          "tags": "Tags",
+          "api_key": "API Key",
+          "actions": "Actions"
+        },
+        "delete": "Delete",
+        "details": "Details"
+      },
+      "view": {
+        "title": "{tenantName}",
+        "info.title": "Account information",
+        "offer": {
+          "title": "Offer",
+          "see_parameters": "See offer parameters",
+          "select_offer": "Switch to standard offer",
+          "no-end-date":"no end date",
+          "extend_offer": "Extend the offer",
+          "manual_warning": "You are using manual parameters mode. If you want to switch to standard offers, your current parameters might not have equivalence in the offer model, which means you might lose some.",
+          "changing_warning": "Please select the offer to assign to this account",
+          "cancel_offer": "Cancel",
+          "select": {
+            "confirm": {
+              "title": "Are you sure you want to assign a standard offer to this account?",
+              "content": "Standard offers and options have there own parameters. You might lose your current parameters.",
+              "action": "Assign an offer to this account"
+            }
+          }
+        },
+        "parameters": {
+          "title": "Offer parameters",
+          "change": {
+            "title": "Parameters change",
+            "content": "By changing offer parameters, you accept not to follow the offer model, and enter in a customized mode.",
+            "action": "Change parameters",
+            "confirm": {
+              "title": "Are you sure you want to change parameters?",
+              "content": "To be able to change parameters, you need to dissociate the account from offer and options. If you later wish to use standard offers again, there is a high probability that your parameters do not have an equivalent offer.",
+              "action": "Dissociate account from offer and options"
+            }
+          }
+        },
+        "back": "Back",
+        "account_offers_caption": "select an offer",
+        "account_options_caption": "select options",
+        "tabs": {
+          "statistics": "Statistics",
+          "overview": "Overview",
+          "account": "Account",
+          "users": "Users",
+          "offer-settings": "Offer settings"
+        },
+        "settings": {
+          "version": "version",
+          "version_caption": "enter settings version",
+          "filter.placeholder": "Enter a id. to filter...",
+          "offer-id.placeholder": "Offer Id.",
+          "offer-parameters.placeholder": "Enter the parameters to JSON format..."
+        },
+        "errors": {
+          "bss": "Failed to get available offer and options <br/> {message}",
+          "offer": "Failed to set offer and options settings <br/> {message}"
+        }
+      },
+      "new": {
+        "title": "Add a new tenant account",
+        "info.title": "Account creation",
+        "offer.title": "Offer selection",
+        "account_name": "Account name",
+        "account_name_caption": "enter the tenant account name",
+        "account_name_error": "you must enter an organization name",
+        "account_login": "Admin login",
+        "account_login_caption": "enter the tenant admin login",
+        "account_login_error": "you must enter an admin login",
+        "account_offer": "Offer",
+        "account_offers_caption": "enter an offer",
+        "account_options": "Options",
+        "account_options_caption": "select options",
+        "mandatory_roles": "Mandatory roles",
+        "optional_roles": "Additional roles",
+        "account_roles_caption": "select roles",
+        "account_roles_error": "you must select one role at least",
+        "email": "Admin email",
+        "email_caption": "enter your email",
+        "email_error": "you must enter a valid email address",
+        "pwd": "admin password",
+        "pwd_caption": "enter admin password",
+        "confirm_pwd_caption": "confirm password",
+        "pwd_error": "you must enter a password",
+        "create": "{canReadBss, plural, =0{Create tenant account} other{Create the account and select an offer}}",
+        "ok": "Create tenant account",
+        "cancel": "Cancel",
+        "offer.confirm": "Confirm",
+        "offer.cancel": "Skip this step",
+        "errors": {
+          "create": "Failed to create the account <br/> {message}",
+          "bss": "Failed to get available offer and options <br/> {message}",
+          "offer": "Failed to set offer and options settings <br/> {message}"
+        }
+      }
+    },
+    "user": {
+      "tooltip": "User & account",
+      "super-admin": "Super administrator",
+      "views": {
+        "add": {
+          "title": "Register a user",
+          "user-information": "User information"
+        },
+        "view": {
+          "title": "{name}",
+          "help": {
+            "user-login-idp": "The Login attribute is not editable within Live Objects for a user whose Identity is managed on Espace Client Entreprise.",
+            "user-email-idp": "The Email address attribute is not editable within Live Objects for a user whose Identity is managed on Espace Client Entreprise."
+          }
+        },
+        "list": {
+          "title": "Users",
+          "total": "{number, plural, =0{No user} =1{# user} other{# users}}",
+          "modal": {
+            "enable": {
+              "title": "Enable users",
+              "content": "Are you sure you want to enable these users?"
+            },
+            "disable": {
+              "title": "Disable users",
+              "content": "Are you sure you want to disable these users?"
+            },
+            "delete": {
+              "title": "Delete users",
+              "content": "Are you sure you want to delete these users?"
+            },
+            "reset": {
+              "title": "Reset password",
+              "content": "Are you sure you want to reset these passwords"
+            }
+          }
+        }
+      },
+      "form": {
+        "placeholders": {
+          "login": "enter a login",
+          "email": "enter a email",
+          "roles": "select at least one role"
+        }
+      },
+      "enums": {
+        "state": {
+          "enabled": "Enabled",
+          "disabled": "Disabled",
+          "suspended": "Suspended"
+        }
+      },
+      "properties": {
+        "login": "Login",
+        "email": "Email",
+        "roles": "Roles",
+        "profile": "Profile",
+        "state": "Etat",
+        "tenantId": "tenantId"
+      },
+      "alert": {
+        "updatedmailsent": "Your request of email address modification has been taken into account. A validation email has just been sent to this new address; it will be used as soon as it is validated."
+      },
+      "success": {
+        "activationmailsent": "an email was sent to the user"
+      }
+    },
+    "decoder": {
+      "views": {
+        "add": {
+          "title": "Add a decoder",
+          "decoder-information": "Decoder information",
+          "decoder-test": "Decoder test",
+          "tooltips": {
+            "math-eval": "Enable or disable mathematical evaluation of expressions inside the template",
+            "create": "Beware: a decoder cannot be modified anymore once created"
+          }
+        },
+        "view": {
+          "title": "{name}",
+          "modal": {
+            "delete": {
+              "title": "Delete a decoder",
+              "content": "Really delete this decoder?"
+            }
+          }
+        },
+        "list": {
+          "title": "Decoders",
+          "total": "{number, plural, =0{No decoder} =1{# decoder} other{# decoders}}",
+          "enabled": "Enabled",
+          "disabled": "Disabled",
+          "modal": {
+            "delete": {
+              "title": "Delete decoders",
+              "content": "Really delete these decoders?"
+            }
+          }
+        }
+      },
+      "form": {
+        "payload": "Payload to be decoded, in Hexadecimal format",
+        "test-result": "Result",
+        "error": {
+          "model": "The model name contains invalid characters"
+        },
+        "placeholders": {
+          "encoding": "The encoding format handled by this decoder",
+          "template": "Mustache template for post-decoding transformation",
+          "type": "Select a decoder type",
+          "model": "Target model name, without spaces or dots"
+        }
+      },
+      "enums": {
+        "state": {
+          "active": "Active",
+          "inactive": "Inactive"
+        },
+        "type": {
+          "csv": "Parameterized (Csv)",
+          "binary": "Parameterized (Binary)",
+          "javascript": "Predefined (Script)"
+        },
+        "visibility": {
+          "private": "Private",
+          "public": "Public"
+        },
+        "math-eval": {
+          "true": "Yes",
+          "false": "No"
+        }
+      },
+      "selection.tooltip": {
+        "public": "No available action for a public decoder.",
+        "javascript": "No available action for a predefined decoder."
+      },
+      "select-group": {
+        "private": "Private decoders",
+        "public": "Public decoders"
+      },
+      "properties": {
+        "id": "Identifier",
+        "encoding": "Name",
+        "template": "Template",
+        "math-eval": "Mathematical evaluation",
+        "math-eval-template": "Template mathematical evaluation",
+        "type": "Type",
+        "visibility": "Visibility",
+        "model": "Model",
+        "payload-description": "Binary payload description",
+        "csv-columns": "Columns description",
+        "csv-options": "Parser options",
+        "state": "State"
+      }
+    },
+    "dev_tools": {
+      "title": "Simulation",
+      "welcome": {
+        "title": "Use our online simulation tool",
+        "tool": "To help you to develop your service, our tool allows you to simulate messages on the message bus (simulate equipment, alarms, behavior of a device ...)."
+      },
+      "success": {
+        "published_many_consumer": "Published to many consumers"
+      },
+      "error": {
+        "title": "Error"
+      },
+      "alert": {
+        "forbidden": "You need Bus write permissions to use this section, please contact the administrator of your account"
+      },
+      "publish": {
+        "title": "Publish",
+        "topic_type": "Topic Type",
+        "topic": "Topic",
+        "topic_caption": "enter the target topic name",
+        "payload": "Payload",
+        "payload_caption": "enter the message payload",
+        "publish": "Publish"
+      },
+      "publish_json": {
+        "title": "PublishJson",
+        "topic_type": "Topic Type",
+        "topic": "Topic",
+        "topic_caption": "enter the target topic name",
+        "payload": "Payload",
+        "payload_caption": "enter the message JSON payload",
+        "publish": "Publish"
+      },
+      "consume": {
+        "title": "Consume",
+        "topic_type": "Topic Type",
+        "topic": "Topic",
+        "topic_caption": "enter the target topic name",
+        "consume": "Consume",
+        "clear": "Clear",
+        "header": {
+          "date": "Date",
+          "message": "Message"
+        }
+      },
+      "rpc": {
+        "title": "Rpc",
+        "topic_type": "Topic Type",
+        "topic": "Topic",
+        "topic_caption": "enter the target topic name",
+        "payload": "Payload",
+        "payload_caption": "enter the message payload",
+        "request": "Request",
+        "response": "Response"
+      },
+      "rpc_json": {
+        "title": "RpcJson",
+        "topic_type": "Topic Type",
+        "topic": "Topic",
+        "topic_caption": "enter the target topic name",
+        "payload": "Payload",
+        "payload_caption": "enter the message JSON payload",
+        "request": "Request",
+        "response": "Response"
+      },
+      "sms": {
+        "title": "Send SMS",
+        "phone_number": "Phone number",
+        "message": "Message",
+        "message_caption": "enter the SMS message content",
+        "send": "Send SMS"
+      },
+      "mail": {
+        "title": "Send Email",
+        "from": "From",
+        "to": "To",
+        "cc": "Cc",
+        "cci": "Cci",
+        "subject": "Subject",
+        "subject_caption": "enter the Subject of the message",
+        "message": "Message",
+        "message_caption": "enter the Email message content",
+        "mail_error": "you must enter a valid email address",
+        "send_email": "Send Email"
+      }
+    },
+    "services": {
+      "title": "Services",
+      "no_services": "No services.",
+      "total": "{number, plural, =0{No service} =1{# service} other{# services}}",
+      "header": {
+        "component": "Component",
+        "version": "Version",
+        "instance": "Instance",
+        "uptime": "Uptime",
+        "clock": "Clock"
+      }
+    },
+    "login": {
+      "modal": {
+        "log-out": "Are you sure you want to log out?"
+      },
+      "view": {
+        "auth": {
+          "title": "Identification",
+          "login": "Sign in",
+          "signup": "Sign up",
+          "forgotten_password": "Forgotten password?"
+        },
+        "update_password": {
+          "title": "Password update",
+          "update": "Update password",
+          "security": "password must have:<br> - minimum 1 number<br> - minimum 1 special character /*-+.?,;:§!%ùµ*$@_()'<br> - minimum 1 lowercase<br> - minimum 1 uppercase<br> - minimum length of 8",
+          "confirm": "password and confirm password must be similar"
+        },
+        "update_email": {
+          "title": "Email update",
+          "update": "confirmation"
+        },
+        "reset_password": {
+          "title": "Password reset request",
+          "send_request": "Request password reset"
+        },
+        "account-request": {
+          "title": "Account request",
+          "description": "Please fill this form to get your Live Objects account.",
+          "youare": "You are: ",
+          "companyOrCommunity": "a company, or a community",
+          "yourproject": "Your project: ",
+          "lora": "I would like to use LoRa&#174; network&#42;",
+          "lora_conditions": "&#42;available in France only for now. <br>Note that LoRa&#174; network access involves legal constraints, in particular you must be a french company and provide your Kbis extract.",
+          "captcha": "Copy the code",
+          "wish.discoveroffer": "I am requesting a Live Objects test account (limited to 1 year and 10 devices)",
+          "wish.loraoffer": "I am requesting a LoRa&#174; IoT Connect Low Power access (limited to 12 months and 10 devices) and will be contacted by Orange. <br>Note that Live Objects access without LoRa&#174; network avoid this process.",
+          "submit": "Request my account",
+          "success": "For account request without LoRa&#174;: you will receive a verification email. Please click on the link in this email to activate your Live Objects account. <br>For LoRa&#174; network access: your request is taken into account and we will contact you by email to finalize the registration."
+        },
+        "registration": {
+          "title": "Complete registration",
+          "description": "Please complete below form to get your Live Objects account.",
+          "password-check": {
+            "description": "Password must:",
+            "at-least": "contain at least",
+            "special-chars": "/*-+.?,;:§!%ùµ*$@_()'",
+            "list": {
+              "length": "8 characters",
+              "uppercase": "one uppercase letter",
+              "lowercase": "one lowercase letter",
+              "digit": "one digit",
+              "special-char": "one special character"
+            }
+          },
+          "terms": {
+            "label": "Legal terms",
+            "general": "Orange APIs General Terms",
+            "specific": "Live Objects terms of use",
+            "accept": "By activating this account I accept the general and specific terms and conditions of use below",
+            "advertising": "If you do not wish to receive our promotions and solicitations, please tick this box",
+            "contact_information": "If you do not want your contact information to be forwarded to our business partners, please tick this box"
+          },
+          "newsletter": "Subscribe to the newsletter",
+          "cnil": "Under article 32 of the French Law No 78-17 of January 6th, 1978, we inform you that personal identifiable information collected by Live Objects is processed.<br>The Data Controller is Orange Applications for Business.<br>The purpose for data processing is, on the one hand, get your feedbacks on the service and on the other exchange on your needs and our solutions.<br>Personal identifiable information that has been processed is kept for the duration of the subscription.<br>Pursuant to articles 38 et seq. of the aforementioned law, you have rights of access, rectification and opposition.  To assert these rights, you can contact Orange Applications for Business at OAB-DonneesPersonnelles@list.orange.com or by post at the following address:<br>OAB - Personal Data<br>Department for Quality, Process & Security (DQPS) <br>4 rue de la Châtaigneraie<br>35510 Cesson-Sévigné (France)"
+        }
+      },
+      "form": {
+        "placeholders": {
+          "login": "enter your login",
+          "password": "enter your password",
+          "new_password": "enter the new password",
+          "confirm_new_password": "confirm the new password",
+          "captcha": "enter the text in the image above"
+        }
+      }
+    },
+    "resource": {
+      "connector": {
+        "myplug-fwupdater": {
+          "metadata": {
+            "labels": {
+              "deviceType": "Device type",
+              "hardwareVersion": "Hardware version"
+            },
+            "placeholders": {
+              "deviceType": "enter the device type",
+              "hardwareVersion": "enter the hardware version"
+            }
+          }
+        }
+      },
+      "list": {
+        "title": "Firmwares",
+        "add": "Create firmware",
+        "pagination": "<strong>{{1 + page.page * page.size}}</strong> - <strong>{{page.page * page.size + page.data.length}}</strong> of <strong>{{page.totalCount}}</strong>",
+        "refresh": "Refresh",
+        "no_data": "No firmware to display.",
+        "total": "{number, plural, =0{No firmware} =1{# firmware} other{# firmwares}}",
+        "header": {
+          "id": "Firmware Id",
+          "label": "Label",
+          "description": "Description",
+          "connector": "Connector",
+          "creationTs": "Creation date",
+          "updateTs": "Last update",
+          "action": "",
+          "toggle": ""
+        },
+        "remove": "Remove",
+        "remove_msg": "Are you sure you want to remove these firmwares?",
+        "edit": "Edit",
+        "details": "Details"
+      },
+      "new": {
+        "title": "Add a new firmware",
+        "resourceId": "Firmware Id",
+        "resourceId_caption": "enter the new firmware's Id",
+        "label": "Label",
+        "label_caption": "enter the new firmware's caption",
+        "description": "Description",
+        "description_caption": "enter the new firmware's description",
+        "connector": "Connector",
+        "connector_caption": "enter the new firmware's connector",
+        "register": "Create a new firmware",
+        "cancel": "Cancel"
+      },
+      "edit": {
+        "title": "{resourceId}",
+        "register": "Save changes",
+        "cancel": "Cancel"
+      },
+      "version": {
+        "list": {
+          "no_data": "This firmware doesn't have any version available.",
+          "header": {
+            "version": "Version",
+            "description": "Description",
+            "creationTs": "Creation date",
+            "updateTs": "Last update",
+            "action": ""
+          },
+          "remove": "Remove",
+          "remove_msg": "Are you sure you want to remove this version?",
+          "edit": "Edit",
+          "add": "Add version"
+        },
+        "new": {
+          "title": "Add a new version",
+          "resourceId": "Firmware Id",
+          "versionId": "Version Id",
+          "versionId_caption": "enter the new version's Id",
+          "description": "Description",
+          "description_caption": "enter the new version's description",
+          "compatibleVersions": "Compatible versions",
+          "compatibleVersions_caption": "enter the compatible old versions ex: v1, v2, v3",
+          "file": "File",
+          "register": "Create new version",
+          "cancel": "Cancel"
+        },
+        "edit": {
+          "title": "Edit a version",
+          "register": "Save changes",
+          "cancel": "Cancel"
+        }
+      }
+    },
+    "sms": {
+      "encodings": {
+        "no-encoding": "No decoder"
+      },
+      "action": {
+        "sendsms": "Send SMS",
+        "delete": "Delete MSISDN(s)"
+      },
+      "config": {
+        "title": "SMS"
+      },
+      "msisdn": {
+        "serverPhoneNumber": "Server phone number",
+        "serverPhoneNumber.placeholder": "example: 20208",
+        "serverPhoneNumber.help": "the server where MSISDNs will be authorized for sending and receiving SMS",
+        "encoding": "Decoder",
+        "encoding.placeholder": "Select a decoder",
+        "encoding.help": "the decoder that should be applied to incoming SMS payload",
+        "msisdnlist": "MSISDNs list",
+        "msisdnvalue": "Phone number of the device",
+        "msisdnvalue.placeholder": "example: 33655443322",
+        "msisdnvalue.help": "the phone number of the device communicating through SMS",
+        "tags": "Tags",
+        "tags.placeholder": "example: my-sms-data",
+        "tags.help": "tags added to the SMS payloads at datazone storage time",
+        "list": {
+          "title": "MSISDNs",
+          "total": "{number, plural, =0{No msisdn} =1{# msisdn} other{# msisdns}}",
+          "information": "Choose the 'SMS server - content decoder' couple for which to see declared MSISDNs."
+        },
+        "add": {
+          "title": "Add MSISDN",
+          "information": "device MSISDN provisioning for SMS service use",
+          "msisdnlistErrors": {
+            "duplicate-value": "MSISDNs must be different"
+          }
+        },
+        "delete": {
+          "title": "Delete MSISDNs",
+          "content": "Are you sure you want to delete selected MSISDNs?"
+        }
+      }
+    },
+    "configuration": {
+      "title": "Configuration"
+    },
+    "dashboard": {
+      "title": "Dashboard",
+      "consumption": {
+        "prefix": "Consumption ",
+        "from": " from {date}",
+        "to": " to {date}",
+        "since": " since {date}",
+        "datestar": "data updated every 24h",
+        "upgrade": "Upgrade offer",
+        "previous-month": "Previous month",
+        "next-month": "Next month"
+      },
+      "recent-traffic-consumption": {
+        "title": "Recent traffic consumption"
+      },
+      "ressources": {
+        "title": "Firmwares since {date}",
+        "successful-updates": "{number, plural, =0{No successful update} =1{<strong class=\"text-important\">#</strong> successful update} other{<strong class=\"text-important\">#</strong> successful updates}}",
+        "failed-updates": "{number, plural, =0{No failed update} =1{<strong class=\"text-important\">#</strong> failed update} other{<strong class=\"text-important\">#</strong> failed updates}}"
+      },
+      "event-processing": {
+        "title": "Event processing",
+        "created-events": "{number, plural, =0{No event} =1{<strong class=\"text-important\">#</strong> event} other{<strong class=\"text-important\">#</strong> events}} created since {date}"
+      },
+      "streams": {
+        "title": "Streams",
+        "streams": "{number, plural, =0{No stream} =1{<strong class=\"text-important\">#</strong> stream} other{<strong class=\"text-important\">#</strong> streams}}"
+      },
+      "bus": {
+        "title": "Bus status",
+        "consumers": "Consumers",
+        "messages": "Queued Messages",
+        "consumers-in-fifo": "{number, plural, =0{No consumers} =1{<strong class=\"text-important\">#</strong> consumer} other{<strong class=\"text-important\">#</strong> consumers}} connected ",
+        "messages-in-fifo": "{number, plural, =0{No message} =1{<strong class=\"text-important\">#</strong> message} other{<strong class=\"text-important\">#</strong> messages}}"
+      },
+      "outputs": {
+        "title": "Outputs",
+        "average": "(average)",
+        "consumer-per-fifo": "{number, plural, =0{consumer} =1{consumer} other{consumers}} per FIFO",
+        "consumer-per-topic": "{number, plural, =0{consumer} =1{consumer} other{consumers}} subscribed per TOPIC",
+        "application": "{number, plural, =0{application} =1{application} other{applications}} consuming data",
+        "device-per-stream": "{number, plural, =0{device} =1{device} other{devices}} per stream",
+        "mqtt-only": "(MQTT only)"
+      }
+    },
+    "account": {
+      "title": "Account",
+      "information": "Information",
+      "name": "Name",
+      "email": "Email",
+      "id": "Account ID",
+      "created": "Creation Date",
+      "offer": "Offer",
+      "expirationDate": "Expiration Date",
+      "options": "Options",
+      "bssid": "DISE Account"
+    },
+    "kpi": {
+      "traffic": {
+        "title": "Traffic",
+        "unit-label": "Bytes",
+        "display": {
+          "day": "daily",
+          "month": "monthly",
+          "day-unit-label": "Volume in/out per day",
+          "month-unit-label": "Cummulated volume"
+        },
+        "statistics": {
+          "consumption": "Traffic consumption",
+          "in": "Traffic In",
+          "out": "Traffic Out",
+          "sms-sent": "SMS sent"
+        }
+      },
+      "storage": {
+        "title": "Stored uplink data",
+        "mode": {
+          "today": "today",
+          "week": "this week",
+          "month": "month",
+          "year": "year"
+        },
+        "unit-label": "Messages"
+      },
+      "messages": {
+        "title": "Messages",
+        "in": "Messages in",
+        "unit-label": "Messages",
+        "display": {
+          "day-unit-label": "Msg in per day",
+          "month-unit-label": "Cummulated msg"
+        }
+      }
+    },
+    "lwm2m": {
+      "title": "LWM2M",
+      "total": "{number, plural, =0{Aucun accès} other{# accès}}",
+      "generateUUID": "UUID generated",
+      "device": {
+        "name": "Name",
+        "identifier": "Identifier",
+        "namespace": "Namespace",
+        "namespace_caption": "example: msisdn",
+        "identity": "Id",
+        "identity_caption": "example : 33612345678",
+        "endpoint": "LWM2M Endpoint",
+        "endpoint_caption": "Device's LWM2M Id or generated based on namespace and id",
+        "generate": "Generate",
+        "security_mode": "Security mode",
+        "psk": "Secret Key",
+        "psk_caption": "Secret key value, encoded in Base 64",
+        "identity_psk": "DTLS shared Identity key",
+        "identity_psk_caption": "Key identity",
+        "pubKey": "Public key",
+        "creation": "Creation",
+        "last_update": "Last Update",
+        "urn": "URN",
+        "device_caption": "Device URN",
+        "tags": "Tags",
+        "properties": "Properties",
+        "propertiesErrors": {
+          "duplicate-key": "Property labels must be different",
+          "empty-key": "Please fill the property label"
+        },
+        "security_modes": {
+          "PSK": "Pre-Shared Key",
+          "NO_SEC": "No Security"
+        },
+        "status": {
+          "status": "Status",
+          "metadata": "Metadata",
+          "connected": "online",
+          "disconnected": "offline",
+          "last_contact": "Last contact",
+          "info": "Info"
+        },
+        "param": {
+          "header": {
+            "id": "Id",
+            "value": "Value",
+            "value_ts": "Value timestamp",
+            "status": "Status",
+            "last_status": "Last contact",
+            "target_value": "Target value",
+            "actions": "Actions"
+          }
+        }
+      },
+      "view": {
+        "title": "{ep}",
+        "tabs": {
+          "info": "Info",
+          "status": "Status",
+          "parameters": "Parameters"
+        }
+      },
+      "new": {
+        "tab": "LWM2M",
+        "title": "Register new LWM2M device"
+      },
+      "help": {
+        "namespace": "You can define your own device identifier namespace. It is used to avoid conflicts between various families of identifier (ex: device model, identifier class IMEI, msisdn, MAC, etc.). It should preferably only contain alphanumeric characters (a-z, A-Z, 0-9).",
+        "id": "You can define your own device id (ex: IMEI, serial number, MAC address, etc.) which should only contain alphanumeric characters (a-z, A-Z, 0-9) and/or any special characters including  : - _ | + and you must avoid # / !."
+      }
+    },
+    "tags": {
+      "input": {
+        "placeholder": "Enter a tag name"
+      }
+    },
+    "connectivity": {
+      "title": "Connectivity",
+      "list": {
+        "title": "Connectivity"
+      }
+    },
+    "lora": {
+      "title": "LoRa&#174;"
+    },
+    "smart_sim": {
+      "title": "Smart SIM"
+    },
+    "onboarding": {
+      "navigation": {
+        "stop": "End of tour",
+        "prev": "Previous",
+        "next": "Next",
+        "restart": "Restart tour",
+        "enter": "Now enjoy Live Objects!"
+      },
+      "tour": {
+        "title": "Guided tour",
+        "description": "Guided tout of portal main functions"
+      },
+      "dashboard": {
+        "title": "Dashboard",
+        "description": "Easily display the status of your devices and the amount of exchanged messages."
+      },
+      "parc": {
+        "title": "Devices",
+        "description": "Register your devices. Monitor their status, their data. Send them commands and set their parameters."
+      },
+      "data": {
+        "title": "Data",
+        "description": "Display and analyse your organized data whatever IoT protocol used (MQTT, SMS, LoRa, Rest)."
+      },
+      "configuration": {
+        "title": "Configuration",
+        "description": "Get your account information, manage your users, your API keys, data decoders… according to your rights"
+      },
+      "resource": {
+        "title": "Resources",
+        "description": "All you need to be a Live Objects expert and find answers to your questions…"
+      },
+      "marketplace": {
+        "title": "Marketplace",
+        "description": "Visit our marketplace to buy your devices online"
+      },
+      "tools": {
+        "title": "Outils de simulation",
+        "description": "Publier des messages dans le bus pour tester la validité de vos data"
+      },
+      "prototype": {
+        "title": "Prototype",
+        "description": "Find our development boards and SDK to validate your project"
+      },
+      "support": {
+        "title": "Support",
+        "description": "... or you can use our forum. You can also contact us in case of technical problem or for commercial questions."
+      }
+    }
+  }
+}

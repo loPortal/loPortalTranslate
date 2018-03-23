@@ -1,0 +1,110 @@
+{
+  "sdk": {
+    "title": "Prototypez et construisez votre objet connecté",
+    "intro": "Pour prototyper rapidement et facilement votre objet connecté, découvrez les cartes de développement validées par Orange et récupérez nos Kits de développement logiciel (SDK).<br>Concentrez-vous sur votre service et vos utilisateurs, nous nous occupons du reste !",
+    "arduino": "Arduino",
+    "raspberry": "Linux (Raspberry)",
+    "step": {
+      "discover": {
+        "title": "Découvrir",
+        "sentence": "Acheter votre kit hardware ou utiliser<br/>votre board de développement."
+      },
+      "register": {
+        "title": "S’enregistrer",
+        "sentence": "Demander la création d’un compte sur notre site dédié aux développeurs."
+      },
+      "develop": {
+        "title": "Développer",
+        "sentence": "Commencer à développer des applications grâce à notre offre découverte."
+      },
+      "launch": {
+        "title": "Lancer",
+        "sentence": "Contacter nos équipes pour un accompagnement au lancement de votre offre."
+      },
+      "evolve": {
+        "title": "Evoluer",
+        "sentence": "Déployer vos produits à grande échelle grâce à notre plateforme SaaS."
+      }
+    },
+    "hardware" : {
+      "lora": {
+        "title": "Orange explorer LoRa® kit",
+        "sentence": "En collaboration avec Microship, Orange fournit un kit de développement pour vous permettre de prototyper rapidement et facilement  des objets et services en utilisant la technologie LoRa®.",
+        "components": {
+          "title": "Composants",
+          "items": {
+            "1": "Plate-forme Arduino",
+            "2": "Module LoRa® Microchip RN2483",
+            "3": "Module Microchip Bluetooth 4.2 (BLE)",
+            "4": "Pile bouton rechargeable",
+            "5": "Antenne LoRa® intégrée (PCB)",
+            "6": "Capteur de température, LED RGB"
+          }
+        },
+        "includes": {
+          "title": "Incluant",
+          "items": {
+            "1": "Module LoRa® certifié par Orange",
+            "2": "Documentation fournie : guide utilisateur, exemples de code, bibliothèque Orange",
+            "3": "Identifiants du module LoRa® lisible code QR directement sur la carte",
+            "4": "Accès à la plate-forme Live Objects pour la gestion des périphériques et des données",
+            "5": "<strong>Accès gratuit au réseau LoRa® pendant 3 mois</strong> (ensuite le prix par objet par mois varie entre 1 € et 2 € selon engagement)"
+          }
+        },
+        "buy": "Acheter sur Sodaq",
+        "sdk": "Télécharger SDK & exemples sur GitHub"
+      },
+      "arm": {
+        "title": "ARM mbed",
+        "sentence": "Orange fournit, en collaboration avec ARM, un SDK pour développeurs et startups qui souhaitent construire facilement un prototype d’objets connectés.",
+        "nxp": {
+          "title": "Carte NXP K64F",
+          "description": "NXP K64F, K64 MCU (MK64FN1M0VLL12) basée sur ARM Cortex ® M4, 256K RAM, 1MB flash).",
+          "buy": "Acheter sur Mouser"
+        },
+        "nucleo": {
+          "title": "Carte Nucleo",
+          "description":"ST Microelectronics NUCLEO-F429ZI, STM32 MCU basée sur ARM Cortex M4.",
+          "buy": "Acheter sur Mouser"
+        },
+        "sdk": "Télécharger SDK & exemples sur GitHub"
+      },
+      "arduino": {
+        "title": "Arduino",
+        "compatibility": "Compatible carte de développement Arduino (et compatibles IDE Arduino)",
+        "mega": {
+          "title": "Carte Arduino Mega",
+          "description": "Arduino Mega 2560 Rev3 (sans TLS).",
+          "buy": "Acheter sur Arduino"
+        },
+        "mediatek": {
+          "title": "Carte Mediatek LinkIt One",
+          "description": "Mediatek LinkIt One (recommandée à des fins de performance).",
+          "buy": "Acheter sur Seed"
+        },
+        "sdk": "Télécharger SDK & exemples sur GitHub"
+      },
+      "linux": {
+        "title" : "Linux (Raspberry)",
+        "compatibility": "Carte de développement compatibles ",
+        "pi2": {
+          "title": "Carte Pi 2 modèle B",
+          "description": "Raspberry Pi 2 model B, quad-core ARM Cortex-A7 CPU.",
+          "buy": {
+            "label": "Acheter sur Kubii",
+            "link": "https://www.kubii.fr/fr/nano-ordinateurs-raspberry-pi/507-raspberry-pi2-modele-b-1gb-713179632964.html"
+          }
+        },
+        "pi3": {
+          "title": "Carte Pi 3 modèle B",
+          "description": "Raspberry Pi 3 model B, quad-core ARMv8 CPU.",
+          "buy": {
+            "label": "Acheter sur Kubii",
+            "link": "https://www.kubii.fr/fr/home/1628-nouveau-raspberry-pi-3-modele-b-1-gb-640522710850.html"
+          }
+        },
+        "sdk": "Télécharger SDK & exemples sur GitHub"
+      }
+    }
+  }
+}

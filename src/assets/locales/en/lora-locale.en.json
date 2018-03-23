@@ -1,0 +1,569 @@
+{
+  "lora": {
+    "label": "LoRa",
+    "global": {
+      "title": "Live Objects LPWA",
+      "locale": {
+        "en": "EN",
+        "fr": "FR"
+      },
+      "form": {
+        "required": "required",
+        "error": {
+          "generic": "{message} (code : {code} - id : {id})",
+          "required": "this field must not be empty",
+          "email": "this field must be an email",
+          "password": "the email or the password is invalid",
+          "bad-request": "one or many parameters are invalid",
+          "server": "there was an internal error on the server",
+          "length": "this field must have {length, plural, =1{# character} other{# characters}}",
+          "max-length": "this field must have less than {length, plural, =1{# character} other{# characters}}",
+          "hexa-pattern": "this field must be hexadecimal (digits and abcdef)",
+          "password-weak": "The password is to weak. It must be at least 8 caracters long and contain upper-case and lower-case letters, figures (0-9) and special caracters (/*+.?,;:§!%ùµ*$@_()\u0027).",
+          "password-mismatch": "The password and the confirmation password don\u0027t match.",
+          "captcha": "You must enter the text you read in the image above to prove you are human.",
+          "token_not_found": "The token is invalid.",
+          "user_not_found": "The user was not found.",
+          "password_refused": "The password has been refused. It must be different from the previous one.",
+          "alphanumeric": "this field must only have alphanumerical characters"
+        }
+      },
+      "table": {
+        "no-data": "There is no data",
+        "delete": "Delete",
+        "activate": "Activate",
+        "deactivate": "Deactivate",
+        "export-csv": "Generate .csv",
+        "selected": "{{selected}} selected rows",
+        "actions": "Actions"
+      },
+      "button": {
+        "ok": "Ok",
+        "cancel": "Cancel",
+        "delete": "Delete",
+        "add": "Add",
+        "back": "Back",
+        "activate": "Activate",
+        "deactivate": "Deactivate",
+        "enable": "Enable",
+        "disable": "Disable",
+        "send": "Send",
+        "sign-out": "Sign out"
+      },
+      "filter": {
+        "properties": {
+          "from": "From",
+          "to": "To"
+        }
+      }
+    },
+    "home": {
+      "title": "Home",
+      "description": "Welcome to the Live Objects LPWA management platform !",
+      "devices": "{count, plural, =0{device} =1{device} other{devices}}",
+      "activated-devices": "Activated devices...",
+      "deactivated-devices": "Deactivated devices..."
+    },
+    "help": {
+      "title": "Help",
+      "documentation": {
+        "title": "Documentation",
+        "description": "Access online support documentation:",
+        "user-guide": "User guide",
+        "api-guide": "API guide",
+        "pdf": "PDF",
+        "html": "HTML"
+      },
+      "about": {
+        "title": "About",
+        "version-number": "Version number:"
+      }
+    },
+    "settings": {
+      "title": "Settings",
+      "account": {
+        "title": "Account",
+        "account-information": {
+          "title": "Account information"
+        },
+        "properties": {
+          "account-name": "Account name",
+          "email": "User email",
+          "bss-id": "Account number"
+        }
+      }
+    },
+    "device": {
+      "status": {
+        "info": "Information",
+        "location-info": "Position",
+        "refresh": "Refresh"
+      },
+      "views": {
+        "list": {
+          "title": "Devices",
+          "tab": "LoRa",
+          "button": {
+            "register": "Register a device",
+            "import": "Import"
+          },
+          "modal": {
+            "delete": {
+              "title": "Delete devices",
+              "content": "Are you sure you want to delete these devices?"
+            },
+            "activate": {
+              "title": "Device activation",
+              "content": "Are you sure you want to activate these devices?"
+            },
+            "deactivate": {
+              "title": "Device deactivation",
+              "content": "Are you sure you want to deactivate these devices?"
+            }
+          }
+        },
+        "status": {
+          "title": "Status"
+        },
+        "view": {
+          "title": "{deveui}",
+          "delete": "Delete",
+          "modal": {
+            "delete": {
+              "title": "Delete device",
+              "content": "Are you sure you want to delete this device?"
+            }
+          }
+        },
+        "save": {
+          "title": "Register a device",
+          "device-information": "LoRaWan information",
+          "custom-parameters": "Custom parameters"
+        },
+        "import": {
+          "title": "Preview before import",
+          "no-device": "No device to add"
+        },
+        "info": {
+          "title": "Information",
+          "device-state": "State",
+          "network-info": "Network",
+          "location-info": "Location",
+          "no-network-info": "The device has never communicated",
+          "device-parameters": "Parameters",
+          "optionsValues": {
+            "ackUl": "Uplink Ack",
+            "tdoa": "Geolocation TDOA"
+          },
+          "modal": {
+            "activate": {
+              "title": "Device activation",
+              "content": "Are you sure you want to activate this device?"
+            },
+            "deactivate": {
+              "title": "Device deactivation",
+              "content": "Are you sure you want to deactivate this device?"
+            }
+          }
+        },
+        "uplink": {
+          "title": "Uplink",
+          "message": {
+            "limit": "Only the last {limit} uplinks are displayed. You can scroll at the bottom of the page to display more or use the filter to limit the display period."
+          },
+          "limit": "Uplinks number : "
+        },
+        "downlink": {
+          "title": "Downlink",
+          "data": "Data",
+          "parameters": "Parameters",
+          "hexa": "Enter the data in hexadecimal",
+          "command": "Command",
+          "button": {
+            "send": "Send",
+            "resend": "Resend"
+          },
+          "modal": {
+            "send-anew": {
+              "title": "Send anew downlinks",
+              "content": "Are you sure you want to send anew these downlinks?"
+            }
+          }
+        },
+        "alarms": {
+          "title": "Alarms"
+        },
+        "statistics": {
+          "title": "Statistics"
+        }
+      },
+      "properties": {
+        "name": "Name",
+        "status": "Status",
+        "dev-eui": "DevEui",
+        "tags": "Tags",
+        "activation-mode": "Activation mode",
+        "class": "Class",
+        "last-com": "Last comm.",
+        "last-communication": "Last communication",
+        "app-eui": "AppEui",
+        "app-key": "AppKey",
+        "app-key_description": "The Application Key is provided by the hardware manufacturer. It is requested to link the device to the LoRa Network. This is a 32-character alphanumeric string.",
+        "app-skey": "AppSkey",
+        "nwk-skey": "NwkSKey",
+        "registration-date": "Registration date",
+        "custom-tags": "Custom tags",
+        "connectivity-options": "Connectivity options",
+        "connectivity-plan": "Connectivity plan",
+        "profile": "Profile",
+        "encoding": "Decoder",
+        "address": "Device address",
+        "network-signal": "Network signal",
+        "battery-level": "Battery",
+        "loc_position": "Lat/Lon",
+        "loc_accuracy": "Accuracy",
+        "loc_alt": "Altitude",
+        "loc_date": "Date",
+        "loc_type": "Type"
+      },
+      "enums": {
+        "status": {
+          "ACTIVATED": "Activated",
+          "DEACTIVATED": "Deactivated"
+        },
+        "activation-mode": {
+          "ABP": "Personalized",
+          "OTAA": "OverTheAir",
+          "OVER_THE_AIR": "OverTheAir",
+          "unknown": "Unknown activation mode"
+        },
+        "class": {
+          "A": "A",
+          "B": "B",
+          "C": "C"
+        },
+        "battery": {
+          "unavailable": "Unavailable",
+          "plugged-in": "Plugged in"
+        }
+      },
+      "form": {
+        "placeholders": {
+          "name": "enter a name",
+          "dev-eui": "enter a device EUI",
+          "app-eui": "enter an application EUI",
+          "app-key": "enter an application key",
+          "app-skey": "enter an application key",
+          "nwk-skey": "enter a network key",
+          "tag-key": "tag",
+          "tag-value": "value",
+          "profile": "enter a profile",
+          "decoder": "select a decoder",
+          "address": "enter a device address"
+        }
+      },
+      "error": {
+        "activation-type.unknown": "the activation mode is unknown",
+        "name.max-length": "the device name length must be less than 32 characters",
+        "dev-eui.empty": "the device EUI mustn't be empty",
+        "dev-eui.length": "the device EUI length must be 16 characters",
+        "dev-eui.hexa": "the device EUI must only contain hexadecimal characters (digits and abcdef)",
+        "profile.empty": "the profile mustn't be empty",
+        "app-eui.empty": "the application EUI mustn't be empty",
+        "app-eui.length": "the application EUI length must be 16 characters",
+        "app-eui.hexa": "the application EUI must only contain hexadecimal characters (digits and abcdef)",
+        "app-key.empty": "the application key mustn't be empty",
+        "app-key.not-empty": "the application key must be empty",
+        "app-key.length": "the application key length must be 32 characters",
+        "app-key.hexa": "the application key must only contain hexadecimal characters (digits and abcdef)",
+        "nwk-skey.empty": "the network session key mustn't be empty",
+        "nwk-skey.not-empty": "the network session key must be empty",
+        "nwk-skey.length": "the network session key length must be 32 characters",
+        "nwk-skey.hexa": "the network session key must only contain hexadecimal characters (digits and abcdef)",
+        "app-skey.empty": "the application session key mustn't be empty",
+        "app-skey.not-empty": "the application session key must be empty",
+        "app-skey.length": "the application session key length must be 32 characters",
+        "app-skey.hexa": "the application session key must only contain hexadecimal characters (digits and abcdef)",
+        "dev-addr.empty": "the device address mustn't be empty",
+        "dev-addr.not-empty": "the device address must be empty",
+        "dev-addr.length": "the device address length must be 8 characters",
+        "dev-addr.hexa": "the device address must only contain hexadecimal characters (digits and abcdef)"
+      },
+      "uplink": {
+        "enums": {
+          "status": {
+            "SUCCESS": "Succes",
+            "FAILED": "Failure"
+          }
+        },
+        "properties": {
+          "date": "Date",
+          "payload": "Payload",
+          "gateway": "Gateway",
+          "fcnt": "Fcnt",
+          "port": "Port",
+          "network-signal": "Network signal",
+          "decoding_status": "Decoding status",
+          "rssi": "Rssi",
+          "snr": "Snr",
+          "sf": "Sf",
+          "gatewayCnt": "Gateway count"
+        }
+      },
+      "downlink": {
+        "enums": {
+          "status": {
+            "PENDING": "Pending",
+            "SENT": "Sent",
+            "RECEIVED": "Received",
+            "ERROR": "Error"
+          }
+        },
+        "properties": {
+          "status": "Statut",
+          "date": "Date",
+          "payload": "Payload",
+          "gateway": "Gateway",
+          "fcnt": "Fcnt",
+          "port": "Port",
+          "rssi": "Rssi",
+          "snr": "Snr",
+          "sf": "Sf",
+          "confirmed": "Confirmed"
+        },
+        "placeholders": {
+          "port": "enter a port",
+          "fcnt": "enter a frame counter"
+        },
+        "status": "Data have been supplied to the core network, which will transmit it to the device as soon as it is listening to the network",
+        "confirmed": "Ask the device to acknowledge the receiving of this Downlink at next Uplink "
+      }
+    },
+    "user": {
+      "views": {
+        "add": {
+          "title": "Register a user",
+          "user-information": "User information"
+        },
+        "list": {
+          "title": "Users",
+          "modal": {
+            "enable": {
+              "title": "Enable users",
+              "content": "Are you sure you want to enable these users?"
+            },
+            "disable": {
+              "title": "Disable users",
+              "content": "Are you sure you want to disable these users?"
+            },
+            "delete": {
+              "title": "Delete users",
+              "content": "Are you sure you want to delete these users?"
+            }
+          }
+        }
+      },
+      "form": {
+        "placeholders": {
+          "email": "enter a email"
+        }
+      },
+      "enums": {
+        "role": {
+          "LPWA_USER": "User",
+          "LPWA_ADMIN": "Administrator"
+        },
+        "state": {
+          "enabled": "Enabled",
+          "disabled": "Disabled",
+          "suspended": "Suspended"
+        }
+      },
+      "properties": {
+        "email": "Email",
+        "roles": "Roles",
+        "state": "Etat"
+      }
+    },
+    "api-key": {
+      "views": {
+        "list": {
+          "title": "Api keys",
+          "show-session-keys": "Show the session keys",
+          "modal": {
+            "enable": {
+              "title": "Enable api keys",
+              "content": "Are you sure you want to enable these api keys?"
+            },
+            "disable": {
+              "title": "Disable api keys",
+              "content": "Are you sure you want to disable these api keys?"
+            },
+            "delete": {
+              "title": "Delete api keys",
+              "content": "Are you sure you want to delete these api keys?"
+            }
+          }
+        },
+        "add": {
+          "title": "Add an api key",
+          "api-key-information": "Information",
+          "modal": {
+            "added": {
+              "title": "Api key added",
+              "description": "Here the api key value. Keep it in a safe place."
+            }
+          }
+        },
+        "view": {
+          "title": "{label}",
+          "api-key-information": "Information",
+          "modal": {
+            "enable": {
+              "title": "Enable api key",
+              "content": "Are you sure you want to enable this api key?"
+            },
+            "disable": {
+              "title": "Disable api key",
+              "content": "Are you sure you want to disable this api key?"
+            },
+            "delete": {
+              "title": "Delete api key",
+              "content": "Are you sure you want to delete this api key?"
+            }
+          }
+        }
+      },
+      "enums": {
+        "role": {
+          "LPWA_USER": "User",
+          "LPWA_ADMIN": "Administrator"
+        },
+        "active": {
+          "enabled": "Enabled",
+          "disabled": "Disabled"
+        }
+      },
+      "form": {
+        "placeholders": {
+          "label": "enter a name",
+          "description": "enter a description",
+          "from": "enter a start date",
+          "to": "enter an end date",
+          "session-key": "enter a session key"
+        }
+      },
+      "properties": {
+        "label": "Name",
+        "roles": "Roles",
+        "last-activity": "Last activity",
+        "description": "Description",
+        "session-key": "Session key",
+        "master-key": "Master key",
+        "creation": "Creation",
+        "parent": "Parent",
+        "session-ttl": "Session TTL",
+        "from": "From",
+        "to": "To",
+        "active": "Active",
+        "validity": "Validity"
+      }
+    },
+    "fifo": {
+      "views": {
+        "list": {
+          "title": "Messages queues",
+          "title_short": "Msgs queues",
+          "description": "A message queue (FIFO) helps you consume data and prevent data loss from MQTT disconnections.<br/>Messages are persisted until a MQTT client is available and acknowledges the message.",
+          "fifo_quota": "Quota: {count} / 5",
+          "no_data": "There is no registered FIFO.",
+          "fields": {
+            "unread_msgs": "{messages}<br/>({messageBytes} bytes)",
+            "unacked_msgs": "{messageUnacknowledged}<br/>({messageUnacknowledgedBytes} bytes)"
+          },
+          "actions": "Actions",
+          "add": "Add FIFO",
+          "delete": "Delete",
+          "modal": {
+            "delete": {
+              "title": "Delete FIFO {name}",
+              "content": "Are you sure you want to delete the FIFO {name}?"
+            }
+          }
+        },
+        "add": {
+          "title": "Add a new FIFO",
+          "register": "Register",
+          "rk_tooltip": {
+            "all_devices": "Collects data of all your devices",
+            "single_device": "Collects data of designated device"
+          }
+        }
+      },
+      "properties": {
+        "name": "Name",
+        "routing_key": "Binding rule",
+        "unread_msgs": "Unread messages",
+        "unacked_msgs": "Unacked messages",
+        "consumers": "Consumers"
+      }
+    },
+    "data": {
+      "views": {
+        "list": {
+          "title": "Data",
+          "dataviz": "Kibana"
+        },
+        "details": {
+          "title": "Uplink message details",
+          "information": "Message information",
+          "decoded_data": "Decoded data",
+          "no_decoded_data": "There is no decoded data.",
+          "tags": "Customer tags",
+          "connectivity_data": "Connectivity information",
+          "json": "Details"
+        }
+      },
+      "components": {
+        "data-count-barchart": {
+          "title": "Data number",
+          "period": {
+            "day": "7 last days",
+            "week": "4 last weeks",
+            "month": "12 last months"
+          }
+        }
+      }
+    },
+    "login": {
+      "view": {
+        "auth": {
+          "title": "Identification",
+          "log-in": "Log in",
+          "sign-in": "Sign in",
+          "forgotten_password": "Forgotten password?"
+        },
+        "connect_as": {
+          "connecting": "Connecting..."
+        },
+        "update_password": {
+          "title": "Password update",
+          "update": "Update password"
+        },
+        "reset_password": {
+          "title": "Password reset",
+          "send_request": "Request password reset"
+        }
+      },
+      "form": {
+        "placeholders": {
+          "email": "enter your email",
+          "password": "enter your password",
+          "new_password": "enter the new password",
+          "confirm_new_password": "confirm the new password",
+          "captcha": "enter the text in the image above"
+        }
+      }
+    }
+  }
+}

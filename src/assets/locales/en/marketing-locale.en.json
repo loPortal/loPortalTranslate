@@ -1,0 +1,85 @@
+{
+  "marketing" : {
+    "panel1": {
+      "title": "Boost your IoT potential",
+      "sentence": "Live Objects is the Orange answer to manage your objects and collect, store, secure and process your IoT data."
+    },
+    "news": {
+      "ribbon": "News",
+      "readmore": "Read more",
+      "sdk": {
+        "title": "Prototype easily with our SDK!",
+        "content" : "A set of SDK compatible with the main prototyping platforms ARM, Arduino and Raspberry. Focus on your service and your users, we take care of the rest!"
+      },
+      "lorachallenge": {
+        "title": "LoRa&#174; IoT Challenge",
+        "content" : "48h to create a LoRa&#174; object or service in Smart-Agri,Smart-Cities or Smart-Mobility. <br>Live Objects manages devices and data of the Orange LoRa&#174; network."
+      },
+      "iotdevicecatalogue": {
+        "title": "IoT Device Catalogue",
+        "content" : "Looking for a specific object to develop your IoT project? Or you simply want to know our range of connected objects? Let yourself be guided through our IoT Device Catalogue.",
+        "link" : "<a target=\"_blank\" href=\"http://www.orange-business.com/files/media/library/iot_device_catalog_en.pdf\" class=\"btn\">Get the catalogue</a>"        
+      }
+    },
+    "account": {
+      "title": "Need a 3 months discover account?",
+      "button": "Discover Offer",
+      "content" : "You have a project, a question? <a target=\"_top\" href=\"mailto:liveobjects.contact@orange.com\" class=\"invert underline\">Contact sales here</a>"
+    },
+    "features": {
+      "title": "Features",
+      "content" : "3 months free offer limited to 10 devices with data retention.",
+      "left" : {
+        "proto" : {
+          "key" : "Supported protocols",
+          "value" : "LoRa&#174;&#42;, MQTT(S), REST"
+        },
+        "device" : {
+          "key" : "Simple device management",
+          "value" : "Provisionning, status, inventory, <br>command, firmware update"
+        },
+        "messagerouting" : {
+          "key" : "Message management",
+          "value" : "FIFO/PubSub/router"
+        },
+        "datastorage" : {
+          "key" : "Data storage",
+          "value" : "3 months retention"
+        }
+      },
+      "right": {
+        "dataindexation" : {
+          "key" : "Full data indexation & <br>multi criteria complex search",
+          "elasticsearch" : "Elasticsearch"
+        },
+        "eventprocessing" : {
+          "key" : "Event processing",
+          "value" : "Trigger on your data changes"
+        },
+        "alerting" : {
+          "key" : "Alerting",
+          "value" : "By email"
+        },
+        "support" : {
+          "key" : "Support",
+          "value" : "Documentation & email"
+        }
+      },
+      "lorastar": "you need to subscribe to LoRa&#174; offer when available in your country",
+      "discoverbutton": "Discover Offer",
+      "salesbutton": "Sales contact"
+    },
+    "platform": {
+      "title": "IoT Saas platform for an end to end value proposition",
+      "content": "SaaS hosting in Europe by Orange.",
+      "list": {
+        "protocolsmgt": "IoT & cellular protocols management",
+        "gatewaysmgt": "Local gateways management",
+        "devicemgt": "Device management",
+        "messagemgt": "Secured and intelligent message management",
+        "datamgt": "Advanced data management and storage",
+        "openapis": "Open APIs"
+      }
+    }
+  }
+}

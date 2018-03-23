@@ -1,0 +1,111 @@
+{
+  "sdk": {
+    "title": "Prototype and build your connected object",
+    "intro": "To quickly and easily prototype your connected object, discover the development boards validated by Orange and get our Software Development kits (SDKs).<br>Keep focus on your service and your users we take care of the rest!",
+    "arduino": "Arduino",
+    "raspberry": "Linux (Raspberry)",
+    "step": {
+      "discover": {
+        "title": "Discover",
+        "sentence": "Buy the hardware or use your own compatible boards to get started."
+      },
+      "register": {
+        "title": "Register",
+        "sentence": "Request an account on Live Objects developer website."
+      },
+      "develop": {
+        "title": "Develop",
+        "sentence": "Start building your applications using our Discover Offer."
+      },
+      "launch": {
+        "title": "Launch",
+        "sentence": "Contact our teams to support you start & grow your business."
+      },
+      "evolve": {
+        "title": "Evolve",
+        "sentence": "Deploy your devices at scale using our Saas platform."
+      }
+    },
+    "hardware" : {
+      "lora": {
+        "title": "Orange explorer LoRa® kit",
+        "sentence": "In collaboration with Microship, Orange is providing a development board that allows easy and quick prototyping of IoT objects and services using LoRa® technology.",
+        "components": {
+          "title": "Main components",
+          "items": {
+            "1": "Arduino-based platform",
+            "2": "Microchip RN2483 LoRa® module",
+            "3": "Microchip Bluetooth 4.2 module (BLE)",
+            "4": "On-board rechargeable coin cell battery",
+            "5": "Embedded (PCB) LoRa® antenna",
+            "6": "Temperature sensor, RGB LED"
+          }
+        },
+        "includes": {
+          "title": "Including",
+          "items": {
+            "1": "LoRa® module certified by Orange",
+            "2": "All documentation provided: user guide, example code, Orange libraries",
+            "3": "LoRa® module identifiers read by QR code directly on the board",
+            "4": "Access to Live Objects platform for device and data management",
+            "5": "<strong>Free access to LoRa® network for 3 months</strong> (then the price per device per month varies between 1€ and 2€ according to commitment)"
+          }
+        },
+        "buy": "Buy on Sodaq",
+        "sdk": "Download SDK & samples on GitHub"
+      },
+      "arm": {
+        "title": "ARM mbed",
+        "sentence": "In collaboration with ARM, Orange is providing a SDK for developers and startups to quickly and easily prototype an end-to-end IoT solution.",
+        "compatibility": "Compatible development boards :",
+        "nxp": {
+          "title": "NXP K64F board",
+          "description": "NXP K64F development board, K64 MCU (MK64FN1M0VLL12) based on ARM Cortex ® M4, 256K RAM, 1MB flash).",
+          "buy": "Buy on Mouser"
+        },
+        "nucleo": {
+          "title": "Nucleo board",
+          "description":"ST Microelectronics NUCLEO-F429ZI development board, STM32 MCU based on ARM Cortex M4.",
+          "buy": "Buy on Mouser"
+        },
+        "sdk": "Download SDK & samples on GitHub"
+      },
+      "arduino": {
+        "title": "Arduino",
+        "compatibility": "Compatible Arduino development boards (and IDE Arduino compatible)",
+        "mega": {
+          "title": "Arduino Mega board",
+          "description": "Arduino Mega 2560 Rev3 (without TLS).",
+          "buy": "Buy on Arduino"
+        },
+        "mediatek": {
+          "title": "Mediatek LinkIt One board",
+          "description": "Mediatek LinkIt One (Recommended for performance purpose).",
+          "buy": "Buy on Seed"
+        },
+        "sdk": "Download SDK & samples on GitHub"
+      },
+      "linux": {
+        "title": "Linux (Raspberry)",
+        "compatibility": "Compatible development boards :",
+        "pi2": {
+          "title": "Pi 2 Model B board",
+          "description": "Raspberry Pi 2 model B, quad-core ARM Cortex-A7 CPU.",
+          "buy": {
+            "label": "Buy on Raspberry",
+            "link": "https://www.raspberrypi.org/products/raspberry-pi-2-model-b/"
+          }
+        },
+        "pi3": {
+          "title": "Pi 3 Model B board",
+          "description": "Raspberry Pi 3 model B, quad-core ARMv8 CPU.",
+          "buy": {
+            "label": "Buy on Raspberry",
+            "link": "https://www.raspberrypi.org/products/raspberry-pi-3-model-b/"
+          }
+        },
+        "sdk": "Download SDK & samples on GitHub"
+      }
+    }
+  }
+}

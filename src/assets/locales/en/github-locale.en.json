@@ -1,0 +1,32 @@
+{
+  "github" : {
+    "header": {
+        "type": "Type",
+        "lang": "Language",
+        "buttons": ""
+    },
+    "type": {
+      "sdk": "SDK and code samples",
+      "sample": "Code samples",
+      "mbed" : {
+        "lib": "mbed OS library",
+        "sample": "mbed OS samples and demo"
+      }
+    },
+    "lang": {
+        "java": "Java",
+        "python": "Python",
+        "nodejs": "NodeJS",
+        "mbed": "mbed OS",
+        "arduino": "Arduino",
+        "raspberry": "Linux/Raspberry"
+
+    },
+    "button": {
+        "label": "Github"
+    },
+    "lora": {
+      "sdk": "Starter kit LoRa"
+    }
+  }
+}

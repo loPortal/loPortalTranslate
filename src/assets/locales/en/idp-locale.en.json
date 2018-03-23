@@ -1,0 +1,10 @@
+{
+  "idp": {
+    "logout": "You are logged out of Live Objects",
+    "timeout": "Your Live Objects session is expired",
+    "SIU": {
+      "url": "https://qa-espaceclient.orange-business.com/group/ece2/home?codeContexte=eceDefault",
+      "redirect": "Go back to my enterprise subscriber space"
+    }
+  }
+}

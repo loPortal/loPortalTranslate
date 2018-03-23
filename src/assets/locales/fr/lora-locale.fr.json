@@ -1,0 +1,570 @@
+{
+  "lora": {
+    "label": "LoRa",
+    "global": {
+      "title": "Live Objects LPWA",
+      "locale": {
+        "en": "EN",
+        "fr": "FR"
+      },
+      "form": {
+        "required": "obligatoire",
+        "error": {
+          "generic": "{message} (code : {code} - id : {id})",
+          "required": "ce champ ne doit pas être vide",
+          "email": "ce champ doit être une adresse mail",
+          "password": "adresse mail ou mot de passe invalide",
+          "bad-request": "un ou plusieurs paramètres sont invalides",
+          "server": "il y a eu une erreur interne sur le serveur",
+          "length": "ce champ doit avoir exactement {length, plural, =1{# caractère} other{# caractères}}",
+          "max-length": "ce champ doit avoir moins de {length, plural, =1{# caractère} other{# caractères}}",
+          "hexa-pattern": "ce champ doit être en hexadécimal (chiffres et abcdef)",
+          "password-weak" : "Le mot de passe est trop faible. Il doit contenir au moins 8 caractères comprenant des majuscules, minuscules, chiffres et caractères spéciaux (/*+.?,;:§!%ùµ*$@_()\u0027).",
+          "password-mismatch" : "Les mots de passe ne correspondent pas.",
+          "captcha" : "Vous devez saisir le texte de l'image ci-dessus pour prouver que vous êtes humain",
+          "token_not_found" : "Le jeton est invalide.",
+          "user_not_found" : "L'utilisateur n'a pas été trouvé.",
+          "password_refused" : "Le mot de passe a été refusé. Il doit être différent du précédent.",
+          "alphanumeric": "ce champ doit seulement avoir des caractères alphanumériques"
+        }
+      },
+      "table": {
+        "no-data": "Il n'y a aucune donnée",
+        "delete": "Supprimer",
+        "activate": "Activer",
+        "deactivate": "Désactiver",
+        "export-csv": "Exporter .csv",
+        "selected": "{selected} lignes sélectionnées",
+        "actions": "Actions"
+      },
+      "button": {
+        "ok": "Ok",
+        "cancel": "Annuler",
+        "delete": "Supprimer",
+        "add": "Ajouter",
+        "back": "Retour",
+        "activate": "Activer",
+        "deactivate": "Désactiver",
+        "enable": "Activer",
+        "disable": "Désactiver",
+        "send": "Envoi",
+        "sign-out": "Se déconnecter"
+      },
+      "filter": {
+        "properties": {
+          "from": "De",
+          "to": "A"
+        }
+      }
+    },
+    "home": {
+      "title": "Accueil",
+      "description": "Bienvenue sur la plateforme de gestion Live Objects LPWA !",
+      "devices": "{count, plural, =0{équipement} =1{équipement} other{équipements}}",
+      "activated-devices": "Equipements actifs...",
+      "deactivated-devices": "Equipements inactifs..."
+    },
+    "help": {
+      "title": "Aide",
+      "documentation": {
+        "title": "Documentation",
+        "description": "Accéder à la documentation en ligne :",
+        "user-guide": "Manuel utilisateur",
+        "api-guide": "Manuel de l'API",
+        "pdf": "PDF",
+        "html": "HTML"
+      },
+      "about": {
+        "title": "A propos",
+        "version-number": "Numéro de version :"
+      }
+    },
+    "settings": {
+      "title": "Paramètres",
+      "account": {
+        "title": "Compte",
+        "account-information": {
+          "title": "Informations du compte"
+        },
+        "properties": {
+          "account-name": "Nom du compte",
+          "email": "Mail de l'utilisateur",
+          "bss-id": "Numéro de compte"
+        }
+      }
+    },
+    "device": {
+      "status" : {
+        "info": "Information",
+        "location-info": "Position",
+        "refresh" : "Actualiser"
+      },
+      "views": {
+        "list": {
+          "title": "Equipements",
+          "tab": "LoRa",
+          "button": {
+            "register": "Ajouter un équipement",
+            "import": "Import"
+          },
+          "modal": {
+            "delete": {
+              "title": "Suppression d'équipements",
+              "content": "Etes-vous sûr de vouloir supprimer ces équipements ?"
+            },
+            "activate": {
+              "title": "Activation d'équipements",
+              "content": "Etes-vous sûr de vouloir activer ces équipements ?"
+            },
+            "deactivate": {
+              "title": "Désactivation d'équipements",
+              "content": "Etes-vous sûr de vouloir désactiver ces équipements ?"
+            }
+          }
+        },
+        "view": {
+          "title": "{deveui}",
+          "delete": "Supprimer",
+          "modal": {
+            "delete": {
+              "title": "Suppression de l'équipement",
+              "content": "Etes-vous sûr de vouloir supprimer cet équipement ?"
+            }
+          }
+        },
+        "status": {
+          "title": "Statut"
+        },
+        "save": {
+          "title": "Ajout d'un équipement",
+          "device-information": "Informations LoRaWan",
+          "custom-parameters": "Paramètres personnalisés"
+        },
+        "import": {
+          "title": "Prévisualisation avant import",
+          "no-device": "Aucun équipement à ajouter"
+        },
+        "info": {
+          "title": "Information",
+          "device-state": "Etat",
+          "network-info": "Réseau",
+          "location-info": "Position",
+          "no-network-info": "L'équipement n'a jamais communiqué",
+          "device-parameters": "Paramètres",
+          "optionsValues": {
+            "ackUl": "Ack Uplink",
+            "tdoa": "Géolocalisation TDOA"
+          },
+          "modal": {
+            "activate": {
+              "title": "Activation d'équipement",
+              "content": "Etes-vous sûr de vouloir activer cet équipement ?"
+            },
+            "deactivate": {
+              "title": "Désactivation d'équipement",
+              "content": "Etes-vous sûr de vouloir désactiver cet équipement ?"
+            }
+          }
+        },
+        "uplink": {
+          "title": "Uplink",
+          "message": {
+            "limit": "Seuls les {limit} derniers uplinks sont affichés. Vous pouvez scroller en bas de la page pour en afficher davantage ou utiliser le filtre pour limiter la période d'affichage."
+          },
+          "limit": "Nombre d'uplinks : "
+        },
+        "downlink": {
+          "title": "Downlink",
+          "data": "Données",
+          "parameters": "Paramètres",
+          "hexa": "Entrez les données en hexadécimal",
+          "command": "Commande",
+          "button": {
+            "send": "Envoyer",
+            "resend": "Réenvoyer"
+          },
+          "modal": {
+            "send-anew": {
+              "title": "Renvoi de downlinks",
+              "content": "Etes-vous sûr de vouloir envoyer à nouveau ces downlinks ?"
+            }
+          }
+        },
+        "alarms": {
+          "title": "Alarmes"
+        },
+        "statistics": {
+          "title": "Statistiques"
+        }
+      },
+      "properties": {
+        "name": "Nom",
+        "status": "Statut",
+        "dev-eui": "DevEui",
+        "tags": "Tags",
+        "activation-mode": "Mode d'activation",
+        "class": "Classe",
+        "last-com": "Dernière comm.",
+        "last-communication": "Dernière communication",
+        "app-eui": "AppEui",
+        "app-key": "AppKey",
+        "app-key_description": "L'Application Key est fournie par le constructeur de l’équipement. Elle est requise pour la procédure d’attachement au réseau. Il s’agit d’une chaîne alphanumérique sur 32 caractères.",
+        "app-skey": "AppSkey",
+        "nwk-skey": "NwkSKey",
+        "registration-date": "Date d'enregistrement",
+        "custom-tags": "Tags personnalisés",
+        "connectivity-options": "Options de connectivité",
+        "connectivity-plan": "Plan de connectivité",
+        "profile": "Profil",
+        "encoding": "Décodeur",
+        "address": "Adresse d'équipement",
+        "network-signal": "Signal réseau",
+        "battery-level": "Batterie",
+        "loc_position": "Lat/Lon",
+        "loc_accuracy": "Précision",
+        "loc_alt": "Altitude",
+        "loc_date": "Date",
+        "loc_type": "Type"
+
+      },
+      "enums": {
+        "status": {
+          "ACTIVATED": "Activé",
+          "DEACTIVATED": "Désactivé"
+        },
+        "activation-mode": {
+          "ABP": "Personnalisé",
+          "OTAA": "A distance",
+          "OVER_THE_AIR": "A distance",
+          "unknown": "Mode d'activation inconnu"
+        },
+        "class": {
+          "A": "A",
+          "B": "B",
+          "C": "C"
+        },
+        "battery": {
+          "unavailable": "Indisponible",
+          "plugged-in": "Sur secteur"
+        }
+      },
+      "form": {
+        "placeholders": {
+          "name": "entrez un nom",
+          "dev-eui": "entrez un EUI d'équipement",
+          "app-eui": "entrez un EUI d'application",
+          "app-key": "entrez une clé d'application",
+          "app-skey": "entrez une clé d'application",
+          "nwk-skey": "entrez une clé de réseau",
+          "tag-key": "tag",
+          "tag-value": "valeur",
+          "profile": "entrez un profil",
+          "decoder": "choisissez un décodeur",
+          "address": "entrez une adresse d'équipement"
+        }
+      },
+      "error": {
+        "activation-type.unknown": "le mode d'activation est inconnu",
+        "name.max-length": "la longueur du nom de l'équipement doit être inférieure ou égale à 32 caractères",
+        "dev-eui.empty": "l'EUI de l'équipement ne doit pas être vide",
+        "dev-eui.length": "la longueur de l'EUI de l'équipement doit être de 16 caractères",
+        "dev-eui.hexa": "l'EUI de l'équipement doit seulement être composé de caractères hexadécimaux (chiffres et abcdef)",
+        "profile.empty": "le profil ne doit pas être vide",
+        "app-eui.empty": "l'EUI de l'application ne doit pas être vide",
+        "app-eui.length": "la longueur de l'EUI de l'application doit être de 16 caractères",
+        "app-eui.hexa": "l'EUI de l'application doit seulement être composé de caractères hexadécimaux (chiffres et abcdef)",
+        "app-key.empty": "la clé de l'application ne doit pas être vide",
+        "app-key.not-empty": "la clé de l'application doit être vide",
+        "app-key.length": "la longueur de la clé de l'application doit être de 32 caractères",
+        "app-key.hexa": "la clé de l'application doit seulement être composée de caractères hexadécimaux (chiffres et abcdef)",
+        "nwk-skey.empty": "la clé de session du réseau ne doit pas être vide",
+        "nwk-skey.not-empty": "la clé de session du réseau doit être vide",
+        "nwk-skey.length": "la longueur de la clé de session du réseau doit être de 32 caractères",
+        "nwk-skey.hexa": "la clé de session du réseau doit seulement être composée de caractères hexadécimaux (chiffres et abcdef)",
+        "app-skey.empty": "la clé de session de l'application ne doit pas être vide",
+        "app-skey.not-empty": "la clé de session de l'application doit être vide",
+        "app-skey.length": "la longueur de la clé de session de l'application doit être de 32 caractères",
+        "app-skey.hexa": "la clé de session de l'application doit seulement être composée de caractères hexadécimaux (chiffres et abcdef)",
+        "dev-addr.empty": "l'adresse de l'équipement ne doit pas être vide",
+        "dev-addr.not-empty": "l'adresse de l'équipement doit être vide",
+        "dev-addr.length": "la longueur de l'adresse de l'équipement doit être de 8 caractères",
+        "dev-addr.hexa": "l'adresse de l'équipement doit seulement être composée de caractères hexadécimaux (chiffres et abcdef)"
+      },
+      "uplink": {
+        "enums": {
+          "status": {
+          "SUCCESS": "Succès",
+          "FAILED": "Echec"
+          }
+        },
+        "properties": {
+          "date": "Date",
+          "payload": "Payload",
+          "gateway": "Gateway",
+          "fcnt": "Fcnt",
+          "port": "Port",
+          "network-signal": "Signal réseau",
+          "decoding_status": "Statut de décodage",
+          "rssi": "Rssi",
+          "snr": "Snr",
+          "sf": "Sf",
+          "gatewayCnt": "Nb Gateway"
+        }
+      },
+      "downlink": {
+        "enums": {
+          "status": {
+            "PENDING": "En attente",
+            "SENT": "Envoyé",
+            "RECEIVED": "Reçu",
+            "ERROR": "Erreur"
+          }
+        },
+        "properties": {
+          "status": "Statut",
+          "date": "Date",
+          "payload": "Payload",
+          "gateway": "Gateway",
+          "fcnt": "Fcnt",
+          "port": "Port",
+          "rssi": "Rssi",
+          "snr": "Snr",
+          "sf": "Sf",
+          "confirmed": "Confirmé"
+        },
+        "placeholders": {
+          "port": "entrez un numéro de port",
+          "fcnt": "entrez un compteur de frame"
+        },
+        "status": "Le message a été fourni au cœur de réseau qui se chargera de le transmettre à l'équipement dès que ce dernier sera à l’écoute du réseau",
+        "confirmed": "Demande à l'équipement d’envoyer une confirmation de réception de ce Downlink lors du prochain Uplink"
+      }
+    },
+    "user": {
+      "views": {
+        "add": {
+          "title": "Ajout d'un utilisateur",
+          "user-information": "Information de l'utilisateur"
+        },
+        "list": {
+          "title": "Utilisateurs",
+          "modal": {
+            "enable": {
+              "title": "Activation d'utilisateurs",
+              "content": "Etes-vous sûr de vouloir activer ces utilisateurs ?"
+            },
+            "disable": {
+              "title": "Désactivation d'utilisateurs",
+              "content": "Etes-vous sûr de vouloir désactiver ces utilisateurs ?"
+            },
+            "delete": {
+              "title": "Suppression d'utilisateurs",
+              "content": "Etes-vous sûr de vouloir supprimer ces utilisateurs ?"
+            }
+          }
+        }
+      },
+      "form": {
+        "placeholders": {
+          "email": "entrez un mail"
+        }
+      },
+      "enums": {
+        "role": {
+          "LPWA_USER": "Utilisateur",
+          "LPWA_ADMIN": "Administrateur"
+        },
+        "state": {
+          "enabled": "Actif",
+          "disabled": "Inactif",
+          "suspended": "Suspendu"
+        }
+      },
+      "properties": {
+        "email": "Email",
+        "roles": "Rôles",
+        "state": "Etat"
+      }
+    },
+    "api-key": {
+      "views": {
+        "list": {
+          "title": "Clés d'API",
+          "show-session-keys": "Afficher les clés de session",
+          "modal": {
+            "enable": {
+              "title": "Activation des clés d'API",
+              "content": "Etes-vous sûr de vouloir activer ces clés d'API ?"
+            },
+            "disable": {
+              "title": "Désactivation des clés d'API",
+              "content": "Etes-vous sûr de vouloir désactiver ces clés d'API ?"
+            },
+            "delete": {
+              "title": "Suppression des clés d'API",
+              "content": "Etes-vous sûr de vouloir supprimer ces clés d'API ?"
+            }
+          }
+        },
+        "add": {
+          "title": "Ajout d'une clé d'API",
+          "api-key-information": "Information",
+          "modal": {
+            "added": {
+              "title": "Clé d'API ajoutée",
+              "description": "Voici la valeur de la clé d'API. Conservez la précieusement et en sécurité."
+            }
+          }
+        },
+        "view": {
+          "title": "{label}",
+          "api-key-information": "Information",
+          "modal": {
+            "enable": {
+              "title": "Activation de la clé d'API",
+              "content": "Etes-vous sûr de vouloir activer cet clé d'API ?"
+            },
+            "disable": {
+              "title": "Désactivation de la clé d'API",
+              "content": "Etes-vous sûr de vouloir désactiver cet clé d'API ?"
+            },
+            "delete": {
+              "title": "Suppression de la clé d'API",
+              "content": "Etes-vous sûr de vouloir supprimer cette clé d'API ?"
+            }
+          }
+        }
+      },
+      "enums": {
+        "role": {
+          "LPWA_USER": "Utilisateur",
+          "LPWA_ADMIN": "Administrateur"
+        },
+        "active": {
+          "enabled": "Activée",
+          "disabled": "Désactivée"
+        }
+      },
+      "form": {
+        "placeholders": {
+          "label": "entrez un nom",
+          "description": "entrez une description",
+          "from": "entrez une date de début",
+          "to": "entrez une date de fin",
+          "session-key": "entrez une clé de session"
+        }
+      },
+      "properties": {
+        "label": "Nom",
+        "roles": "Rôles",
+        "last-activity": "Dernière activité",
+        "description": "Description",
+        "session-key": "Clé de session",
+        "master-key": "Clé maître",
+        "creation": "Création",
+        "parent": "Parent",
+        "session-ttl": "TTL de session",
+        "from": "Du",
+        "to": "Au",
+        "active": "Active",
+        "validity": "Validité"
+      }
+    },
+    "fifo": {
+      "views": {
+        "list": {
+          "title": "Files de messages",
+          "title_short": "Files de msgs",
+          "description": "Une file de messages (FIFO) vous aide à consommer vos données et à éviter la perte de données en cas de perte de connexion MQTT.<br/>Les messages sont persistés jusqu'à ce qu'un client MQTT soit disponible et acquitte le message.",
+          "fifo_quota": "Quota: {count} / 5",
+          "no_data": "Il n'y a pas de FIFO enregistrée.",
+          "fields": {
+            "unread_msgs": "{messages}<br/>({messageBytes} octets)",
+            "unacked_msgs": "{messageUnacknowledged}<br/>({messageUnacknowledgedBytes} octets)"
+          },
+          "actions": "Actions",
+          "add": "Ajouter une FIFO",
+          "delete": "Supprimer",
+          "modal": {
+            "delete": {
+              "title": "Supprimer la FIFO {name}",
+              "content": "Etes-vous sûr de vouloir supprimer la FIFO {name} ?"
+            }
+          }
+        },
+        "add": {
+          "title": "Ajouter une nouvelle FIFO",
+          "register": "Enregistrer",
+          "rk_tooltip": {
+            "all_devices": "Collecte les données de tous les équipements",
+            "single_device": "Collecte les données d'un équipement en particulier"
+          }
+        }
+      },
+      "properties": {
+        "name": "Nom",
+        "routing_key": "Clé de routage",
+        "unread_msgs": "Messages non lus",
+        "unacked_msgs": "Messages non acquittés",
+        "consumers": "Consommateurs"
+      }
+    },
+    "data": {
+      "views": {
+        "list": {
+          "title": "Données",
+          "dataviz": "Kibana"
+        },
+        "details": {
+          "title": "Détails des données",
+          "information": "Informations sur les données",
+          "decoded_data": "Données décodées",
+          "no_decoded_data": "Il n'y a aucune donnée décodée.",
+          "tags": "Tags client",
+          "connectivity_data": "Informations de connectivité",
+          "json": "Détails"
+        }
+      },
+      "components": {
+        "data-count-barchart": {
+          "title": "Nombre de données (flux uplink)",
+          "period": {
+            "day": "7 derniers jours",
+            "week": "4 dernières semaines",
+            "month": "12 derniers mois"
+          }
+        }
+      }
+    },
+    "login": {
+      "view": {
+        "auth": {
+          "title": "Identification",
+          "log-in": "Connexion",
+          "sign-in": "S'enregistrer",
+          "forgotten_password": "Mot de passe oublié ?"
+        },
+        "connect_as": {
+          "connecting" : "Connexion en cours..."
+        },
+        "update_password": {
+          "title": "Mise à jour du mot de passe",
+          "update": "Mettre à jour le mot de passe"
+        },
+        "reset_password": {
+          "title": "Réinitialisation du mot de passe",
+          "send_request": "Réinitialiser le mot de passe"
+        }
+      },
+      "form": {
+        "placeholders": {
+          "email": "saisissez votre adresse e-mail",
+          "password": "saisissez votre mot de passe",
+          "new_password": "saisissez le nouveau de mot de passe",
+          "confirm_new_password": "confirmez le nouveau de mot de passe",
+          "captcha": "saisissez le texte de l'image ci-dessus"
+        }
+      }
+    }
+  }
+}

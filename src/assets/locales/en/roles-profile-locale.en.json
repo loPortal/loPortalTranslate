@@ -1,0 +1,67 @@
+{
+  "roles-profile": {
+    "labels": {
+      "profile": "Profile",
+      "roles": "Roles"
+    },
+    "profiles": {
+      "custom": "Customized",
+      "user": {
+        "user": "User",
+        "admin": "Administrator"
+      },
+      "api-key": {
+        "mqtt": "MQTT Device",
+        "application": "Application"
+      }
+    },
+    "roles": {
+      "table-header": {
+        "name": "Name",
+        "description": "Description",
+        "reading": "Reading",
+        "writing": "Writing"
+      },
+      "api_key": "API Key",
+      "api_key.description": "API Keys management",
+      "bus": "Bus access",
+      "bus.description": "Message Bus access using MQTT or HTTP",
+      "bus_config": "Bus Configuration",
+      "bus_config.description": "Routing Keys and Message Queues management",
+      "data": "Data",
+      "data.description": "Collected Data Access",
+      "data_processing": "Data Processing",
+      "data_processing.description": "Data Decoders and Events Processing management",
+      "device": "Device",
+      "device.description": "Device management",
+      "device_access": "Device Access",
+      "device_access.description": "Device mode MQTT access",
+      "kibana": "Kibana",
+      "kibana.description": "Kibana access",
+      "user": "User",
+      "user.description": "Users management",
+      "settings": "Account",
+      "settings.description": "Account configuration",
+      "campaign": "Campaign",
+      "campaign.description": "Managment of massive operations on a set of Devices",
+      "admin_tenant": "Admin / Tenant",
+      "admin_tenant.description": "Tenant account administration",
+      "admin_tool": "Admin / Tool",
+      "admin_tool.description": "Platform technical administration (ops)",
+      "admin_bss": "Admin / Offer",
+      "admin_bss.description": "BSS Offer Settings administration",
+      "admin_data_processing": "Admin / Data",
+      "admin_data_processing.description": "Decoder administration (JS)",
+      "admin_lora": "Admin / LoRa",
+      "admin_lora.description": "LoRa network administration",
+      "admin_partner": "Admin / Partner",
+      "admin_partner.description": "Partner account administration",
+      "admin_stat": "Admin / Statistics",
+      "admin_stat.description": "Tenant statistics administration",
+      "myplug_user": "MyPlug",
+      "myplug_user.description": "MyPlug services accesss",
+      "myplug_admin": "Admin / MyPlug",
+      "myplug_admin.description": "MyPlug services admin"
+    }
+  }
+}

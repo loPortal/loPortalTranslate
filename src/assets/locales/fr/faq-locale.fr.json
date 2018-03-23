@@ -1,0 +1,236 @@
+{
+  "faq": {
+
+    "account": {
+      "title": "Gestion de compte – Sécurité",
+      "login": {
+        "title": "Je n’arrive pas à me connecter au portail «Live Objects»",
+        "p1": "Live Objects dispose pour l’instant de deux portails (qui seront unifiés en 2017 en un portail unique) :",
+        "p1l1": "Le portail dédié à la  gestion des devices LoRa est accessible à l’adresse suivante : <a href=\"https://lpwa.liveobjects.orange-business.com\">https://lpwa.liveobjects.orange-business.com</a>",
+        "p1l2": "Pour les autres types d'objets le portail est accessible à l’adresse suivante : <a href=\"https://liveobjects.orange-business.com\">https://liveobjects.orange-business.com</a>",
+        "p2": "Lors de la première connexion vous devez cliquer sur le lien contenu dans l’email d’activation que vous avez reçu. Vous êtes alors invités à personnaliser votre mot de passe. Vous serez ensuite redirigés vers la page d’authentification de votre portail Live Objects.",
+        "p3": "NB : Votre identifiant de connexion est celui qui est indiqué dans votre email d’activation."
+       },
+      "password": {
+        "title": "J’ai oublié mon mot de passe, comment puis-je le retrouver ?",
+        "p1": "En cas d’oubli de votre mot de passe vous devez cliquer sur le lien « Mot de passe oublié ?» présent sur le formulaire d’identification du portail Live Objects et suivre les instructions. Vous recevrez un mail contenant un lien de réinitialisation valable 10 minutes."
+       },
+      "activation": {
+        "title": "Combien de temps le mail d’activation de mon compte est-il valide ?",
+        "p1": "Le lien d’activation contenu dans le mail envoyé lors de la création du compte Live Objects est valable 7 jours à compter de l’envoi du mail. En cas de lien expiré veuillez contacter votre service client."
+      },
+      "master-key": {
+        "title": "Master key – API key",
+        "p1": "La « Master key » est une clé d’administration associée à votre compte. Vous n’aurez en aucun cas besoin de l’utiliser. Elle est différente d’une clé d’API qui, elle, est utilisée pour accéder aux différents services offerts par Live Objects. Vous aurez néanmoins besoin de créer vos propres clés d’API qui serviront à identifier vos objets et applications pour utiliser les API de Live Objects. Nous vous conseillons d’utiliser des clés d’API différents par type d’objets ou d’application.",
+        "p2": "NB: les actions utilisateur sont limitées par les rôles qui lui sont attribués au sein d'un compte."
+      },
+      "keys": {
+        "title": "Combien de clés puis-je créer à partir de mon compte ?",
+        "p1": "Vous pouvez créer autant de clés que vous le souhaitez. Mais le nombre de devices que vous pouvez associer à votre compte <strong>«Découverte»</strong> est limité à 10 devices. Pas de limitations pour les offres payantes."
+      },
+      "key-in-account": {
+        "title": "Je n’arrive pas à voir la valeur de ma clé d’API listée dans mon portail",
+        "p1": "Lors de la création du compte une clé « MasterKey » est créée par le système. Cette clé est une clé « technique » qui ne peut être utilisée.",
+        "p2": "Vous devez créer vos propres clés. La valeur d’une clé API n’est affichée qu’une seule fois, lors de sa création. Il convient à ce moment-là de la noter et de la conserver précieusement car cette valeur n’est ensuite plus accessible ni par le portail, ni par le support client. En cas de perte d’une clé il est recommandé de la supprimer et en créer une nouvelle.",
+        "p3": "NB : Supprimer une clé la rend définitivement inutilisable pour toutes les applications qui l’utilisait jusqu’à lors. Il conviendra donc de remplacer l’ancienne clé par la nouvelle partout où elle était utilisée."       },
+       "key-roles": {
+        "title": "Quels sont les différents rôles d’une clé d’API ?",
+        "p1": "Chaque clé d’API a au moins un (1) rôle et au plus six (6) rôles:",
+        "p1l1": "<strong>ADMIN</strong> : L’administrateur du compte a accès à toutes les fonctions disponibles pour ce compte.",
+        "p1l2": "<strong>USER_READ</strong> : Il permet de lister tous les utilisateurs du compte mais ne peut apporter de modifications à ces utilisateurs.",
+        "p1l3": "<strong>APIKEY_ADMIN</strong> : Il permet de gérer les clés d’API et d’en créer de nouvelles.",
+        "p1l4": "<strong>APIKEY_READ</strong> : Il permet juste de lister les clés d’API du compte.",
+        "p1l5": "<strong>LWPA_ADMIN</strong> : Il concerne l’administration de la flotte d’objets LWPA (LORA). Il permet de gérer les comptes d’utilisateur LORA.",
+        "p1l6": "<strong>LWPA_USER</strong> : Concerne les utilisateurs de la flotte LPWA. Il permet de lister : des devices, les messages de liaison montante collectés et envoyer des commandes de liaison descendante."
+       },
+       "roles": {
+        "title": "Comment puis-je connaître tous les rôles donnés à un utilisateur par l’administrateur ?",
+        "p1": "Pour trouver tous les rôles donnés à votre profil utilisateur, rendez-vous sur l’interface de Live Objects, dans le panneau <strong><em>Configuration</em></strong>, et cliquez sur <strong><em>Utilisateurs</em></strong> dans le menu, trouvez ensuite votre compte utilisateur dans la liste présentée des utilisateurs du compte principal  et cliquez dessus. Vous trouverez tous les rôles attribués à votre compte utilisateur."
+      },
+       "data-private": {
+         "title": "Les données de mon compte sont-elles visibles par d'autres comptes ?",
+         "p1": "Les données d’un compte sont visibles uniquement par les utilisateurs du compte. Un autre compte ne peut pas y accéder."
+       },
+       "devices": {
+         "title": "Puis-je utiliser la même clé d’API avec plus d’un équipement ?",
+         "p1": "Vous pouvez utiliser la même clé d’API avec plus d’un équipement. Mais Live Objects compte et limite le nombre de sessions actives à partir d’une clé d’API : il est appelé “X-Rate-Limit-Remaining” (Le nombre de demandes envoyées pendant cette seconde) et sa limite est “X-Rate-Limit-Limit” (Le taux plafond par seconde).",
+         "p2": "Donc si, par exemple, vous utilisez 3 devices avec la même clé, et qu’à un moment donné ils envoient simultanément des requêtes en direction de Live Objects, si votre compte dispose d’un X-Rate-Limit-Limit qui vaut 2, alors après calcul du nombre de requête, Live Object bloquera la troisième requête et coupera la session automatiquement."
+       },
+       "command": {
+         "title": "Peut-on avoir la confirmation dans Live Objects qu’une commande a bien été acquittée par l'équipement LoRa® auquel on l’a envoyée ?",
+         "p1": "Il est possible de demander au réseau de gérer l’acquittement de l'équipement (mise en place des mécanismes de retry entre la gateway LoRa et l'équipement), mais cet acquittement n’est pas remonté à la plateforme Live Objects.",
+         "p2": "L’information remontée à la plateforme Live Objects par le réseau est :",
+         "p2l1": "attribut <strong><em>commandStatus</em></strong> : il indique si la commande a bien été prise en compte par le réseau (valeur «SENT») ou si elle est en erreur (valeur «ERROR»)",
+         "p2l2": "attribut <strong><em>confirmed</em></strong> : Cet attribut rappelle si un acquittement a été demandé lors de l’envoi de la commande (valeur «true»). Il ne représente pas l’acquittement de l'équipement lui-même.",
+         "p3": "Documentation API : <a href=\"https://liveobjects.orange-business.com/doc/html/lo_lora_manual.html#_register_command\">https://liveobjects.orange-business.com/doc/html/lo_lora_manual.html#_register_command</a>",
+         "p4": "Documentation portail : <a href=\"https://lpwa.liveobjects.orange-business.com/assets/doc/pdf/lo_lora_manual.pdf\">https://lpwa.liveobjects.orange-business.com/assets/doc/pdf/lo_lora_manual.pdf</a>"
+       }
+    },
+    "mqtt": {
+       "title": "Connexion MQTT",
+       "streamid": {
+         "title": "Qu’est ce qu’un streamId ?",
+         "p1": "Un StreamId est un flux de données que vous définissez pour sauvegarder vos données sur Live Objects. C’est une catégorisation des données que vous sauvegardez sur Live Objects.",
+         "p2": "Vous pouvez définir autant de StreamId que vous le souhaitez."
+       },
+       "json": {
+         "title": "Tester ma structure de message JSON envoie/réception",
+         "p1": "Si vous souhaitez tester votre code MQTT, mais vous ne disposez d’aucun objet connecté prêt, vous avez la possibilité d’utiliser plusieurs logiciels clients simulant le fonctionnement d’un équipement avec le protocole MQTT.",
+         "p2": "Par exemple ”<strong><em>MQTT.fx</em></strong>”, qui est un logiciel gratuit qui simule un objet connecté communiquant avec MQTT. Vous pouvez l’utiliser pour tester la structure de vos messages JSON, et simuler une véritable communication entre Live Objects et votre futur objet connecté. Avec ce logiciel, vous ne pouvez qu’envoyer et recevoir des messages JSON, ce qui suffit à simuler tout échange que votre objet connecté pourrait avoir avec Live Objects.",
+         "p3": "Exemple dans le <a href=\"https://liveobjects.orange-business.com/doc/html/lo_manual.html\">manuel développeur</a>"
+       },
+       "pictures": {
+         "title": "Puis-je sauvegarder des images à partir de l’API MQTT de Live Objects ?",
+         "p1": "Ce n’est pas possible."
+       },
+       "messages": {
+         "title": "Combien de messages peuvent être sauvegardés dans une file FIFO ?",
+         "p1": "Chaque compte  possède une limite de messages pouvant être stockés dans une file FIFO selon votre offre. Par exemple pour l’offre Découverte, vous pouvez sauvegarder exactement jusqu’à 1 Mégaoctets de messages dans la file FIFO."
+       },
+       "mqtt": {
+         "title": "Qu’est ce que MQTT ?",
+         "p1": "Message Queue Telemetry Transport (MQTT) est un protocole ISO standard. C’est  un protocole de messagerie légère (lightweight)  de type publication-souscription, situé en haut de la pile de protocoles TCP/IP. Il est utilisé pour échanger des messages « légers ». Ce qui est primordial pour les devices qui ont généralement une source d’énergie très limitée.",
+         "p2": "Voir aussi: <a href=\"https://en.wikipedia.org/wiki/MQTT\">Wikipédia MQTT</a>"
+         },
+       "topic": {
+         "title": "Qu’est ce qu’un Topic ?",
+         "p1": "Un “Topic” est un canal unidirectionnel de transmission de messages sur Live Objects : envoyer ou recevoir des messages de Live Objects. Aucun canal ne dispose des deux fonctionnalités à la fois (envoi vers Live Objects / réception de Live Objects). On ne retrouve ces canaux de communication que sur l’interface MQTT de Live Objects.",
+         "p2": "On distingue deux groupes de canaux : les Topics prédéfinis de Live Objects (dans le mode «MQTT device mode»), et les Topics personnalisés que vous définissez vous-même (dans le mode «MQTT bridge mode»).",
+         "p2l1": "Voir <a href=\"https://liveobjects.orange-business.com/doc/html/lo_manual.html\">manuel-Topics natifs</a> pour les canaux prédéfinis (liste exhaustive des canaux et de leurs fonctions).",
+         "p2l2": "Voir <a href=\"https://liveobjects.orange-business.com/doc/html/lo_manual.html\">manuel-Topics personnalisés</a> pour les canaux personnalisés."
+       },
+       "fifo-topic": {
+         "title": "Qu’est-ce qu’un topic FIFO ?",
+         "p1": "FIFO est l’un des trois types de canaux utilisables dans le mode «MQTT bridge mode» (voir <a href=\"https://liveobjects.orange-business.com/doc/html/lo_manual.html#FIFO\">manuel-topic FIFO</a>).",
+         "p2": "Avec le canal FIFO, tous les messages publiés sont stockés dans une file persistante sur un disque. Les messages sont conservés jusqu’à ce qu’un utilisateur se connecte à ce canal, récupère le message et renvoie un acquittement. Ce fonctionnement garantit que le message est transmis à au moins un souscripteur du Topic.",
+         "p2l1": "Voir <a href=\"https://liveobjects.orange-business.com/doc/html/lo_manual.html#MQTT_FIFO_PUB\">manuel-publication FIFO</a> pour les publications sur les canaux FIFO.",
+         "p2l2": "Voir <a href=\"https://liveobjects.orange-business.com/doc/html/lo_manual.html#MQTT_FIFO_SUB\">manuel-souscription FIFO</a> pour les souscriptions sur les canaux FIFO."
+       },
+      "pubsub-topic": {
+         "title": "Qu’est-ce qu’un topic PubSub ?",
+         "p1": "PubSub est l’un des trois types de canaux utilisables dans le mode «MQTT bridge mode» (voir <a href=\"https://liveobjects.orange-business.com/doc/html/lo_manual.html#PUBSUB\">manuel-Topic PubSub</a>).",
+         "p2": "C’est un canal de transmission qui transmet les messages en temps réel après leur émission à tous les souscripteurs connectés sans persistance. S’il n’y aucun souscripteur à ce moment-là le message est perdu.",
+         "p2l1": "Voir <a href=\"https://liveobjects.orange-business.com/doc/html/lo_manual.html#MQTT_PUBSUB_PUB\">manuel-publication PubSub</a> pour les publications sur les canaux PubSub.",
+         "p2l2": "Voir <a href=\"https://liveobjects.orange-business.com/doc/html/lo_manual.html#MQTT_PUBSUB_SUB\">manuel-souscription PubSub</a> pour les souscriptions sur les canaux PubSub."
+       },
+       "router-topic": {
+         "title": "Qu’est-ce qu’un topic Router ?",
+         "p1": "Router est l’un des trois types de canaux dans le mode «MQTT bridge mode» (voir <a href=\"https://liveobjects.orange-business.com/doc/html/lo_manual.html#ROUTER\">manuel-topic Router</a>).",
+         "p2": "Ce mode permet de rediriger un même message vers plusieurs destinations (fifo, service, topics...) en fonction d’une règle de routage.",
+         "p1l1": "See <a href=\"https://liveobjects.orange-business.com/doc/html/lo_manual.html#MQTT_ROUTER_PUB\">manuel-publication Router</a> pour les publications sur les canaux Router.",
+         "p1l2": "See <a href=\"https://liveobjects.orange-business.com/doc/html/lo_manual.html#MQTT_ROUTER_SUB\">manuel-souscription Router</a> pour les souscriptions sur les canaux Router."
+       },
+       "choice": {
+         "title": "Dois-je utiliser un topic Fifo, Router ou Pubsub ?",
+         "p1": "Les deux premiers modes sont les plus utilisés.",
+         "p2": "Le mode Fifo doit être choisi si l'on souhaite avoir une garantie de délivrance du message dans le cas d'une communication point à point. En cas de consommateurs concurrents le message est délivré au premier consommateur disponible et supprimé de la Fifo.",
+         "p3": "Le mode Router est adapté aux situations où l'émetteur du message ne connait pas à priori la  destination des messages. Ce mode apporte beaucoup de souplesse en permettant de router un message vers plusieurs destinations en fonction de règles de filtrage («binding»). Les Fifo peuvent être des destinations.",
+         "p4": "Le mode PubSub quant à lui est le mode le plus simple: Le message est diffusé à tous les consommateurs disponibles. Si aucun consommateur n'est disponible le message est perdu. Ce mode sera donc adapté pour des usages ne nécessitant pas de garantie de délivrance, et pour des besoins de broadcast."
+        },
+       "change-params": {
+         "title": "Qu’est-ce qui se passe si je modifie l’un des paramètres de mon équipement sur Live Objects: mon objet recevra-t-il à nouveau tous les paramètres ou juste celui modifié ?",
+         "p1": "Live Objects publiera uniquement le paramètre changé et sa nouvelle valeur. Cela marche aussi pour deux, trois… paramètres modifiés parmi ceux de l'équipement sur Live Objects."
+        },
+        "save-messages": {
+         "title": "Comment ne pas perdre de messages en cas de déconnexion de mon application ?",
+         "p1": "Live Objects permet de persister les messages dans des files « FIFO ». Les messages sont stockés dans la file tant qu’ils ne sont pas consommés par l’application. Une fois consommés ils sont supprimés de la file.",
+         "p2": "La mise en place d’une FIFO dans le portail LoRa est décrite ici : <a href=\"https://liveobjects.orange-business.com/doc/html/lo_lora_manual.html#_persisted_queue\">https://liveobjects.orange-business.com/doc/html/lo_lora_manual.html#_persisted_queue</a>"
+        },
+        "qos": {
+         "title": "Quels sont les niveaux de QoS MQTT offerts par Live Objects ?",
+         "p1": "Live Object prend en compte les niveaux 0 («<em>at most once</em>») et 1 («<em>at least once</em>») de qualité de service dans le standard MQTT."
+        }
+     },
+     "rest": {
+       "title": "Connexion REST",
+       "json": {
+         "title": "Où puis-je trouver la structure des messages JSON ?",
+         "p1": "Les différentes structures de message JSON  reconnues par Live Objects se trouvent ici : <a href=\"https://liveobjects.orange-business.com/swagger-ui/index.html\">swagger</a>"
+       },
+      "curl": {
+        "title": "Où puis-je trouver de la documentation sur les urls http des ressources Live Objects ?",
+         "p1": "Les Urls utilisées pour communiquer sur l’interface REST de Live Objects sont totalement présentées dans swagger. Elles commencent toutes par le préfixe  “<strong>liveobjects.orange-business.com/api/v0/</strong>”. Pour déterminer le suffixe approprié, correspondant au service que vous souhaitez atteindre, cliquez sur la méthode correspondante dans la liste donnée dans  le swagger. Vous verrez le suffixe, sa constitution et quelle partie de ce suffixe dépend de votre structure de projet personnelle. Par exemple, le suffixe de l’Url pour récupérer ou envoyer des données (à Live Objects) est : “<strong>/api/v0/data/streams/&#60;streamId&#62;</strong>” où <strong>streamId</strong> est l’un de ceux que vous avez déjà définis auparavant pour sauvegarder vos données sur Live Objects."
+       },
+      "test": {
+        "title": "Outils de test et de débug de ma requête sur l’interface REST",
+        "p1": "Nous vous conseillons d'utiliser Postman (<a href=\"https://www.getpostman.com\">https://www.getpostman.com</a>) pour vous aider dans vos développements. Il s'agit d'un client REST capable de vous assister dans la construction et l'envoi de requêtes vers LiveObjects, d'importer des requêtes Curl ou encore de générer des extraits de code dans différents langages."
+       }
+     },
+    "data": {
+      "title": "Gestion des données",
+      "payload": {
+        "title": "Quelle structure dois-je suivre pour la payload de données à envoyer à Live Objects ?",
+            "p1": "Le message JSON envoyé à Live Objects pour sauvegarder des données doit suivre la structure suivante :",
+            "p2": "<pre><code>&#123;\n  \"s\": \"&#60;&#60;streamId&#62;&#62;\",\n  \"ts\": \"&#60;&#60;timestamp&#62;&#62;\",\n  \"m\": \"&#60;&#60;model&#62;&#62;\",\n  \"v\": &#123;\n    ... &#60;&#60;value&#62;&#62; JSON object ...\n  &#125;,\n  \"t\": [&#60;&#60;tag1>>,&#60;&#60;tag2&#62;&#62;,...],\n  \"loc\": [&#60;&#60;latitude&#62;&#62;, &#60;&#60;longitude&#62;&#62;]\n&#125;</code></pre>",
+            "p3": "Trouvez <a href=\"https://liveobjects.orange-business.com/doc/html/lo_manual.htm#MQTT_DEV_DATA\">ici</a> la définition de chaque terme.",
+            "p4": "Ce que vous devez retenir, c’est que le <strong><em>model</em></strong> (sa valeur) que vous donnez, sera associé à la structure JSON se trouvant dans le champ <strong><em>value</em></strong> (payload). La correspondance entre le libellé du modèle et la structure JSON se fait au premier envoie du couple de valeurs <strong><em>(model value ; JSON object structure du champ value)</em></strong> à Live Objects. Après cela, vous êtes obligés d’utiliser la même structure de données  pour le champ value à chaque fois que vous mettez cette valeur du champ <strong><em>model</em></strong>. Sinon vos données concernées seront perdues, car non indexées."
+            },
+      "elasticsearch": {
+        "title": "Que dois-je faire pour rendre mes données indexables par Elasticsearch ?",
+            "p1": "Live Objects le fait pour vous. Il n’y a rien de plus à faire. Une fois que vous envoyez les données sur Live Objects dans le topic « dev/data », s’il est bien formé selon le modèle de données auquel il est associé, alors il est automatiquement indexé par Elasticsearch."
+          },
+      "send": {
+        "title": "Comment consommer des données en temps réel avec Live Objects ?",
+            "p1": "Pour consommer en temps réel les données remontées par vos devices, l’interface MQTT de Live Objects doit être utilisée.",
+            "p2": "L’exploration de données peut se faire en HTTP via les API REST qui intègre des fonctions avancées de recherche et de filtres. Il n’existe pas de mode «Push» en http.",
+            "p3": "L’utilisation de MQTT pour la consommation de données remontées par des devices LoRa est décrite ici : <a href=\"https://liveobjects.orange-business.com/doc/html/lo_lora_manual.html#MQTT_API\">https://liveobjects.orange-business.com/doc/html/lo_lora_manual.html#MQTT_API</a>",
+            "p4": "Des exemples de code client mettant en œuvre MQTT sont disponibles ici : <a href=\"https://developer.orange.com/apis/datavenue/code-sample\">https://developer.orange.com/apis/datavenue/code-sample</a>"
+          },
+      "kibana": {
+        "title": "Mes nouvelles données ne sont pas visibles dans Kibana",
+        "p1": "Lors de l’ajout de nouveaux champs dans la structure Json «value» il est nécessaire de mettre à jour manuellement l’index dans Kibana pour pouvoir les visualiser.",
+            "p2": "Pour cela aller dans le menu Settings, sélectionner «timestamp» dans la liste déroulante «Time-field name», et cliquer sur le bouton «Create»."
+          },
+      "time": {
+        "title": "Combien de temps les données sont-elles stockées dans Live Objects ?",
+        "p1": "Les données sont stockées dans Live Objects avec une durée de rétention de 1 an. Les données, dont la date de création est antérieure à 1 an, seront automatiquement supprimées (par contre, les devices ne sont pas supprimés)."
+        }
+    },
+    "command": {
+      "title": "Envoi de commande",
+      "mac": {
+        "title": "Puis-je envoyer des commandes MAC à un device à partir de Live Objects ?",
+        "p1": "Live Objects LPWA ne permet par l’envoi de commandes MAC directement (via le port 0). Les données envoyées sont des données applicatives."
+      },
+      "acknowledge": {
+        "title": "Peut-on avoir la confirmation dans Live Objects qu’une commande a bien été acquittée par le device LoRa auquel on l’a envoyée ?",
+        "p1": "Il est possible de demander au réseau de gérer l’acquittement d’une commande envoyée au device (mise en place des mécanismes de retry entre la gateway LoRa et le device), mais cet acquittement n’est pas remonté à la plateforme Live Objects.",
+        "p2": "L’information remontée à la plateforme Live Objects par le réseau est :",
+        "p2l1": "attribut <strong>commandStatus</strong> : il indique si la commande a bien été prise en compte par le réseau (valeur «SENT») ou si elle est en erreur (valeur «ERROR»). C’est cette donnée qui permet d’afficher le statut d’envoi de la commande dans le portail,",
+        "p2l2": "attribut <strong>confirmed</strong> : cet attribut rappelle si un acquittement device a été demandé lors de l’envoi de la commande (valeur «true»). Il ne représente pas l’acquittement du device lui-même."
+      },
+      "payload": {
+        "title": "Quelle est la taille maximale de la payload LoRa downlink ?",
+        "p1": "La taille maximale d’une payload en downlink est de 50 octets; elle doit être toujours pair."
+      }
+    },
+    "lora": {
+      "title": "Lora / Device / Provisioning",
+      "list": {
+        "title": "Où puis-je trouver la liste des devices LoRa certifiés sur le réseau Orange ?",
+        "p1": "Vous pouvez trouver cette liste ici : <em><a target=\"_blank\" href=\"http://www.orange-programmepartenaires.com/sites/default/files/Orange%20LoRa%C2%AE%20device%20reference%20list%20Mai%202017.pdf\">http://www.orange-programmepartenaires.com/sites/default/files/Orange%20LoRa%C2%AE%20device%20reference%20list%20Mai%202017.pdf</a></em>.",
+        "p2": "Cette liste contient pour chaque modèle le device profile à renseigner lors du provisioning."
+      },
+      "abp": {
+        "title": "Est-il possible de provisionner un device en mode personnalisé (ABP) ?",
+        "p1": "Orange recommande l’utilisation du mode OTAA sur son réseau. Pour des besoins en mode ABP, veuillez nous consulter."
+      },
+      "param": {
+        "title": "Comment obtenir les paramètres DevEUI, AppEUI et AppKey nécessaires au provisioning des devices dans Live Objects ?",
+        "p1": "Le DevEUI est un identifiant unique du matériel; il est fourni avec votre matériel.",
+        "p2": "Les paramètres AppEUI et AppKey sont des paramètres propres au propriétaire de l’objet et/ou de l’applicatif utilisé avec l’objet (voir la spécification LoraWan <em><a target=\"_blank\" href=\"https://www.lora-alliance.org/portals/0/specs/LoRaWAN%20Specification%201R0.pdf\">https://www.lora-alliance.org/portals/0/specs/LoRaWAN%20Specification%201R0.pdf</a></em>)."
+      },
+      "profile": {
+        "title": "Quel device profile indiquer lors du provisioning dans Live Objects ?",
+        "p1": "Vous devez choisir dans la liste des devices profiles disponibles (via portail ou API) celui correspondant à votre modèle. Consultez dans le fichier des devices certifiés quel est le device profile associé à chaque device, module ou chipset (voir question précédente).",
+        "p2": "Si votre modèle de device ne figure pas dans la liste, vous pouvez utiliser un modèle générique en spreading factor 12 correspondant à la classe de votre objet (A ou C):",
+        "p2l1": "classe A : Generic_classA_RX2SF12,",
+        "p2l2": "classe C : Generic_classC_RX2SF12."
+      },
+      "network": {
+        "title": "Puis-je utiliser mon device LoRa sur plusieurs réseaux à la fois ?",
+        "p1": "Un device LoRa ne peut être provisionné que sur un réseau à la fois."
+      }
+    }
+  }
+}

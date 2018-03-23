@@ -1,0 +1,118 @@
+{
+  "dashboard": {
+    "messages": {
+      "missing-rights": "You do not have enough rights to visualize the data. Please contact your administrator.",
+      "no-data": "Data unavailable",
+      "add-first-device": "Add my device",
+      "need-device": "Need a device ?"
+    },
+    "multi": {
+      "fleet-status": "Devices status",
+      "devices-label": "{number, plural, =1{Device} other{Devices}}",
+      "donut": {
+        "legend": {
+          "lora-devices": "{number, plural, =1{<span style=\"font-size:20px;\"><strong>#</strong></span> LoRa device} other{<span style=\"font-size:20px;\"><strong>#</strong></span> LoRa devices}}",
+          "mqtt-devices": "{number, plural, =1{<span style=\"font-size:20px;\"><strong>#</strong></span> Mqtt device} other{<span style=\"font-size:20px;\"><strong>#</strong></span> Mqtt devices}}",
+          "sms-devices": "{number, plural, =1{<span style=\"font-size:20px;\"><strong>#</strong></span> SMS device} other{<span style=\"font-size:20px;\"><strong>#</strong></span> SMS devices}}"
+        },
+        "tooltips": {
+          "lora-devices": "LoRa",
+          "mqtt-devices": "Mqtt",
+          "sms-devices": "SMS"
+        }
+      }
+    },
+    "lora": {
+      "title": "LoRa",
+      "fleet-status": "Devices status",
+      "devices-label": "{number, plural, =1{LoRa device} other{LoRa devices}}",
+      "donut": {
+        "legend": {
+          "active": "{number, plural, =1{<span style=\"font-size:20px;\"><strong>#</strong></span> activated device} other{<span style=\"font-size:20px;\"><strong>#</strong></span> activated devices}}",
+          "inactive": "{number, plural, =1{<span style=\"font-size:20px;\"><strong>#</strong></span> deactivated device} other{<span style=\"font-size:20px;\"><strong>#</strong></span> deactivated devices}}"
+        },
+        "tooltips": {
+          "active": "Activated",
+          "inactive": "Deactivated"
+        }
+      }
+    },
+    "mqtt": {
+      "title": "MQTT",
+      "fleet-status": "Devices status",
+      "devices-label": "{number, plural, =1{Mqtt device} other{Mqtt devices}}",
+      "donut": {
+        "legend": {
+          "online": "{number, plural, =1{<span style=\"font-size:20px;\"><strong>#</strong></span> connected device} other{<span style=\"font-size:20px;\"><strong>#</strong></span> connected device}}",
+          "offline": "{number, plural, =1{<span style=\"font-size:20px;\"><strong>#</strong></span> disconnected device} other{<span style=\"font-size:20px;\"><strong>#</strong></span> disconnected devices}}"
+        },
+        "tooltips": {
+          "active": "Connected",
+          "inactive": "Disconnected"
+        }
+      }
+    },
+    "sms": {
+      "title": "SMS",
+      "fleet-status": "Devices status",
+      "devices-label": "{number, plural, =1{SMS device} other{SMS devices}}",
+      "donut": {
+        "legend": {
+          "active": "{number, plural, =1{<span style=\"font-size:20px;\"><strong>#</strong></span> activated device} other{<span style=\"font-size:20px;\"><strong>#</strong></span> activated devices}}",
+          "inactive": "{number, plural, =1{<span style=\"font-size:20px;\"><strong>#</strong></span> deactivated device} other{<span style=\"font-size:20px;\"><strong>#</strong></span> deactivated devices}}"
+        },
+        "tooltips": {
+          "active": "Activated",
+          "inactive": "Deactivated"
+        }
+      }
+    },
+    "quotas": {
+      "heading": "Quotas",
+      "labels": {
+        "fifos": "Message queues",
+        "api-keys": "Api keys",
+        "users": "Users"
+      }
+    },
+    "dates": {
+      "last-7-days": "Last 7 days",
+      "last-4-weeks": "Last 4 weeks",
+      "last-12-months": "Last 12 months"
+    },
+    "fleet-activity": {
+      "title": "Devices activity",
+      "traffic-consumption": {
+        "title": "Recent traffic consumption",
+        "messages": "Messages",
+        "bytes": "Bytes",
+        "y-scale-label": "Msg",
+        "multi": {
+          "msg-in": "Incoming messages",
+          "msg-out": "Outgoing messages",
+          "bytes-in": "Incoming traffic",
+          "bytes-out": "Outgoing traffic"
+        },
+        "lora": {
+          "msg-in": "Uplink messages",
+          "msg-out": "Downlink messages"
+        },
+        "mqtt": {
+          "msg-in": "Incoming messages",
+          "msg-out": "Outgoing messages",
+          "bytes-in": "Incoming traffic",
+          "bytes-out": "Outgoing traffic"
+        },
+        "sms": {
+          "msg-in": "Uplink messages",
+          "msg-out": "Downlink messages"
+        }
+      },
+      "devices": {
+        "title": "Devices activity",
+        "communicating": "Communicating",
+        "idle": "Idle"
+      }
+    }
+  }
+}

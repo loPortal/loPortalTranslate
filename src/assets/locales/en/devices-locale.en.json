@@ -1,0 +1,47 @@
+{
+  "devices": {
+    "welcome": {
+      "title": "Register your first device",
+      "mqtt": "MQTT and REST devices require you to define an API key in the configuration tab.",
+      "lora": "LoRa® devices require you to enter the DevEui, AppEui and AppKey information provided by your supplier.",
+      "sms": "SMS devices require you to configure MSISDNs (mobile numbers) configured in the Configuration tab.",
+      "button": {
+        "doc": "Documentation",
+        "add-device": "Add device"
+      }
+    },
+    "mqtt": {
+      "label": "MANAGED/MQTT"
+    },
+    "lwm2m": {
+      "label": "LWM2M"
+    },
+    "lora": {
+      "label": "LoRa"
+    },
+    "left-menu" : {
+        "devices": "Devices"
+    },
+    "groups" : {
+      "alldevices" : "All devices",
+      "actions": {
+        "add": "Add subgroup",
+        "edit": "Edit",
+        "move": "Move",
+        "delete": "Delete",
+        "refresh" : "Refresh"
+      }
+    },
+    "action-labels": {
+      "add": "Add device",
+      "import": "Import"
+    },
+    "export": {
+      "progress-title": "Please wait while exporting to Csv file",
+      "progress-label": "Processing devices ...",
+      "success": "The selected devices have been successfully exported",
+      "failure": "Export failed: an error occurred during processing <br/> {message}",
+      "canceled": "Export canceled"
+    }
+  }
+}

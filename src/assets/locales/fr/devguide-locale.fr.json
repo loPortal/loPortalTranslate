@@ -1,0 +1,20 @@
+{
+  "devguide" : {
+    "button": {
+      "html": "Ouvrir la documentation",
+      "pdf": "Télécharger le PDF"
+    }
+  },
+  "lodevguide" : {
+    "title": "Le guide de développement complet Live Objects Datavenue",
+    "text": "La documentation Live Objects est disponible en ligne ou peut être récupérée au format PDF."
+  },
+  "loradevguide" : {
+    "title": "Le guide de développement complet LoRa",
+    "text": "La documentation LoRa est disponible en ligne ou peut être récupérée au format PDF."
+  },
+  "lorauserguide" : {
+    "title": "Le guide utilisateur du portail Live Objects pour LoRa",
+    "text": "La documentation LoRa peut être récupérée au format PDF."
+  }
+}

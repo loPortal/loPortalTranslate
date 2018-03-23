@@ -1,0 +1,47 @@
+{
+  "devices": {
+    "welcome": {
+      "title": "Déclarez votre premier équipement",
+      "mqtt": "Pour les équipements MQTT et REST vous aurez besoin de définir une clef d'API dans l'onglet configuration.",
+      "lora": "Pour les équipements LoRa® vous aurez besoin des informations de DevEui, AppEui et AppKey fournies par le fabriquant.",
+      "sms": "Pour les équipements SMS, vous devez d'abord autoriser les MSISDN (numéro de mobile) dans l'onglet Configuration.",
+      "button": {
+        "doc": "Documentation",
+        "add-device": "Ajouter un équipement"
+      }
+    },
+    "mqtt": {
+      "label": "MANAGED/MQTT"
+    },
+    "lwm2m": {
+      "label": "LWM2M"
+    },
+    "lora": {
+      "label": "LoRa"
+    },
+    "left-menu": {
+      "devices": "Equipements"
+    },
+    "groups": {
+      "alldevices": "Tous les équipements",
+      "actions": {
+        "add": "Ajouter sous-groupe",
+        "edit": "Editer",
+        "move": "Déplacer",
+        "delete": "Supprimer",
+        "refresh": "Rafraichir"
+      }
+    },
+    "action-labels": {
+      "add": "Ajouter un équipement",
+      "import": "Importer"
+    },
+    "export": {
+      "progress-title": "Merci de patienter pendant l'exportation Csv",
+      "progress-label": "Traitement des équipements en cours ...",
+      "success": "Les équipements sélectionnés ont été exportés avec succès",
+      "failure": "L'exportation a échoué: Une erreur est survenue pendant l'opération <br/> {message}",
+      "canceled": "Exportation annulée"
+    }
+  }
+}

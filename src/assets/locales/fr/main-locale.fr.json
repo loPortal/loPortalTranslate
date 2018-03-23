@@ -1,0 +1,1701 @@
+{
+  "common": {
+    "datetime": {
+      "from": "De",
+      "to": "A",
+      "clear": "Vider",
+      "close": "Fermer",
+      "current": "Aujourd'hui",
+      "dateFormat": "DD-MM-YYYY"
+    },
+    "router": {
+      "back": "Retour"
+    },
+    "table": {
+      "filter": "Filtre",
+      "refresh": "Actualiser",
+      "show-details": "Afficher détails",
+      "hide-details": "Masquer détails"
+    },
+    "searchbox": {
+      "placeholder": "Ajouter des filtres",
+      "suggest": "Filtres:"
+    },
+    "captcha": {
+      "renew": "Renouveler"
+    },
+    "form": {
+      "click-to-edit": "Cliquer pour éditer",
+      "press-enter-to-confirm-a-new-value": "Appuyez sur Entrée pour confirmer la valeur"
+    },
+    "message": {
+      "unknown-http-error": "Erreur inconnue pour la requête {method} {url}",
+      "unknown-error": "Erreur inconnue",
+      "group-error": "{number, plural, =1{# operation a échoué} other{# operations ont échoué}}",
+      "http-warning": {
+        "quota-exceeded": "La limite de recherche autorisée est dépassée, veuillez réessayer dans quelques secondes."
+      },
+      "error": "Une erreur est survenue, l'operation a échoué : <br> {message}"
+    },
+    "action": {
+      "cancel": "Annuler",
+      "copy-to-clipboard": "Copier dans le presse-papier"
+    },
+    "ui-tour": {
+      "navigation": {
+        "stop": "Terminer le tour",
+        "prev": "Précédent",
+        "next": "Suivant",
+        "restart": "Rejouer le tour",
+        "enter": "Prêt à utiliser Live Objects !"
+      }
+    }
+  },
+  "lo": {
+    "about": {
+      "title": "A propos",
+      "version": "Numéro de version"
+    },
+    "trial": "Offre Découverte",
+    "tabname": "Live Objects",
+    "supra-header": {
+      "orange-business-services": {
+        "label": "Orange Business Services",
+        "link": "https://www.orange-business.com/fr/produits/live-objects"
+      },
+      "orange-partner": {
+        "label": "Orange Partner",
+        "link": "https://partner.orange.com/solutions-iot-pour-developpeurs/#partenariats-iot-orange"
+      }
+    },
+    "menu": {
+      "dashboard": "Tableau de bord"
+    },
+    "toprightmenu": {
+      "documentation": "Documentation",
+      "login": "Connexion",
+      "signin": "Inscription",
+      "logout": "Déconnexion",
+      "logout-idp": "Quitter LiveObjects"
+    },
+    "kibana": {
+      "title": "Kibana"
+    },
+    "sdk": {
+      "title": "Prototyper",
+      "tooltip": "SDKs pour ARM, Arduino, Raspberry"
+    },
+    "footer": {
+      "legal": "Mentions Légales"
+    },
+    "global": {
+      "locale": {
+        "en": "EN",
+        "fr": "FR"
+      },
+      "type": {
+        "uint32": "UINT32",
+        "int32": "INT32",
+        "binary": "BINARY",
+        "timestamp": "TIMESTAMP",
+        "string": "STRING",
+        "float": "FLOAT"
+      },
+      "form": {
+        "required": "obligatoire",
+        "fieldrequired": "champ obligatoire",
+        "error": {
+          "generic": "{message} (code : {code} - id : {id})",
+          "required": "ce champ ne doit pas être vide",
+          "email": "ce champ doit être une adresse mail",
+          "password": "l'adresse mail ou le mot de passe sont invalides",
+          "bad-request": "un ou plusieurs paramètres sont invalides",
+          "server": "il y a eu une erreur interne sur le serveur",
+          "length": "ce champ doit avoir exactement {length, plural, =1{# caractère} other{# caractères}}",
+          "max-length": "ce champ doit avoir moins de {length, plural, =1{# caractère} other{# caractères}}",
+          "hexa-pattern": "ce champ doit être en hexadécimal (chiffres et abcdef)",
+          "password-weak": "<div><span>Le nouveau mot de passe n'est pas assez fort :</span><ul><li>8 caractères minimum</li><li>1 chiffre ou plus</li><li>1 lettre minuscule ou plus</li><li>1 lettre majuscule ou plus</li><li>1 caractère spécial ou plus (/*+.?,;:§!%ùµ*$@_()\u0027) avec aucun espace</ul></div>",
+          "password-mismatch": "Les mots de passe ne correspondent pas.",
+          "captcha": "Vous devez saisir le texte de l'image ci-dessus pour prouver que vous êtes humains",
+          "alphanumeric": "ce champ ne doit contenir que des caractères alphanumériques",
+          "cmn-json": "Ce champ doit être au format JSON",
+          "login-minlength": "Le champ de login doit contenir au moins 3 caractères",
+          "login-pattern": "Le champ de login doit être un mail ou ne contenir que des caractères alphanumériques, '-' ou '_'",
+          "duplicate-key": "Le tableau ne peux pas avoir deux entrées identiques",
+          "empty-key": "Chaque valeur du tableau doit avoir une clef d'indexation",
+          "duplicate-value": "La liste ne peut pas avoir deux valeurs identiques"
+        },
+        "login": {
+          "label": "Login",
+          "placeholder": "saisissez votre identifiant (email par défaut)"
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": "jean.martin@orange.com"
+        },
+        "captcha": {
+          "placeholder": "saisissez le code ci-dessus"
+        },
+        "password": {
+          "label": "Mot de passe",
+          "placeholder": "saisissez votre mot de passe"
+        },
+        "password-confirmation": {
+          "label": "Confirmation",
+          "placeholder": "confirmez votre mot de passe"
+        },
+        "first-name": {
+          "label": "Prénom",
+          "placeholder": "Jean"
+        },
+        "last-name": {
+          "label": "Nom",
+          "placeholder": "Martin"
+        },
+        "phone": {
+          "label": "Téléphone",
+          "placeholder": "0102030405"
+        },
+        "organization": {
+          "label": "Entreprise",
+          "placeholder": "Mon entreprise"
+        },
+        "country": {
+          "label": "Pays",
+          "placeholder": "-- sélectionnez votre pays --"
+        }
+      },
+      "table": {
+        "no-data": "Il n'y a aucune donnée",
+        "delete": "Supprimer",
+        "activate": "Activer",
+        "deactivate": "Désactiver",
+        "export-csv": "Exporter dans un fichier au format csv",
+        "selected": "{selected} lignes sélectionnées",
+        "filter": "filtre"
+      },
+      "action": {
+        "ok": "Ok",
+        "close": "Fermer",
+        "cancel": "Annuler",
+        "delete": "Supprimer",
+        "move": "Déplacer",
+        "add": "Ajouter",
+        "create": "Créer",
+        "save": "Enregistrer",
+        "back": "Retour",
+        "activate": "Activer",
+        "deactivate": "Désactiver",
+        "enable": "Activer",
+        "disable": "Désactiver",
+        "import": "Importer",
+        "send": "Envoi",
+        "sign-out": "Se déconnecter",
+        "download-sample": "Télécharger un exemple",
+        "reset": "Réinitialiser",
+        "yes": "Oui",
+        "no": "Non",
+        "regenerate": "Régénérer",
+        "refresh": "Actualiser",
+        "update": "Mettre à jour",
+        "details": "Détails",
+        "validate": "Valider",
+        "connectas": "Se connecter en tant que",
+        "sendactivationmail": "Envoyer le mail d'activation",
+        "suspend": "Suspendre",
+        "test": "Tester"
+      },
+      "state": {
+        "active": "actif",
+        "inactive": "inactif",
+        "loading": "Chargement..."
+      },
+      "modal": {
+        "confirmation": {
+          "title": "Confirmation",
+          "label": "Etes vous sûrs de vouloir {label} ?"
+        },
+        "info": {
+          "title": "Information"
+        },
+        "delete": {
+          "title": "Suppression",
+          "label": "Etes vous sûrs de vouloir supprimer {label} ?"
+        }
+      },
+      "list": {
+        "refresh": "Actualiser",
+        "of": "sur",
+        "header": {
+          "actions": "Actions",
+          "tenant": "Titulaire",
+          "type": "Type",
+          "status": "Statut"
+        },
+        "action": {
+          "edit": "Editer",
+          "delete": "Supprimer",
+          "details": "Détails",
+          "activate": "Activation",
+          "reset_pwd": "Réinitialiser le mot de passe"
+        }
+      },
+      "select": {
+        "all": "Tous"
+      },
+      "success": {
+        "title": "Succès"
+      },
+      "error": {
+        "title": "Erreur"
+      },
+      "panel": {
+        "information": "Informations"
+      },
+      "unit": {
+        "per": "{value}/{max}",
+        "per-mb": "{value}Mb/{max}Mb",
+        "per-unlimited": "{value}/Illimité",
+        "mb": "{value}Mb"
+      },
+      "chart": {
+        "no-data": "Aucune donnée à afficher",
+        "period": {
+          "daily": "jour par jour",
+          "monthly": "cumulée du mois"
+        }
+      }
+    },
+    "datastore": {
+      "help": {
+        "stream": "Identifiant du stream dans lequel sont envoyées les données des objets afin de les classer, défini dans la payload reçue.",
+        "source": "Identifiant de la source de données (DevEui pour LoRa, couple namespace:ID pour MQTT…)."
+      },
+      "views.list.title": "Données",
+      "table.export-csv": "export to csv",
+      "date": "Date",
+      "value": "Valeur",
+      "stream": "Stream",
+      "source": "Source",
+      "connector": "Interface",
+      "actions": "Actions",
+      "answers": "{number, plural, =0{Aucune réponse} =1{# réponse} other{# réponses}}",
+      "total-devices": "{number, plural, =0{} =1{# équipement.} other{# équipements.}}",
+      "selected-devices": "{number, plural, =0{# équipement sélectionné} =1{# équipement sélectionné} other{# équipements sélectionnés}}",
+      "select-all-devices-in-group": "Sélectionnez les {devices} équipements dans {group}",
+      "select-all-devices-in-all-devices": "Sélectionnez les {devices} équipements",
+      "tags": "Tags",
+      "total": "{number, plural, =0{Aucune donnée} =1{# donnée} other{# données}}",
+      "search": "Recherche",
+      "details": "Détails",
+      "details.tooltip": "Voir la donnée complète",
+      "device": "Equipement",
+      "device.tooltip": "Aller sur le détail de l'équipement",
+      "fcnt": "Fcnt",
+      "port": "Port",
+      "network-signal": "Signal réseau",
+      "rssi-snr-sf": "Rssi, Snr, Sf"
+    },
+    "datasearch": {
+      "views.list.title": "Data Search",
+      "table.export-csv": "export to csv",
+      "date": "Date",
+      "message": "Message",
+      "stream": "Streams",
+      "source": "Source",
+      "tags": "Tags"
+    },
+    "devices": {
+      "title": "Parc",
+      "properties": {
+        "name": "Nom",
+        "status": "Statut",
+        "dev-eui": "DevEui",
+        "activation-mode": "Mode d'activation",
+        "class": "Classe",
+        "last-com": "Dernière comm."
+      },
+      "list": {
+        "title": "Parc"
+      },
+      "statistics": {
+        "count": {
+          "active": "{number, plural, =0{Aucun équipement actif} =1{Equipement actif} other{Equipements actifs}}",
+          "declared": "{number, plural, =0{Aucun équipement déclaré} =1{<strong class=\"text-important\">#</strong> équipement déclaré} other{<strong class=\"text-important\">#</strong> équipements déclarés}}",
+          "advanced-declared": "{number, plural, =0{Aucun équipement avancé déclaré} =1{<strong class=\"text-important\">#</strong> équipement avancé déclaré} other{<strong class=\"text-important\">#</strong> équipements avancés déclaré}}"
+        }
+      }
+    },
+    "password": {
+      "security": "le mot de passe doit avoir:<br> - min 1 chiffre<br> - min 1 caractere spécial /*-+.?,;:!%*$@_()'<br> - min 1 minuscule<br> - min 1 majuscule<br> - taille min de 8 caractere",
+      "confirm": "le mot de passe et sa confirmation doivent être identiques"
+    },
+    "support": {
+      "label": "Support",
+      "tooltip": "Support technique & commercial"
+    },
+    "help": {
+      "label": "Développeur",
+      "tooltip": "Documentation & ressources développeur",
+      "menu": {
+        "faq": "FAQ",
+        "devguide": "Guide développeur",
+        "userguide": "Manuel utilisateur",
+        "swagger": "Swagger",
+        "github": "SDK & exemples de code",
+        "postman": "Postman",
+        "tutorials": "Tutoriels",
+        "about": "A propos"
+      },
+      "mqtt_spec": "Spécifications d'interface du codec MQTT",
+      "rest_spec": "Spécifications d'interface du codec REST",
+      "websocket_spec": "Spécifications d'interface du codec WebSocket",
+      "tlv_spec": "Spécifications du codec d'encodage des messages TLV",
+      "json_spec": "Spécifications du codec d'encodage des messages JSON",
+      "about": "A propos",
+      "about_id": "Id",
+      "about_version": "Version",
+      "about_source_update_time": "Date de mise à jour des sources",
+      "about_build_time": "Date de génération",
+      "manual": "Guide dev",
+      "html": "HTML",
+      "pdf": "PDF",
+      "swagger": "Swagger API"
+    },
+    "api-key": {
+      "views": {
+        "welcome": {
+          "title": "Créez une clé pour vous connecter aux API Live Objects ",
+          "api-key": "Une clé d'API est nécessaire pour pouvoir connecter un équipement ou une application en MQTT ou REST à Live Objets.<br><br>La clé utilisée identifie votre compte et disposent de certains droits.<br><br>Vos clés doivent rester secrètes. Nous vous recommandons d'utiliser des clés d'API différentes par type d'usage.",
+          "button": {
+            "doc": "Documentation",
+            "add-api-key": "Ajouter une clé d'API"
+          }
+        },
+        "list": {
+          "title": "Clés d'API",
+          "show-session-keys": "Afficher les clés de session",
+          "total": "{number, plural, =0{Aucune clé d'API} =1{# clé d'API} other{# clés d'API}}",
+          "modal": {
+            "enable": {
+              "title": "Activation des clés d'API",
+              "content": "Etes-vous sûr de vouloir activer ces clés d'API ?"
+            },
+            "disable": {
+              "title": "Désactivation des clés d'API",
+              "content": "Etes-vous sûr de vouloir désactiver ces clés d'API ?"
+            },
+            "delete": {
+              "title": "Suppression des clés d'API",
+              "content": "Etes-vous sûr de vouloir supprimer ces clés d'API ?"
+            }
+          }
+        },
+        "add": {
+          "title": "Ajout d'une clé d'API",
+          "api-key-information": "Information",
+          "child-of": "Fille de ",
+          "modal": {
+            "added": {
+              "title": "Clé d'API ajoutée",
+              "description": "Voici la valeur de la clé d'API. Conservez la précieusement et en sécurité."
+            }
+          }
+        },
+        "view": {
+          "title": "{label}",
+          "help": {
+            "fifos-scope": {
+              "p1": "Vous pouvez restreindre les droits de cette clé d'API en écrivant ici le nom d'une ou plusieurs files de messages.",
+              "p2": "Ainsi, la clé d’API ne pourra être utilisée qu’en accès MQTT limité à ces files de messages sélectionnées. Cela permet par exemple, après avoir orienté le bon équipement vers la bonne file, de restreindre l’accès aux données de certains équipements."
+            },
+            "validity-from": "La clé est utilisable à partir de la date choisie",
+            "validity-to": "Si la date est saisie, la clé ne sera plus utilisable au-delà de cette date"
+          },
+          "api-key-information": "Informations",
+          "hidden-value": "La valeur de la clé d'API est cachée pour des raisons de sécurité",
+          "children-keys": "Clés filles",
+          "modal": {
+            "enable": {
+              "title": "Activation de la clé d'API",
+              "content": "Etes-vous sûr de vouloir activer cet clé d'API ?"
+            },
+            "disable": {
+              "title": "Désactivation de la clé d'API",
+              "content": "Etes-vous sûr de vouloir désactiver cet clé d'API ?"
+            },
+            "delete": {
+              "title": "Suppression de la clé d'API",
+              "content": "Etes-vous sûr de vouloir supprimer cette clé d'API ?"
+            },
+            "regenerate": {
+              "title": "Régénération de la clé d'API",
+              "content": "Etes vous sûrs de vouloir régénérer cette clé d'API ? Tous les devices utilisant cette clé ne pourront plus communiquer."
+            }
+          }
+        }
+      },
+      "enums": {
+        "role": {
+          "LPWA_USER": "Utilisateur",
+          "LPWA_ADMIN": "Administrateur"
+        },
+        "active": {
+          "enabled": "Activée",
+          "disabled": "Désactivée"
+        }
+      },
+      "form": {
+        "placeholders": {
+          "label": "entrez un nom",
+          "description": "entrez une description",
+          "from": "entrez une date de début",
+          "to": "entrez une date de fin",
+          "ttl": "entrez une durée de vie en secondes",
+          "roles": "sélectionnez au moins un rôle",
+          "fifos": "entrez les files à utiliser",
+          "additional-roles": "sélectionnez optionnellement un ou plusieurs rôles"
+        }
+      },
+      "properties": {
+        "label": "Nom",
+        "roles": "Rôles",
+        "profile": "Profil",
+        "fifos": "Restriction aux Files",
+        "last-activity": "Dernière activité",
+        "description": "Description",
+        "session-key": "Clé de session",
+        "master-key": "Clé maître",
+        "creation": "Création",
+        "parent": "Parent",
+        "ttl": "Durée de vie",
+        "from": "Valide à partir de",
+        "to": "Valide jusqu'au",
+        "active": "Active",
+        "validity": "Validité",
+        "value": "Valeur",
+        "type": "Type",
+        "status": "Statut"
+      }
+    },
+    "assets": {
+      "success": {
+        "asset_deleted": "Equipement supprimé avec succès",
+        "command_deleted": "Commande supprimée avec succès",
+        "command_canceled": "Commande annulée avec succès",
+        "command_registered": "Commande enregistrée avec succès",
+        "moved_to_group": "Votre sélection a été déplacée avec succès vers '{group}'"
+      },
+      "modal": {
+        "delete_confirmation": "Etes-vous sûr de vouloir supprimer ces équipements ?",
+        "move": {
+          "title": "Déplacer la sélection vers",
+          "destination-label": "Destination",
+          "placeholder": "sélectionnez un groupe",
+          "validation": "Déplacer"
+        }
+      },
+      "list": {
+        "title": "Managed/Mqtt",
+        "all": "Equipements au total",
+        "total": "{number, plural, =0{Aucun équipement} =1{# équipement} other{# équipements}}",
+        "filter": {
+          "namespace": "Espace de nommage",
+          "id": "Id",
+          "status": "Statut",
+          "tags": "Tags",
+          "search": "chercher",
+          "property": "Propriété"
+        },
+        "no_assets": "Aucun équipement à afficher.",
+        "header": {
+          "namespace": "Espace de nommage",
+          "id": "Id",
+          "status": "Statut",
+          "name": "Nom",
+          "tags": "Tags",
+          "last_contact": "Dernier contact",
+          "path": "Chemin",
+          "actions": "Actions",
+          "group": "Groupe"
+        },
+        "connected": "connecté",
+        "disconnected": "hors ligne",
+        "direct": "direct",
+        "hops": "sauts",
+        "delete": "Supprimer",
+        "details": "détails"
+      },
+      "import": {
+        "title": "Importer de nouveaux équipements"
+      },
+      "new": {
+        "title": "Ajouter un nouvel équipement",
+        "namespace": "Espace de nommage",
+        "namespace_caption": "Saisissez l'espace de nommage de l'équipement",
+        "namespace_description": "L'espace de nommage de votre équipement est libre. Il permet d'éviter les conflits entre différents identifiants (ex : modèle d'équipement, IMEI, MSISDN, etc.). Il ne doit contenir que des caractères alphanumériques (a-z, A-Z, 0-9). ",
+        "id": "Id",
+        "id_caption": "Saisissez l'id de l'équipement",
+        "id_description": "L'ID de votre équipement (ex: IMEI, serial number, MAC adress, etc.) est libre. Il ne doit contenir que des caractères alphanumériques  (a-z, A-Z, 0-9) et/ou des caractères spéciaux parmi : - _ | + et doit éviter # / !.",
+        "name": "Nom",
+        "name_caption": "nom de l'équipement",
+        "description": "Description",
+        "description_caption": "Entrer une description de l'équipement",
+        "group": "Groupe",
+        "tags": "Tags",
+        "tags_caption": "Liste de tags",
+        "properties": {
+          "title": "Propriétés",
+          "key": "label",
+          "value": "valeur",
+          "placeholder": {
+            "key": "Entrer le label de la propriété",
+            "value": "Entrer la valeur de la propriété"
+          }
+        },
+        "properties_caption": "Liste de propriétés",
+        "register": "Enregistrer",
+        "cancel": "Annuler"
+      },
+      "view": {
+        "title": "{namespace} / {id}",
+        "back": "Retour",
+        "tabs": {
+          "identity": "Identité",
+          "status": "Statut",
+          "parameters": "Paramètres",
+          "commands": "Commandes",
+          "resources": "Firmwares"
+        }
+      },
+      "param": {
+        "list": {
+          "nb_params": "L'équipement a <strong>{ assetParamsCount }</strong> paramètres enregistrés.",
+          "no_params": "Aucun paramètre déclaré pour l'équipement.",
+          "header": {
+            "id": "Id",
+            "value": "Valeur",
+            "value_ts": "Date de la valeur",
+            "status": "Statut",
+            "last_status": "Dernier changement de statut",
+            "target_value": "Valeur cible",
+            "actions": "Actions"
+          },
+          "tooltip": {
+            "operation-status": {
+              "new": "nouveau",
+              "pending": "en attente",
+              "in_sync": "synchronisé",
+              "failed": "échoué",
+              "cancelled": "annulé",
+              "sent": "envoyé"
+            }
+          },
+          "edit": "Editer",
+          "send_changes": "Envoyer les changements",
+          "reset_changes": "Réinitialiser les changements"
+        },
+        "edit": {
+          "title": "Modifier les paramètres de l'équipement",
+          "value_type": "Type de valeur",
+          "value_32": "Valeur (INT32)",
+          "value_32_caption": "saisissez la valeur (INT32)",
+          "value_u32": "Valeur (UINT32)",
+          "value_u32_caption": "saisissez la valeur (UINT32)",
+          "value_bin": "Valeur (BINARY)",
+          "value_bin_caption": "saisissez la valeur (binary : base64)",
+          "value_ts": "Valeur (date/heure)",
+          "value_ts_caption": "saisissez la date et heure",
+          "value_string": "Valeur (string)",
+          "value_string_caption": "saisissez la valeur de la chaîne (UTF-8)",
+          "value_float": "Valeur (float)",
+          "value_float_caption": "saisissez la valeur (float)",
+          "update": "Modifier",
+          "cancel": "Annuler"
+        }
+      },
+      "identity": {
+        "created": "Date de création",
+        "urn": "URN"
+      },
+      "status": {
+        "name": "Nom",
+        "name_caption": "nom de l'équipement",
+        "identifier": "Identifiant",
+        "id": "Id",
+        "namespace": "namespace",
+        "state": "Etat",
+        "status": "Statut",
+        "metadata": "Metadata",
+        "connected": "connecté",
+        "disconnected": "hors ligne",
+        "last_contact": "Dernier contact",
+        "paramUpdateTopic": "Topic de mise à jour des paramètres",
+        "commandUpdateTopic": "Topic d'envoi de commandes",
+        "resourceUpdateTopic": "Topic de mise à jour des firmwares",
+        "identity": "Identité",
+        "tags": "Tags",
+        "properties": "Propriétés",
+        "propertiesErrors": {
+          "duplicate-key": "Les clés des propriétés doivent être différentes",
+          "empty-key": "Veuillez renseigner le label de la propriété"
+        },
+        "info": "Info",
+        "group": "Groupe"
+      },
+      "commands": {
+        "modal": {
+          "delete_confirmation": "Etes-vous sûr de vouloir supprimer ces commandes ?",
+          "repeat_confirmation": "Etes-vous sûr de vouloir répéter ces commandes ?",
+          "cancel_confirmation": "Etes-vous sûr de vouloir annuler ces commandes ?"
+        },
+        "list": {
+          "add": "Ajouter une commande",
+          "paging": "Commandes <strong>{from}</strong> à <strong>{to}</strong> sur <strong>{of}</strong>",
+          "no_commands": "Aucune commande à afficher",
+          "header": {
+            "creation": "Création",
+            "request": "Requête",
+            "req_params": "Paramètres",
+            "req_payload": "Payload",
+            "status": "Statut",
+            "last_update": "Dernière mise à jour",
+            "response": "Réponse",
+            "res_params": "Paramètres",
+            "res_payload": "Payload",
+            "actions": "Actions"
+          },
+          "cancel": "Annuler",
+          "details": "détails",
+          "repeat": "Répéter",
+          "delete": "Supprimer",
+          "req": {
+            "event": "event",
+            "params": "params",
+            "payload": "payload"
+          }
+        },
+        "new": {
+          "title": "Enregistrer une nouvelle commande",
+          "namespace": "Espace de nommage",
+          "namespace_caption": "saisissez l'espace de nommage",
+          "id": "Id",
+          "id_caption": "saisissez l'id",
+          "event": "Evènement",
+          "event_caption": "saisissez la commande 'évènement' (ou méthode)",
+          "payload": "Données",
+          "payload_caption": "saisissez les données de la commande non encodées en base64 (ex: RC:98:A:1:AZ:EZEZA) ",
+          "data": "Parametres",
+          "data_caption": "{jsontpl}",
+          "register": "Enregistrer",
+          "cancel": "Annuler"
+        }
+      },
+      "path": {
+        "title": "Chemin de l'équipement",
+        "close": "Fermer"
+      },
+      "resources": {
+        "list": {
+          "title": "Firmwares",
+          "pagination": "Firmwares <strong>{from}</strong> à <strong>{to}</strong> sur <strong>{of}</strong>",
+          "no_resources": "Aucun firmware déclaré pour cet équipement.",
+          "total": "{number, plural, =0{Aucun firmware} =1{# firmware} other{# firmwares}}",
+          "header": {
+            "resourceId": "Id du firmware",
+            "last_refresh": "Dernière actualisation",
+            "current_version": "Version actuelle",
+            "current_version_ts": "Date de la version actuelle",
+            "target_version": "Version cible",
+            "target_version_ts": "Date de la version cible",
+            "update_status": "Statut de mise à jour",
+            "actions": "Actions"
+          },
+          "set_target_version": "Changer"
+        },
+        "history": {
+          "title": "Historique des mises à jours",
+          "pagination": "Mises à jour <strong>{from}</strong> à <strong>{to}</strong> sur <strong>{of}</strong>",
+          "no_history": "Il n'y a pas d'historique de mise à jour pour cet équipement.",
+          "header": {
+            "id": "Id",
+            "resourceId": "Id du firmware",
+            "sourceVersion": "Source",
+            "targetVersion": "Cible",
+            "topicResourceUpdate": "Topic de mise à jour",
+            "creationTs": "Date de début",
+            "status": "Statut",
+            "updateTs": "Date d'actualisation",
+            "progress": "Progression (%)"
+          }
+        },
+        "target": {
+          "title": "Définir la version cible",
+          "targetVersion": "Version cible",
+          "targetVersion_caption": "saisissez la version cible du firmware",
+          "register": "Enregistrer",
+          "cancel": "Annuler"
+        }
+      },
+      "cancel_update": {
+        "title": "Annuler la mise à jour",
+        "label": "Annuler la mise à jour"
+      }
+    },
+    "message_bus": {
+      "title": "Bus de message",
+      "success": {
+        "fifo_created": "FIFO Créée",
+        "fifo_deleted": "FIFO supprimée",
+        "binding_created": "Route créée avec succès"
+      },
+      "error": {
+        "fifo_created_failed": "Création FIFO impossible"
+      },
+      "alert": {
+        "read_forbidden": "Vous n’avez pas les permissions de lecture sur cette section, contactez l’administrateur du compte pour les obtenir"
+      },
+      "lora": {
+        "add": {
+          "title": "Nouvelle file LoRa&#174;",
+          "button": "Configurer pour équipement(s) LoRa&#174;",
+          "information": "Ajouter une nouvelle file de messages pour équipement(s) LoRa&#174;",
+          "name": {
+            "label": "Nom",
+            "placeholder": "Entrez le nom de la file de messages",
+            "pattern_error": "ce champ ne doit contenir que des caractères alphanumériques, des \"-\", \"_\" et \"~\""
+          },
+          "deveui": {
+            "label": "DevEUI",
+            "placeholder": "Entrez un device EUI ou laissez vide",
+            "tooltip": {
+              "1": "Vide : collecte les données de tous les équipements",
+              "2": "DevEUI : collecte les données d'un équipement en particulier"
+            }
+          }
+        }
+      },
+      "fifo_queues": {
+        "title": "Files d'attente FIFO",
+        "welcome": {
+          "title": "Créez une FIFO pour collecter les messages de vos équipements ",
+          "fifo-queue": "Vos équipements envoient leurs messages vers une FIFO pour qu'elles puissent être consommées par votre application.<br><br>Les messages sont persistants jusqu'à ce qu'une application vienne les consommer.",
+          "button": {
+            "doc": "Documentation",
+            "add-fifo-queue": "Ajouter une file de messages"
+          }
+        },
+        "modal": {
+          "delete.label": "Etes-vous sûr de vouloir supprimer ces files ?"
+        },
+        "list": {
+          "add": "Ajouter",
+          "no_fifo": "Aucune queue FIFO à afficher",
+          "header": {
+            "fifo": "FIFO",
+            "key_filter": "clé de routage",
+            "ready": "Messages prêts",
+            "unacked": "Messages non acquittés",
+            "nb_consumers": "# de consommateurs",
+            "max_size": "Taille max",
+            "percent_used": "% utilisé",
+            "actions": "Actions"
+          },
+          "delete": "Supprimer",
+          "filled": "Remplissage"
+        },
+        "new": {
+          "title": "Nouvelle file de messages FIFO",
+          "name": "Nom",
+          "routing_key_filter": "Route",
+          "routing_key_caption": "entrer une clé de routage",
+          "max_size": "Taille max (bytes)",
+          "max_size_caption": "Entrer la taille max de la file en bytes (10MB par défaut)",
+          "name_caption": "entrez le nom de la file FIFO",
+          "register": "Enregistrer",
+          "cancel": "Annuler"
+        }
+      },
+      "router": {
+        "title": "Clés de routage",
+        "welcome": {
+          "title": "Créez une règle de routage pour alimenter une FIFO ",
+          "route": "Un routeur définit une règle permettant d'alimenter une FIFO. Cette règle de routage est obligatoire pour pouvoir utiliser une FIFO.<br><br>~event.v1.data.new.# : route tous les messages de tous les devices vers une FIFO<br><br>~event.v1.data.new.urn.lora.0004A3 : route tous les messages du device ayant pour devEUI 0004A3<br>",
+          "button": {
+            "doc": "Documentation",
+            "add-route": "Ajouter une clé de routage"
+          }
+        },
+        "modal": {
+          "delete.label": "Etes-vous sûr de vouloir supprimer ces routes ?"
+        },
+        "list": {
+          "add": "Ajouter",
+          "no_bindings": "Aucune route à afficher",
+          "header": {
+            "key_filter": "Filtre sur clé de routage",
+            "fifo": "FIFO",
+            "actions": "Actions"
+          },
+          "delete": "Supprimer"
+        },
+        "new": {
+          "title": "Créer une nouvelle route",
+          "routing_key_filter": "Filtre sur clé de routage",
+          "routing_key_filter_description": "ex:<br>~event.v1.data.new.# : route tous les messages de tous les équipements vers la FIFO cible<br><br>~event.v1.data.new.urn.lora.0004A3 : route tous les messages de l'équipement LoRa avec le DevEUI 0004A3<br>",
+          "routing_key_caption": "entrez le filtre sur clé de routage",
+          "target_fifo": "FIFO cible",
+          "create": "Créer la route",
+          "cancel": "Annuler"
+        }
+      }
+    },
+    "settings": {
+      "title": "Paramètres",
+      "account": {
+        "title": "Compte",
+        "account_name": {
+          "label": "Nom du compte",
+          "help": "Le nom de votre organisation, propriétaire du compte"
+        },
+        "account_basic_roles": {
+          "label": "Rôles de base",
+          "help": "Rôles obligatoires associés à la Master Api Key du compte"
+        },
+        "account_additional_roles": {
+          "label": "Rôles additionnels",
+          "help": "Roles optionnels associés à la Master Api Key du compte"
+        }
+      },
+      "iss": {
+        "title": "ISS",
+        "api_key": {
+          "label": "Clé d'API ISS",
+          "help": "Une clé d'API valide pour votre compte ISS"
+        }
+      },
+      "update": "Mettre à jour"
+    },
+    "tenant": {
+      "modal": {
+        "delete_confirmation": "Etes-vous sûr de vouloir supprimer ces titulaires ?",
+        "delete_settings_confirmation": "Etes-vous sûr de vouloir supprimer ces paramètres ?"
+      },
+      "success": {
+        "tenant_created": "Titulaire ajouté avec succès",
+        "tenant_deleted": "Titulaire supprimé avec succès",
+        "settings_updated": "Paramètres du compte mis à jour avec succès",
+        "settings_deleted": "Paramètres du compte supprimés avec succès",
+        "settings_added": "Paramètres du compte ajoutés avec succès"
+      },
+      "details": {
+        "title": "Détails"
+      },
+      "list": {
+        "add": "Ajouter un compte titulaire",
+        "title": "Titulaires",
+        "pagination": "<strong>{from}</strong> à <strong>{to}</strong> sur <strong>{of}</strong>",
+        "refresh": "Rafraîchir",
+        "no_tenants": "Aucun titulaire à afficher",
+        "total": "{number, plural, =0{Aucun titulaire} =1{# titulaire} other{# titulaires}}",
+        "header": {
+          "id": "Id",
+          "name": "Nom",
+          "offer": "Offre et options",
+          "tags": "Tags",
+          "api_key": "Clé d'API",
+          "actions": "Actions"
+        },
+        "delete": "Supprimer",
+        "details": "Détails"
+      },
+      "view": {
+        "title": "{tenantName}",
+        "info.title": "Informations du compte",
+        "offer": {
+          "title": "Offre",
+          "see_parameters": "Voir les paramètres de l'offre",
+          "select_offer": "Basculer vers les offres standards",
+          "no-end-date": "pas de date d'expiration",
+          "extend_offer": "Prolonger l'offre",
+          "manual_warning": "Vous êtes en paramétrage manuel. Si vous souhaitez basculer vers les offres standards il y a de fortes probabilités que vos paramètres n'aient pas d'offre équivalente, auquel cas vous perdrez votre configuration.",
+          "changing_warning": "Veuillez sélectionner l'offre à associer à ce compte",
+          "cancel_offer": "Annuler",
+          "select": {
+            "confirm": {
+              "title": "Êtes-vous certain de vouloir associer une offre standard à ce compte ?",
+              "content": "Les offres et options standards imposent leurs propres paramètres. Vous pouvez perdre certains de vos paramètres actuels.",
+              "action": "Associer cette offre à ce compte"
+            }
+          }
+        },
+        "parameters": {
+          "title": "Paramètres de l'offre",
+          "change": {
+            "title": "Modification des paramètres",
+            "content": "En modifiant les paramètres de l'offre vous renoncez à suivre les modèles d'offre et entrez dans un mode personnalisé.",
+            "action": "Modifier les paramètres",
+            "confirm": {
+              "title": "Êtes-vous sûr de vouloir modifier les paramètres ?",
+              "content": "Pour pouvoir modifier les paramètres, vous devez dissocier le compte de l'offre et des options. Si par la suite vous souhaitez rebasculer vers les offres standards il y a de fortes probabilités que vos paramètres n'aient pas d'offre équivalente.",
+              "action": "Dissocier le compte de l'offre et des options"
+            }
+          }
+        },
+        "back": "Retour",
+        "account_offers_caption": "choisissez une offre",
+        "account_options_caption": "choisissez les options",
+        "tabs": {
+          "statistics": "Statistiques",
+          "overview": "Résumé",
+          "account": "Compte",
+          "users": "Utilisateurs",
+          "offer-settings": "Paramètres des offres"
+        },
+        "settings": {
+          "version": "version",
+          "version_caption": "entrer la version des settings",
+          "filter.placeholder": "Entrez un id. à filtrer...",
+          "offer-id.placeholder": "Id. de l'offre",
+          "offer-parameters.placeholder": "Entrez ici les paramètres au format JSON..."
+        },
+        "errors": {
+          "bss": "Echec d'obtention des offres et options disponibles <br/> {message}",
+          "offer": "Echec d'association de l'offre et des options <br/> {message}"
+        }
+      },
+      "new": {
+        "title": "Ajout d'un nouveau compte titulaire",
+        "info.title": "Création du compte",
+        "offer.title": "Association de l'offre",
+        "account_name": "Nom du compte",
+        "account_name_caption": "saisissez le nom du compte titulaire",
+        "account_name_error": "vous devez entrer le nom de l'organisation",
+        "account_login": "Identifiant administrateur",
+        "account_login_caption": "saisissez un identifiant",
+        "account_login_error": "vous devez entrer un identifiant",
+        "account_offer": "Offre",
+        "account_offers_caption": "saisissez une offre",
+        "account_options": "Options",
+        "account_options_caption": "choisissez les options",
+        "mandatory_roles": "Rôles obligatoires",
+        "optional_roles": "Rôles additionels",
+        "account_roles_caption": "selectionnez des rôles",
+        "account_roles_error": "vous devez sélectionner au moins un rôle",
+        "email": "Email administrateur",
+        "email_caption": "saisissez votre email",
+        "email_error": "vous devez entrer une adresse email valide",
+        "pwd": "mot de passe administrateur",
+        "pwd_caption": "saisissez votre mot de passe",
+        "confirm_pwd_caption": "confirmez le mot de passe",
+        "pwd_error": "vous devez saisir un mot de passe",
+        "create": "{canReadBss, plural, =0{Créer le compte titulaire} other{Créer le compte et lui associer une offre}}",
+        "ok": "Créer le compte titulaire",
+        "cancel": "Annuler",
+        "offer.confirm": "Terminer",
+        "offer.cancel": "Ignorer cette étape",
+        "errors": {
+          "create": "Echec de création du compte <br/> {message}",
+          "bss": "Echec d'obtention des offres et options disponibles <br/> {message}",
+          "offer": "Echec d'association de l'offre et des options <br/> {message}"
+        }
+      }
+    },
+    "user": {
+      "tooltip": "Utilisateur & compte",
+      "super-admin": "Super administrateur",
+      "views": {
+        "add": {
+          "title": "Ajout d'un utilisateur",
+          "user-information": "Informations de l'utilisateur"
+        },
+        "view": {
+          "title": "{name}",
+          "help": {
+            "user-login-idp": "L'information Identifiant n'est pas éditable depuis Live Objects pour un utilisateur dont l'identité est gérée via l'Espace Client Entreprise.",
+            "user-email-idp": "L'information adresse Email n'est pas éditable depuis Live Objects pour un utilisateur dont l'identité est gérée via l'Espace Client Entreprise."
+          }
+        },
+        "list": {
+          "title": "Utilisateurs",
+          "total": "{number, plural, =0{Aucun utilisateur} =1{# utilisateur} other{# utilisateurs}}",
+          "modal": {
+            "enable": {
+              "title": "Activation d'utilisateurs",
+              "content": "Etes-vous sûr de vouloir activer ces utilisateurs ?"
+            },
+            "disable": {
+              "title": "Désactivation d'utilisateurs",
+              "content": "Etes-vous sûr de vouloir désactiver ces utilisateurs ?"
+            },
+            "delete": {
+              "title": "Suppression d'utilisateurs",
+              "content": "Etes-vous sûr de vouloir supprimer ces utilisateurs ?"
+            },
+            "reset": {
+              "title": "Réinitialisation de mot de passe",
+              "content": "Etes-vous sûr de vouloir réinitialiser ces mots de passe ?"
+            }
+          }
+        }
+      },
+      "form": {
+        "placeholders": {
+          "login": "entrez un identifiant",
+          "email": "entrez un mail",
+          "roles": "sélectionnez au moins un rôle"
+        }
+      },
+      "enums": {
+        "state": {
+          "enabled": "Actif",
+          "disabled": "Inactif",
+          "suspended": "Suspendu"
+        }
+      },
+      "properties": {
+        "login": "Identifiant",
+        "email": "Email",
+        "roles": "Rôles",
+        "profile": "Profil",
+        "state": "Etat",
+        "tenantId": "tenantId"
+      },
+      "alert": {
+        "updatedmailsent": "Votre demande de changement d'adresse email a bien été prise en compte. Un email de validation a été envoyé à cette nouvelle adresse; elle sera effective lorsqu'elle aura été validée."
+      },
+      "success": {
+        "activationmailsent": "un email a été envoyé à l'utilisateur"
+      }
+    },
+    "decoder": {
+      "views": {
+        "add": {
+          "title": "Ajout d'un décodeur",
+          "decoder-information": "Informations sur le décodeur",
+          "decoder-test": "Tester le décodeur",
+          "tooltips": {
+            "math-eval": "Active ou désactive l'évaluation mathématique des expressions à l'intérieur du template",
+            "create": "Attention: une fois créé, un décodeur ne peut plus être modifié"
+          }
+        },
+        "view": {
+          "title": "{name}",
+          "modal": {
+            "delete": {
+              "title": "Suppression de décodeur",
+              "content": "Etes-vous sûr de vouloir supprimer ce décodeur ?"
+            }
+          }
+        },
+        "list": {
+          "title": "Décodeurs",
+          "total": "{number, plural, =0{Aucun décodeur} =1{# décodeur} other{# décodeurs}}",
+          "enabled": "Actif",
+          "disabled": "Inactif",
+          "modal": {
+            "delete": {
+              "title": "Suppression de décodeurs",
+              "content": "Etes-vous sûr de vouloir supprimer ces décodeurs ?"
+            }
+          }
+        }
+      },
+      "form": {
+        "payload": "Contenu à décoder, en Hexadécimal",
+        "test-result": "Résultat",
+        "error": {
+          "model": "Le nom de modèle contient des caractères invalides"
+        },
+        "placeholders": {
+          "encoding": "Le format d'encodage géré par ce décodeur",
+          "template": "Modèle de transformation au format Mustache",
+          "type": "Sélectionnez un type de décodeur",
+          "model": "Le nom de modèle cible, sans espace ou point"
+        }
+      },
+      "enums": {
+        "state": {
+          "active": "Actif",
+          "inactive": "Inactif"
+        },
+        "type": {
+          "csv": "Paramétré (Csv)",
+          "binary": "Paramétré (Binaire)",
+          "javascript": "Prédéfini (Script)"
+        },
+        "visibility": {
+          "private": "Privée",
+          "public": "Publique"
+        },
+        "math-eval": {
+          "true": "Oui",
+          "false": "Non"
+        }
+      },
+      "selection.tooltip": {
+        "public": "Aucune action groupée n'est disponible pour un décodeur public.",
+        "javascript": "Aucune action groupée n'est disponible pour un décodeur prédéfini."
+      },
+      "select-group": {
+        "private": "Décodeurs privés",
+        "public": "Décodeurs publics"
+      },
+      "properties": {
+        "id": "Identifiant",
+        "encoding": "Nom",
+        "template": "Template",
+        "math-eval": "Evaluation mathématique",
+        "math-eval-template": "Evaluation mathématique du template",
+        "type": "Type",
+        "visibility": "Visibilité",
+        "model": "Modèle",
+        "payload-description": "Description du contenu binaire",
+        "csv-columns": "Description des colonnes",
+        "csv-options": "Options de format",
+        "state": "Etat"
+      }
+    },
+    "dev_tools": {
+      "title": "Simulation",
+      "welcome": {
+        "title": "Utilisez notre outil en ligne de simulation",
+        "tool": "Pour vous aider à développer votre service, cet outil vous permet de simuler des messages sur le bus de messages (simuler un équipement, des alarmes, un comportement…)."
+      },
+      "success": {
+        "published_many_consumer": "Published to many consumers"
+      },
+      "error": {
+        "title": "Error"
+      },
+      "alert": {
+        "forbidden": "L'accès à cette section nécessite les droits d'écriture dans le Bus, contactez l'administrateur du compte pour les obtenir"
+      },
+      "publish": {
+        "title": "Publier",
+        "topic_type": "Type de topic",
+        "topic": "Topic",
+        "topic_caption": "saisissez le nom du topic",
+        "payload": "Corps du message",
+        "payload_caption": "saisissez le corps du message",
+        "publish": "Publish"
+      },
+      "publish_json": {
+        "title": "PublierJson",
+        "topic_type": "Type de topic",
+        "topic": "Topic",
+        "topic_caption": "saisissez le nom du topic",
+        "payload": "Corps du message",
+        "payload_caption": "saisissez le corps du message JSON",
+        "publish": "Publish"
+      },
+      "consume": {
+        "title": "Consommer",
+        "topic_type": "Type du topic",
+        "topic": "Topic",
+        "topic_caption": "saisissez le nom du topic",
+        "consume": "Consommer",
+        "clear": "Vider",
+        "header": {
+          "date": "Date",
+          "message": "Message"
+        }
+      },
+      "rpc": {
+        "title": "Rpc",
+        "topic_type": "Type du topic",
+        "topic": "Topic",
+        "topic_caption": "saisissez le nom du topic",
+        "payload": "Corps du message",
+        "payload_caption": "saisissez le corps du message",
+        "request": "Requête",
+        "response": "Réponse"
+      },
+      "rpc_json": {
+        "title": "RpcJson",
+        "topic_type": "Type du topic",
+        "topic": "Topic",
+        "topic_caption": "saisissez le nom du topic",
+        "payload": "Corps du message",
+        "payload_caption": "saisissez le corps du message JSON",
+        "request": "Requête",
+        "response": "Réponse"
+      },
+      "sms": {
+        "title": "Envoyer un SMS",
+        "phone_number": "Numéro de téléphone",
+        "message": "Message",
+        "message_caption": "saisissez le message",
+        "send": "Envoyer le SMS"
+      },
+      "mail": {
+        "title": "Envoyer un Email",
+        "from": "De",
+        "to": "A",
+        "cc": "Cc",
+        "cci": "Cci",
+        "subject": "Objet",
+        "subject_caption": "saisissez l'objet du mail",
+        "message": "Message",
+        "message_caption": "saisissez le corps du mail",
+        "mail_error": "vous devez saisir une adresse email valide",
+        "send_email": "Envoyer l'email"
+      }
+    },
+    "services": {
+      "title": "Services",
+      "no_services": "Aucun service.",
+      "total": "{number, plural, =0{Aucun service} =1{# service} other{# services}}",
+      "header": {
+        "component": "Composant",
+        "version": "Version",
+        "instance": "Instance",
+        "uptime": "Durée de fonctionnement",
+        "clock": "Heure machine"
+      }
+    },
+    "login": {
+      "modal": {
+        "log-out": "Etes-vous sûr de vouloir vous déconnecter ?"
+      },
+      "view": {
+        "auth": {
+          "title": "Identification",
+          "login": "Connexion",
+          "signup": "S'enregistrer",
+          "forgotten_password": "Mot de passe oublié ?"
+        },
+        "update_password": {
+          "title": "Mise à jour du mot de passe",
+          "update": "Mettre à jour le mot de passe",
+          "security": "le mot de passe doit avoir:<br> - minimum 1 chiffre<br> - minimum 1 caractère spécial /*-+.?,;:§!%ùµ*$@_()'<br> - minimum 1 minuscule<br> - minimum 1 majuscule<br> - taille minimum de 8 caractères",
+          "confirm": "le mot de passe et sa confirmation doivent être identique"
+        },
+        "update_email": {
+          "title": "Changement email",
+          "update": "confirmation"
+        },
+        "reset_password": {
+          "title": "Demande de réinitialisation du mot de passe",
+          "send_request": "Réinitialiser le mot de passe"
+        },
+        "account-request": {
+          "title": "Demande de compte",
+          "description": "Complétez ce formulaire pour obtenir votre compte Live Objects.",
+          "youare": "Vous êtes : ",
+          "companyOrCommunity": "une entreprise ou une collectivité",
+          "yourproject": "Votre projet : ",
+          "lora": "je veux utiliser le réseau LoRa&#174;&#42;",
+          "lora_conditions": "&#42;disponible seulement en France pour le moment. <br>Notez qu'un accès au réseau LoRa&#174; doit respecter les contraintes légales : en particulier, vous devez être une entreprise française et nous fournir un extrait Kbis.",
+          "captcha": "Recopiez le code ci-contre",
+          "wish.discoveroffer": "Je demande un compte de test Live Objects (limité à un an et 10 équipements)",
+          "wish.loraoffer": "Je demande un accès LoRa&#174; IoT Connect Low Power (limité à 12 mois et 10 équipements) et serai recontacté par Orange. <br>Notez que l'accès à Live Objects sans le réseau LoRa® évite cette procédure.",
+          "submit": "Demander mon compte",
+          "success": "Pour une demande de compte sans accès LoRa&#174; : vous allez recevoir un mail de vérification. Veuillez cliquer le lien dans ce mail pour activer votre compte Live Objects. <br>Pour un accès au réseau LoRa&#174; : votre demande a bien été prise en compte; nous vous recontacterons prochainement par mail pour finaliser votre enregistrement."
+        },
+        "registration": {
+          "title": "Complétez votre enregistrement",
+          "description": "Afin de créer votre compte, merci de compléter ces informations et de saisir votre mot de passe.",
+          "password-check": {
+            "description": "Le mot de passe doit :",
+            "at-least": "contenir au moins",
+            "special-chars": "/*-+.?,;:§!%ùµ*$@_()'",
+            "list": {
+              "length": "8 caractères",
+              "uppercase": "une lettre majuscule",
+              "lowercase": "une lettre minuscule",
+              "digit": "un chiffre",
+              "special-char": "un caractère spécial"
+            }
+          },
+          "terms": {
+            "label": "Conditions générales",
+            "general": "Conditions générales d'utilisation des API Orange",
+            "specific": "Conditions d’utilisation de Live Objects",
+            "accept": "En activant ce compte, j'accepte les conditions générales et spécifiques d'utilisation ci-dessous",
+            "advertising": "Si vous ne souhaitez pas recevoir nos promotions et sollicitations, cochez cette case",
+            "contact_information": "Si vous ne souhaitez pas que vos coordonnées soient transmises à nos partenaires commerciaux, cochez cette case"
+          },
+          "newsletter": "Souscrire à la newsletter",
+          "cnil": "Ces informations font l’objet d’un traitement informatique dont la finalité est de produire le service et d’échanger sur vos besoins et nos solutions.<br>Les destinataires des données sont les équipes de production et les équipes commerciales d’Orange et de ses filiales en charge du service.<br>Conformément à la loi du 6 janvier 1978 modifiée, vous pouvez obtenir une copie de vos données et les rectifier en nous contactant en écrivant à OAB-DonneesPersonnelles@list.orange.com ou à Orange Application for Business – Données Personnelles - Direction Qualité Process et Sécurité, 4 rue de la Châtaigneraie 35510 Cesson-Sévigné, en joignant une pièce justificative d'identité."
+        }
+      },
+      "form": {
+        "placeholders": {
+          "login": "saisissez votre identifiant",
+          "password": "saisissez votre mot de passe",
+          "new_password": "saisissez le nouveau de mot de passe",
+          "confirm_new_password": "confirmez le nouveau de mot de passe",
+          "captcha": "saisissez le texte de l'image ci-dessus"
+        }
+      }
+    },
+    "resource": {
+      "connector": {
+        "myplug-fwupdater": {
+          "metadata": {
+            "labels": {
+              "deviceType": "Type d'équipement",
+              "hardwareVersion": "Version du matériel"
+            },
+            "placeholders": {
+              "deviceType": "saisissez le type de l'équipement",
+              "hardwareVersion": "saisissez la version du matériel"
+            }
+          }
+        }
+      },
+      "list": {
+        "title": "Firmwares",
+        "add": "Créer un firmware",
+        "pagination": "<strong>{{1 + page.page * page.size}}</strong> - <strong>{{page.page * page.size + page.data.length}}</strong> sur <strong>{{page.totalCount}}</strong>",
+        "refresh": "Actualiser",
+        "no_data": "Aucun firmware à afficher.",
+        "total": "{number, plural, =0{Aucun firmware} =1{# firmware} other{# firmwares}}",
+        "header": {
+          "id": "Id du firmware",
+          "label": "Libellé",
+          "description": "Description",
+          "connector": "Connecteur",
+          "creationTs": "Date de création",
+          "updateTs": "Dernière mise à jour",
+          "action": "",
+          "toggle": ""
+        },
+        "remove": "Supprimer",
+        "remove_msg": "Êtes-vous sûr de vouloir supprimer ces firmwares ?",
+        "edit": "Modifier",
+        "details": "détails"
+      },
+      "new": {
+        "title": "Ajouter un nouveau firmware",
+        "resourceId": "Id du firmware",
+        "resourceId_caption": "saisissez l'Id du firmware",
+        "label": "Libellé",
+        "label_caption": "saisissez le libellé du firmware",
+        "description": "Description",
+        "description_caption": "saisissez la description du firmware",
+        "connector": "Connecteur",
+        "connector_caption": "saisissez le connecteur du firmware",
+        "register": "Créer le nouveau firmware",
+        "cancel": "Annuler"
+      },
+      "edit": {
+        "title": "{resourceId}",
+        "register": "Enregister les modifications",
+        "cancel": "Annuler"
+      },
+      "version": {
+        "list": {
+          "no_data": "Ce firmware n'a aucune version disponible.",
+          "header": {
+            "version": "Version",
+            "description": "Description",
+            "creationTs": "Date de création",
+            "updateTs": "Dernière mise à jour",
+            "action": ""
+          },
+          "remove": "Supprimer",
+          "remove_msg": "Êtes-vous sûr de vouloir supprimer cette version?",
+          "edit": "Modifier",
+          "add": "Ajouter une version"
+        },
+        "new": {
+          "title": "Ajouter une nouvelle version",
+          "resourceId": "Id du firmware",
+          "versionId": "Id de la version",
+          "versionId_caption": "saisissez l'Id de la version",
+          "description": "Description",
+          "description_caption": "saisissez la description du firmware",
+          "compatibleVersions": "Anciennes autorisées",
+          "compatibleVersions_caption": "Entrer la liste des anciennes versions autorisées ex: v1, v2, v3",
+          "file": "Fichier",
+          "register": "Enregister la nouvelle version",
+          "cancel": "Annuler"
+        },
+        "edit": {
+          "title": "Modifier une version",
+          "register": "Enregistrer les modifications",
+          "cancel": "Annuler"
+        }
+      }
+    },
+    "sms": {
+      "encodings": {
+        "no-encoding": "Pas de décodeur"
+      },
+      "action": {
+        "sendsms": "Envoyer un SMS",
+        "delete": "Supprimer le(s) MSISDN(s)"
+      },
+      "config": {
+        "title": "SMS"
+      },
+      "msisdn": {
+        "serverPhoneNumber": "Numéro de téléphone du serveur",
+        "serverPhoneNumber.placeholder": "exemple : 20208",
+        "serverPhoneNumber.help": "le serveur de SMS sur lequel les MSISDNs seront autorisés pour l'envoi et la récéption de SMS",
+        "encoding": "Décodeur",
+        "encoding.placeholder": "Sélectionnez un décodeur",
+        "encoding.help": "le décodeur qui doit être appliqué au contenu des SMS reçus",
+        "msisdnlist": "Liste de MSISDNs",
+        "msisdnvalue": "Numéro de téléphone de l'équipement",
+        "msisdnvalue.placeholder": "exemple : 33655443322",
+        "msisdnvalue.help": "le numéro de téléphone de l'équipement communiquant via SMS",
+        "tags": "Tags",
+        "tags.placeholder": "exemple: my-sms-data",
+        "tags.help": "tags ajoutés aux contenus des SMS au moment de leur stockage dans la datazone",
+        "list": {
+          "title": "MSISDNs",
+          "total": "{number, plural, =0{Aucun msisdn} =1{# msisdn} other{# msisdns}}",
+          "information": "Choisissez le couple 'serveur de SMS - décodeur de contenu' pour lequel consulter la liste des MSISDNs déclarés."
+        },
+        "add": {
+          "title": "Provisionner des MSISDNs",
+          "information": "provisioning du MSISDN d'un équipement afin d'utiliser le service SMS",
+          "msisdnlistErrors": {
+            "duplicate-value": "Les MSISDNs doivent être differents"
+          }
+        },
+        "delete": {
+          "title": "Supprimer les MSISDNs",
+          "content": "Etes-vous sûr que de vouloir supprimer les MSISDNs séléctionnés ?"
+        }
+      }
+    },
+    "configuration": {
+      "title": "Configuration"
+    },
+    "dashboard": {
+      "title": "Tableau de bord",
+      "consumption": {
+        "prefix": "Consommation",
+        "from": " depuis le {date}",
+        "to": " jusqu'au {date}",
+        "since": " depuis le {date}",
+        "datestar": "données mises à jour toutes les 15 minutes",
+        "upgrade": "Mise à niveau",
+        "previous-month": "Mois précédent",
+        "next-month": "Mois suivant"
+      },
+      "recent-traffic-consumption": {
+        "title": "Consommation récente du trafic"
+      },
+      "ressources": {
+        "title": "Firmwares depuis le {date}",
+        "successful-updates": "{number, plural, =0{Aucune mise} =1{<strong class=\"text-important\">#</strong> mise} other{<strong class=\"text-important\">#</strong> mises}} à jour avec succès",
+        "failed-updates": "{number, plural, =0{Aucune mise à jour échouée} =1{<strong class=\"text-important\">#</strong> mise à jour échouée} other{<strong class=\"text-important\">#</strong> mises à jour échouées}}"
+      },
+      "event-processing": {
+        "title": "Traitement des événements",
+        "created-events": "{number, plural, =0{Aucun événement créé} =1{<strong class=\"text-important\">#</strong> événement créé} other{<strong class=\"text-important\">#</strong> événements créés}} depuis le {date}"
+      },
+      "streams": {
+        "title": "Stream",
+        "streams": "{number, plural, =0{Aucun stream} =1{<strong class=\"text-important\">#</strong> stream} other{<strong class=\"text-important\">#</strong> streams}}"
+      },
+      "bus": {
+        "title": "Bus statut",
+        "consumers": "Consommateurs",
+        "messages": "Queues de Messages",
+        "consumers-in-fifo": "{number, plural, =0{Aucun consommateur connecté} =1{<strong class=\"text-important\">#</strong> consommateur connecté} other{<strong class=\"text-important\">#</strong> consommateurs connectés}}  ",
+        "messages-in-fifo": "{number, plural, =0{Aucun message} =1{<strong class=\"text-important\">#</strong> message} other{<strong class=\"text-important\">#</strong> messages}}"
+      },
+      "outputs": {
+        "title": "Sorties",
+        "average": "(moyenne)",
+        "consumer-per-fifo": "{number, plural, =0{consommateur} =1{consommateur} other{consommateurs}} par FIFO",
+        "consumer-per-topic": "{number, plural, =0{consommateur} =1{consommateur} other{consommateurs}} souscris par TOPIC",
+        "application": "{number, plural, =0{application} =1{application} other{applications}} consommant des données",
+        "device-per-stream": "{number, plural, =0{équipement} =1{équipement} other{équipements}} par stream",
+        "mqtt-only": "(MQTT uniquement)"
+      }
+    },
+    "account": {
+      "title": "Compte",
+      "information": "Informations",
+      "name": "Nom",
+      "email": "Mail",
+      "id": "ID du compte",
+      "created": "Date de création",
+      "offer": "Offre",
+      "expirationDate": "Expiration Date",
+      "options": "Options",
+      "bssid": "Compte DISE"
+    },
+    "kpi": {
+      "traffic": {
+        "title": "Trafic",
+        "unit-label": "Octets",
+        "display": {
+          "day": "quotidienne",
+          "month": "mensuelle",
+          "day-unit-label": "Volume in/out par jour",
+          "month-unit-label": "Volume cumulé"
+        },
+        "statistics": {
+          "consumption": "Consommation du trafic",
+          "in": "Trafic entrant",
+          "out": "Trafic sortant",
+          "sms-sent": "SMS envoyés"
+        }
+      },
+      "storage": {
+        "title": "Données stockées flux uplink",
+        "mode": {
+          "today": "aujourd'hui",
+          "week": "cette semaine",
+          "month": "mois",
+          "year": "année"
+        },
+        "unit-label": "Messages"
+      },
+      "messages": {
+        "title": "Messages",
+        "in": "Messages entrants",
+        "unit-label": "Nb messages",
+        "display": {
+          "day-unit-label": "Msg in par jour",
+          "month-unit-label": "Msg cumulés"
+        }
+      }
+    },
+    "lwm2m": {
+      "title": "LWM2M",
+      "total": "{number, plural, =0{Aucun accès} other{# accès}}",
+      "generateUUID": "Générer un UUID",
+      "device": {
+        "name": "Nom",
+        "identifier": "Identifiant",
+        "namespace": "Espace de nommage",
+        "namespace_caption": "exemple: msisdn",
+        "identity": "Id",
+        "identity_caption": "exemple: 33612345678",
+        "endpoint": "Identifiant LWM2M",
+        "endpoint_caption": "identifiant du client lwm2m  ou généré à partir de l'espace de nommage et de l'identité",
+        "generate": "Générer",
+        "security_mode": "Mode de sécurité",
+        "psk": "Clé secrète partagée DTLS",
+        "psk_caption": "Valeur de la clef secrète en Base64",
+        "identity_psk": "Identifiant de la clé secrète partagée DTLS",
+        "identity_psk_caption": "Identifiant de la clé",
+        "pubKey": "Clé publique",
+        "creation": "Création",
+        "last_update": "Dernière mise à jour",
+        "urn": "URN",
+        "device_caption": "URN de l'équipement urn:lo:nsid:<espace nommage>:<identité>",
+        "tags": "Tags",
+        "properties": "Propriétés",
+        "propertiesErrors": {
+          "duplicate-key": "Les clés des propriétés doivent être différentes",
+          "empty-key": "Veuillez renseigner le label de la propriété"
+        },
+        "security_modes": {
+          "PSK": "Clé pré-partagée",
+          "NO_SEC": "Aucune Securité"
+        },
+        "status": {
+          "status": "Statut",
+          "metadata": "Metadata",
+          "connected": "connecté",
+          "disconnected": "hors ligne",
+          "last_contact": "Dernier contact",
+          "info": "Info"
+        },
+        "param": {
+          "header": {
+            "id": "Id",
+            "value": "Valeur",
+            "value_ts": "Date de la valeur",
+            "status": "Statut",
+            "last_status": "Dernier changement de statut",
+            "target_value": "Valeur cible",
+            "actions": "Actions"
+          }
+        }
+      },
+      "view": {
+        "title": "{ep}",
+        "tabs": {
+          "info": "Info",
+          "status": "Statut",
+          "parameters": "Paramètres"
+        }
+      },
+      "new": {
+        "tab": "LWM2M",
+        "title": "Ajouter un nouvel équipement LWM2M"
+      },
+      "help": {
+        "namespace": "L'espace de nommage de votre équipement est libre. Il permet d'éviter les conflits entre différents identifiants (ex : modèle d'équipement, IMEI, MSISDN, etc.). Il ne doit contenir que des caractères alphanumériques (a-z, A-Z, 0-9).",
+        "id": "L'ID de votre équipement (ex: IMEI, serial number, MAC adress, etc.) est libre. Il ne doit contenir que des caractères alphanumériques (a-z, A-Z, 0-9) et/ou des caractères spéciaux parmi : - _ | + et doit éviter # / !."
+      }
+    },
+    "tags": {
+      "input": {
+        "placeholder": "Saisisser le nom d'un tag"
+      }
+    },
+    "connectivity": {
+      "title": "Connectivités",
+      "list": {
+        "title": "Connectivités"
+      }
+    },
+    "lora": {
+      "title": "LoRa&#174;"
+    },
+    "smart_sim": {
+      "title": "Smart SIM"
+    },
+    "onboarding": {
+      "navigation": {
+        "stop": "Fin du tour",
+        "prev": "Précèdent",
+        "next": "Suivant",
+        "restart": "Rejouer le tour",
+        "enter": "Pret à utiliser Live Objects !"
+      },
+      "tour": {
+        "title": "Tour guidé",
+        "description": "Nous allons effectuer une visite guidée des principaux services proposés du portail"
+      },
+      "dashboard": {
+        "title": "Tableau de bord",
+        "description": "Visualisez facilement l’état de votre parc ainsi que le volume de messages échangés."
+      },
+      "parc": {
+        "title": "Parc",
+        "description": "Déclarez les équipements de votre parc. Vérifiez leur statut, leurs données. Envoyez leur des commandes et paramétrez les."
+      },
+      "data": {
+        "title": "Données",
+        "description": "Retrouvez et analysez vos données structurées quels que soient les protocoles de communication utilisés (MQTT, SMS, LoRa, Rest)"
+      },
+      "configuration": {
+        "title": "Configuration",
+        "description": "Retrouvez les informations de votre compte, gérez vos utilisateurs, vos clefs d’API, décodeurs de données… selon votre niveau de droit"
+      },
+      "resource": {
+        "title": "Ressources",
+        "description": "Tout ce dont vous avez besoin pour devenir un expert de Live Objects et trouver des réponses à vos questions…"
+      },
+      "marketplace": {
+        "title": "Marketplace",
+        "description": "Retrouvez notre marketplace pour acheter vos objets en ligne"
+      },
+      "tools": {
+        "title": "Simulation tools",
+        "description": "Publish messages to the bus to test the validity of your data"
+      },
+      "prototype": {
+        "title": "Prototyper",
+        "description": "Retrouvez nos cartes de développement et nos SDK pour valider votre projet"
+      },
+      "support": {
+        "title": "Support",
+        "description": "…et sinon utilisez notre forum. Vous pouvez aussi nous contacter en cas de problème technique ou pour des questions commerciales"
+      }
+    }
+  }
+}

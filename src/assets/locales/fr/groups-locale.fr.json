@@ -1,0 +1,15 @@
+{
+  "groups": {
+    "errors": {
+      "unabletoloadgroups": "Impossible de charger les groups <br/> {message}",
+      "unabletoaddgroups": "Impossible de créer le groupe <br/> {message}",
+      "unabletochangename": "Impossible de changer le nom <br/> {message}",
+      "unabletodeletegroup":"Impossible de supprimer le groupe <br/> {message}",
+      "missingrootgroup": "Groupe racine inexistant",
+      "missinggroup": "Groupe inexistant",
+      "unablerefreshgroup": "Impossible de rafraichir la liste des sous-groupes",
+      "grouphassubgroup": "Le groupe possède au moins un sous-groupe",
+      "grouphasdevice": "Le groupe possède contient au moins un device"
+    }
+  }
+}

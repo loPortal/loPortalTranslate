@@ -1,0 +1,67 @@
+{
+  "roles-profile": {
+    "labels": {
+      "profile": "Profil",
+      "roles": "Rôles"
+    },
+    "profiles": {
+      "custom": "Personnalisé",
+      "user": {
+        "user": "Utilisateur",
+        "admin": "Administrateur"
+      },
+      "api-key": {
+        "mqtt": "Equipement MQTT",
+        "application": "Application"
+      }
+    },
+    "roles": {
+      "table-header": {
+        "name": "Nom",
+        "description": "Description",
+        "reading": "Lecture",
+        "writing": "Ecriture"
+      },
+      "api_key": "Clé d'API",
+      "api_key.description": "Gestion des clés d'API",
+      "bus": "Accès au Bus",
+      "bus.description": "Accès aux bus de messages via MQTT ou HTTP",
+      "bus_config": "Configuration du bus",
+      "bus_config.description": "Gestion du routage et files de messages",
+      "data": "Données",
+      "data.description": "Accès aux données collectées",
+      "data_processing": "Traitement des données",
+      "data_processing.description": "Configuration du décodage et traitement des données collectées",
+      "device": "Equipement",
+      "device.description": "Gestion des équipements connectés",
+      "device_access": "Accès Equipement",
+      "device_access.description": "Accès en mode Device d'un équipement MQTT",
+      "kibana": "Kibana",
+      "kibana.description": "Accès à Kibana",
+      "user": "Utilisateur",
+      "user.description": "Gestion des utilisateurs",
+      "settings": "Compte",
+      "settings.description": "Paramétrage du compte",
+      "campaign": "Campagne",
+      "campaign.description": "Gestion des opérations en masse sur un ensemble d'équipements",
+      "admin_tenant": "Admin / Compte",
+      "admin_tenant.description": "Administration des comptes",
+      "admin_tool": "Admin / Outil",
+      "admin_tool.description": "Administration plateforme (ops)",
+      "admin_bss": "Admin / Offre",
+      "admin_bss.description": "Administration offres BSS",
+      "admin_data_processing": "Admin / Données",
+      "admin_data_processing.description": "Administration des décodeurs (JS)",
+      "admin_lora": "Admin / LoRa",
+      "admin_lora.description": "Administration du réseau LoRa",
+      "admin_partner": "Admin / Partenaire",
+      "admin_partner.description": "Administration des partenaires",
+      "admin_stat": "Admin / Statistiques",
+      "admin_stat.description": "Administration des statistiques tenant",
+      "myplug_user": "MyPlug",
+      "myplug_user.description": "Accès aux services MyPlug",
+      "myplug_admin": "Admin / MyPlug",
+      "myplug_admin.description": "Administration des services MyPlug"
+    }
+  }
+}

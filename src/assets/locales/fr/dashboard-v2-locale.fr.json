@@ -1,0 +1,118 @@
+{
+  "dashboard": {
+    "messages": {
+      "missing-rights": "Vous n'avez pas les droits suffisants pour visualiser ces données. Veuillez contacter votre administrateur.",
+      "no-data": "Données inaccessibles",
+      "add-first-device": "Enregistrer mon équipement",
+      "need-device": "Besoin d'un équipement ?"
+    },
+    "multi": {
+      "fleet-status": "Etat du parc",
+      "devices-label": "{number, plural, =1{Equipement} other{Equipements}}",
+      "donut": {
+        "legend": {
+          "lora-devices": "{number, plural, =1{<span style=\"font-size:20px;\"><strong>#</strong></span> équipement LoRa} other{<span style=\"font-size:20px;\"><strong>#</strong></span> équipements LoRa}}",
+          "mqtt-devices": "{number, plural, =1{<span style=\"font-size:20px;\"><strong>#</strong></span> équipement Mqtt} other{<span style=\"font-size:20px;\"><strong>#</strong></span> équipements Mqtt}}",
+          "sms-devices": "{number, plural, =1{<span style=\"font-size:20px;\"><strong>#</strong></span> équipement SMS} other{<span style=\"font-size:20px;\"><strong>#</strong></span> équipements SMS}}"
+        },
+        "tooltips": {
+          "lora-devices": "LoRa",
+          "mqtt-devices": "Mqtt",
+          "sms-devices": "SMS"
+        }
+      }
+    },
+    "lora": {
+      "title": "LoRa",
+      "fleet-status": "Etat du parc",
+      "devices-label": "{number, plural, =1{Equipement LoRa} other{Equipements LoRa}}",
+      "donut": {
+        "legend": {
+          "active": "{number, plural, =1{<span style=\"font-size:20px;\"><strong>#</strong></span> équipement activé} other{<span style=\"font-size:20px;\"><strong>#</strong></span> équipements activés}}",
+          "inactive": "{number, plural, =1{<span style=\"font-size:20px;\"><strong>#</strong></span> équipement désactivé} other{<span style=\"font-size:20px;\"><strong>#</strong></span> équipements désactivés}}"
+        },
+        "tooltips": {
+          "active": "Activés",
+          "inactive": "Désactivés"
+        }
+      }
+    },
+    "mqtt": {
+      "title": "MQTT",
+      "fleet-status": "Etat du parc",
+      "devices-label": "{number, plural, =1{Equipement Mqtt} other{Equipements Mqtt}}",
+      "donut": {
+        "legend": {
+          "online": "{number, plural, =1{<span style=\"font-size:20px;\"><strong>#</strong></span> équipement connecté} other{<span style=\"font-size:20px;\"><strong>#</strong></span> équipements connectés}}",
+          "offline": "{number, plural, =1{<span style=\"font-size:20px;\"><strong>#</strong></span> équipement déconnecté} other{<span style=\"font-size:20px;\"><strong>#</strong></span> équipements déconnectés}}"
+        },
+        "tooltips": {
+          "active": "Connectés",
+          "inactive": "Déconnectés"
+        }
+      }
+    },
+    "sms": {
+      "title": "SMS",
+      "fleet-status": "Etat du parc",
+      "devices-label": "{number, plural, =1{Equipement SMS} other{Equipements SMS}}",
+      "donut": {
+        "legend": {
+          "active": "{number, plural, =1{<span style=\"font-size:20px;\"><strong>#</strong></span> équipement activé} other{<span style=\"font-size:20px;\"><strong>#</strong></span> équipements activés}}",
+          "inactive": "{number, plural, =1{<span style=\"font-size:20px;\"><strong>#</strong></span> équipement désactivé} other{<span style=\"font-size:20px;\"><strong>#</strong></span> équipements désactivés}}"
+        },
+        "tooltips": {
+          "active": "Activés",
+          "inactive": "Désactivés"
+        }
+      }
+    },
+    "quotas": {
+      "heading": "Quotas",
+      "labels": {
+        "fifos": "Files de messages",
+        "api-keys": "Clés d'API",
+        "users": "Utilisateurs"
+      }
+    },
+    "dates": {
+      "last-7-days": "7 derniers jours",
+      "last-4-weeks": "4 dernières semaines",
+      "last-12-months": "12 derniers mois"
+    },
+    "fleet-activity": {
+      "title": "Activité du parc",
+      "traffic-consumption": {
+        "title": "Trafic récent",
+        "messages": "Messages",
+        "bytes": "Octets",
+        "y-scale-label": "Msg",
+        "multi": {
+          "msg-in": "Messages entrants",
+          "msg-out": "Messages sortants",
+          "bytes-in": "Trafic entrant",
+          "bytes-out": "Trafic sortant"
+        },
+        "lora": {
+          "msg-in": "Messages Uplink",
+          "msg-out": "Messages Downlink"
+        },
+        "mqtt": {
+          "msg-in": "Messages entrants",
+          "msg-out": "Messages sortants",
+          "bytes-in": "Trafic entrant",
+          "bytes-out": "Trafic sortant"
+        },
+        "sms": {
+          "msg-in": "Messages Uplink",
+          "msg-out": "Messages Downlink"
+        }
+      },
+      "devices": {
+        "title": "Activité des équipements",
+        "communicating": "{number, plural, =1{communiquant} other{communiquants}}",
+        "idle": "{number, plural, =1{non communiquant} other{non communiquants}}"
+      }
+    }
+  }
+}

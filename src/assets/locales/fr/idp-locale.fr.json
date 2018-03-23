@@ -1,0 +1,10 @@
+{
+  "idp": {
+    "logout": "Vous quittez LiveObjects",
+    "timeout": "Votre session LiveObjects a expirée",
+    "SIU": {
+      "url": "https://espaceclient.orange-business.com/web/ece2/home",
+      "redirect": "Retourner sur mon espace client entreprise"
+    }
+  }
+}

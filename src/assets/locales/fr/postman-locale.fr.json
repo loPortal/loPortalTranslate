@@ -1,0 +1,17 @@
+{
+  "postman" : {
+    "title": "Utiliser Postman pour prendre en main nos APIs",
+    "text": "Une application graphique puissante pour faciliter et accélérer le développement de votre application, depuis la création de requêtes API à travers des tests, la documentation et le partage.",
+    "step1": "Télécharger l’application Postman: <a href=\"https://www.getpostman.com/apps\">https://www.getpostman.com/apps</a>",
+    "step2": "Lancez Postman.",
+    "step3": "Dans Import, Import from link, saisissez l'URL <a href=\"https://liveobjects.orange-business.com/swagger\">https://liveobjects.orange-business.com/swagger</a>",  
+    "step4": "Allez dans les collections, puis dans Live Objects REST API Guide",
+    "step5": "Sélectionner une API et allez dans la rubrique Headers pour entrer votre API key",
+    "step6": "Remplissez les paramètres nécessaires dans Params", 
+    "step7": "Cliquez sur <strong>Send</strong> pour envoyer la demande et recevoir une réponse.",
+    "step8": "Développez votre application !",         
+    "button": {
+      "download": "Télécharger Postman"
+    }
+  }
+}

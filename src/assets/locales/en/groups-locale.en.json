@@ -1,0 +1,15 @@
+{
+  "groups": {
+    "errors": {
+      "unabletoloadgroups": "Fail to load groups <br/> {message}",
+      "unabletoaddgroups": "Fail to create group <br/> {message}",
+      "unabletochangename": "Fail to change name <br/> {message}",
+      "unabletodeletegroup":"Fail to delete group <br/> {message}",
+      "missingrootgroup": "Missing root group",
+      "missinggroup": "Missing group",
+      "unablerefreshgroup": "fail to refresh subgroup list",
+      "grouphassubgroup" : "Group owns at least one subgroup",
+      "grouphasdevice": "Group owns at least one device"
+    }
+  }
+}

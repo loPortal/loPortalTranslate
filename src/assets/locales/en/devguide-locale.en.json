@@ -1,0 +1,20 @@
+{
+  "devguide" : {
+    "button": {
+      "html": "Open documentation",
+      "pdf": "Download as PDF"
+    }
+  },
+  "lodevguide" : {
+    "title": "The complete Datavenue Live Objects Development Guide",
+    "text": "Live Objects documentation is available online or can be downloaded as PDF."
+  },
+  "loradevguide" : {
+    "title": "The LoRa Development Guide",
+    "text": "LoRa documentation is available online or can be downloaded as PDF."
+  },
+  "lorauserguide" : {
+    "title": "The Live Objects User Guide for LoRa",
+    "text": "LoRa documentation can be downloaded as PDF."
+  }
+}

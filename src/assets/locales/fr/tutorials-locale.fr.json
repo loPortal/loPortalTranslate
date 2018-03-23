@@ -1,0 +1,9 @@
+{
+  "tutorials" : {
+    "title": "L'équipe Live Objects vous propose ses tutoriels pour vous lancer dans l'Internet des Objets.",
+    "text": "Pour connecter vos objets, envoyer et manipuler vos données, et plein d’autres vidéos à venir !",
+    "button": {
+      "label": "Live Objects sur YouTube"
+    }
+  }
+}

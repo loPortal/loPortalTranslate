@@ -1,0 +1,25 @@
+{
+  "support": {
+    "title": "Support",
+    "community": {
+      "title": "Faites appel à la communauté",
+      "text": "Stack Overflow est un site collaboratif de questions réponses pour développeurs. <br>Vous pouvez y poser des questions relatives à l'API Live Objects en utilisant le tag <i>orange-api</i>.",
+      "button": "Consulter Stack Overflow"
+    },
+    "technical": {
+      "title": "Support technique",
+      "text": "Contactez notre équipe technique pour un support par email concernant votre projet.",
+      "button": "Contacter le support technique"
+    },
+    "commercial": {
+      "title": "Questions commerciales",
+      "text": "Contactez-nous pour toute question commerciale ou relative à votre compte.",
+      "button": "Contacter notre équipe commerciale"
+    },
+    "feedback": {
+      "title": "Rapports de bugs ou demandes d'évolution",
+      "text": "Contactez-nous pour nous remonter des bugs ou nous suggérer de nouvelles fonctions.",
+      "button": "Envoyer vos retours"
+    }
+  }
+}

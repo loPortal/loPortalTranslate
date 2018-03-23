@@ -1,0 +1,31 @@
+{
+  "github" : {
+    "header": {
+        "type": "Type",
+        "lang": "Langage",
+        "buttons": ""
+    },
+    "type": {
+      "sdk": "SDK et exemples de code",
+      "sample": "Exemples de code",
+      "mbed" : {
+        "lib": "Bibliothèque pour mbed OS",
+        "sample": "Exemples de code et démo mbed OS"
+      }
+    },
+    "lang": {
+        "java": "Java",
+        "python": "Python",
+        "nodejs": "NodeJS",
+        "mbed": "mbed OS",
+        "arduino": "Arduino",
+        "raspberry": "Linux/Raspberry"
+    },
+    "button": {
+        "label": "Github"
+    },
+    "lora": {
+      "sdk": "Kit LoRa de démarrage"
+    }
+  }
+}
